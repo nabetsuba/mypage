@@ -1,0 +1,309 @@
+@charset "UTF-8";
+/*-------------------ハンバーガーのやつ-------------------*/
+.menu-trigger,
+.menu-trigger span {
+  display: inline-block;
+  transition: all .4s;
+  box-sizing: border-box;
+}
+.menu-trigger {
+  position: relative;
+  width: 50px;
+  height: 44px;
+}
+.menu-trigger span {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: lightgray;
+  border-radius: 4px;
+}
+.menu-trigger span:nth-of-type(1) {
+  top: 0;
+}
+.menu-trigger span:nth-of-type(2) {
+  top: 20px;
+}
+.menu-trigger span:nth-of-type(3) {
+  bottom: 0;
+}
+.menu-trigger::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  content: '';
+  width: 84px;
+  height: 84px;
+  margin: -45px 0 0 -45px;
+  border-radius: 50%;
+  border: 4px solid transparent;
+  transition: all .75s;
+}
+.menu-trigger.active span:nth-of-type(1) {
+  -webkit-transform: translateY(20px) rotate(-45deg);
+  transform: translateY(20px) rotate(-45deg);
+}
+.menu-trigger.active span:nth-of-type(2) {
+  left: 60%;
+  opacity: 0;
+  -webkit-animation: active-menu-bar02 .8s forwards;
+  animation: active-menu-bar02 .8s forwards;
+}
+@-webkit-keyframes active-menu-bar02 {
+  100% {
+    height: 0;
+  }
+}
+@keyframes active-menu-bar02 {
+  100% {
+    height: 0;
+  }
+}
+.menu-trigger.active span:nth-of-type(3) {
+  -webkit-transform: translateY(-20px) rotate(45deg);
+  transform: translateY(-20px) rotate(45deg);
+}
+.menu-trigger.active::after {
+  -webkit-animation: circle .4s .25s forwards;
+  animation: circle .4s .25s forwards;
+}
+@-webkit-keyframes circle {
+  0% {
+    border-color: transparent;
+    -webkit-transform: rotate(0);
+  }
+  25% {
+    border-color: transparent #ffffff transparent transparent;
+  }
+  50% {
+    border-color: transparent #ffffff #ffffff transparent;
+  }
+  75% {
+    border-color: transparent #ffffff #ffffff #ffffff;
+  }
+  100% {
+    border-color: #ffffff;
+    -webkit-transform: rotate(-680deg);
+  }
+}
+@keyframes circle {
+  0% {
+    border-color: transparent;
+    transform: rotate(0);
+  }
+  25% {
+    border-color: transparent #ffffff transparent transparent;
+  }
+  50% {
+    border-color: transparent #ffffff #ffffff transparent;
+  }
+  75% {
+    border-color: transparent #ffffff #ffffff #ffffff;
+  }
+  100% {
+    border-color: #ffffff;
+    transform: rotate(-680deg);
+  }
+}
+/*--------------------*/
+
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*----------openig----------*/
+#opening {
+    position: fixed;
+    z-index: 2;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+.opening_text {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    font-size: 4rem;
+}
+.opening_text h1{
+    margin: 0;
+}
+
+/*----------ヘッダー----------*/
+header {
+    width: 90%;
+    padding: 0 5%;
+}
+
+.header-contents {
+    height: 100%;
+    display: flex;
+}
+
+.header_logo {
+    padding: 6% 0;
+    margin: 0;
+}
+
+.log_img {
+    width: 148px;
+    height: auto;
+}
+
+.header_nav {
+    width: 100%;
+    padding-right: 50px;
+}
+
+.header_navList {
+    margin: 0;
+    height: 100%;
+    text-align: right;
+}
+
+.header_navItem {
+    display: inline;
+    font-family: "Arial Black";
+    font-size: 1.8rem;
+}
+
+.Item {
+    display: inline-block;
+    padding: 11% 5%;
+}
+
+.Item a{
+    cursor: pointer;
+}
+
+.Item a:link, a:visited {
+    color: black;
+}
+
+.Item a:hover {
+    color: lightgray;
+}
+
+#header_menu{
+    margin: auto;
+}
+
+#header_menu a{
+    margin: 50px;
+}
+
+.menu-trigger{
+    z-index: 2;
+}
+
+.menu_box {
+    z-index: 1;
+    position: absolute;
+    display: none;
+    background-color: rgba(40, 40, 70, 100);
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    right: 0;
+}
+
+.menu_list {
+    width: 75%;
+    height: 70%;
+    padding: 15% 10% 0 10%;
+    text-align: right;
+}
+
+.menu_list a{
+    font-family: "Arial Black";
+    font-size: 3.5rem;
+    color: white;
+}
+
+.menu_list a:hover {
+    color: yellow;
+}
+
+/*----------中身----------*/
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-position: center 0;
+    background-size: cover;
+}
+
+.background_text {
+    position: absolute;
+    right: 0;
+    padding: 0 10%;
+    bottom: 100px;
+    font-family: "Libre Baskerville", serif;
+    font-style: italic;
+    font-size: 2.5rem;
+}
+
+.background_text a{
+}
+
+/*----------フッター----------*/
+footer {
+    position: absolute;
+    width: 80%;
+    bottom: 0;
+    padding: 0 10%;
+}
+
+.controller {
+    height: 100%;
+    background-color: rgba(255,255,255,0.8);
+    display: flex;
+}
+
+.copyright {
+    margin: 0;
+    padding: 2% 0;
+    font-family: "Libre Baskerville", serif;
+    font-style: italic;
+}
+
+.toolbar {
+    margin:auto 0 auto auto;
+    display: flex;
+}
+
+#arrow_next {
+    width: 40px;
+    height: 40px;
+    background: url("images/next.png");
+}
+
+#arrow_prev {
+    width: 40px;
+    height: 40px;
+    transform: scale(-1,1);
+    background: url("images/next.png");
+}
+
+#arrow_prev:hover, #arrow_next:hover {
+    background-color: lightgray;
+}
+
+#page {
+    display: inline-block;
+    height: 32px;
+}
+
