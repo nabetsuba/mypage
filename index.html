@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>俺の作品集</title>
+    <link href="css/index_style.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.bgswitcher.js"></script>
+    <script src="js/jquery.textillate.js"></script>
+	<script src="js/jquery.lettering.js"></script>
+</head>
+
+<body>
+<div id="home">
+    <div id="opening">
+        <div class="opening_text">
+            <h1></h1>
+        </div>
+    </div>
+    <div class="background">
+    <header>
+        <div class="header-contents">
+            <p class="header_logo">
+                <a href="index.html">
+                    <img class="log_img" src="images/ヘッダー.png">
+                </a>
+            </p>
+            <nav class="header_nav">
+                <ul class="header_navList">
+                    <li class="header_navItem">
+                            <div class="Item">
+                                <a>
+                                    A
+                                </a>
+                            </div>
+                    </li>
+                    <li class="header_navItem">
+                            <div class="Item">
+                                <a>
+                                    B
+                                </a>
+                            </div>
+                    </li>
+                    <li class="header_navItem">
+                            <div class="Item">
+                                <a>
+                                    C
+                                </a>
+                            </div>
+                    </li>
+                    <li class="header_navItem">
+                            <div class="Item">
+                                <a>
+                                    D
+                                </a>
+                            </div>
+                    </li>
+                </ul>
+            </nav>
+            <nav id="header_menu">
+                <a class="menu-trigger" href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+                <div class="menu_box">
+		            <ul class="menu_list">
+			            <li><a class="menu_Item" href="http://localhost:8080/upload">顔面モザイク</a></li>
+			            <li><a class="menu_Item" href="http://localhost:8080/twitter">twitterのツール</a></li>
+                        <li><a class="menu_Item" href="http://localhost:8080/weather">富山の平均気温</a></li>
+			            <li><a class="menu_Item" href="">犬猫判定マシーン</a></li>
+                        <li><a class="menu_Item" href="illustration.html">イラスト</a></li>
+		            </ul>
+	            </div>
+            </nav>
+        </div>
+    </header>
+    <div id="background_contents">
+        <ul class="background_text">
+            <li><a>俺が２０２０年に描いた作品たち</a></li>
+        </ul>
+    </div>
+
+    <footer>
+        <div class="controller">
+            <p class="copyright">©2020 My work collection. All rights reserved</p>
+            <div class="toolbar">
+                <div id="arrow_prev"></div>
+                <div id="arrow_next"></div>
+                <span id="page"></span>
+            </div>
+        </div>
+    </footer>
+    </div>
+</div>
+
+    <script>
+        //----------openingアニメーション----------//
+        $(document).ready(function () {
+           $('#opening').fadeOut(2000);
+        });
+
+        //----------背景アニメーション----------//
+        images = ["illust/たまき（おひさ.png", "illust/みゃーもり.png", "illust/絵麻ちゃん.png", "illust/萃香.png", "illust/のぶたま（コラボ.png", "illust/みるく.png", "illust/のぶひめ（グッバイ.png", "illust/いろはす.png"];
+        $('.background').bgswitcher({
+            images,
+            effect: "drop",
+        });
+        $(document).ready(function(){
+            $('#arrow_next').on('click', function () {
+                $('.background').bgswitcher('next');
+            });
+            $('#arrow_prev').on('click', function () {
+                $('.background').bgswitcher('prev');
+            })
+        });
+
+        //----------menuアニメーション----------//
+        $(document).ready(function () {
+            $('.menu-trigger').click(function () {
+                $(this).toggleClass('active');
+                $(this).next().toggleClass('onanimation');
+                $('.menu_box').each(function (i) {
+                    $(this).delay(80 * i).fadeToggle(500);
+                });
+                rotateInUpRight('.menu_Item');
+            });
+        });
+
+        //----------textアニメーション----------//
+        var rotateInUpRight = (function(x) {
+            $(x).textillate({
+                //繰り返し
+                loop: false,
+                // アニメーションの間隔時間
+                minDisplayTime: 3000,
+                // アニメーション開始までの遅延時間
+                initialDelay: 0,
+                // アニメーションの自動スタート
+                autoStart: true,
+
+                // 開始時のアニメーション設定
+                in: {
+                    // エフェクトの指定
+                    effect: 'rotateInUpRight',
+                    // 遅延時間の指数
+                    delayScale: 1.5,
+                    // 文字ごとの遅延時間
+                    delay: 50,
+                    // true:アニメーションをすべての文字に同時適用
+                    sync: true,
+                    // true:文字表示がランダムな順に表示される
+                    shuffle: false
+                },
+
+                // 終了時のアニメーション設定
+                out: {
+                    effect: 'tada',
+                    delayScale: 1.5,
+                    delay: 50,
+                    sync: true,
+                    shuffle: false
+                }
+            });
+        });
+
+        rotateInUpRight('.background_text');
+    </script>
+</body>
+</html>
