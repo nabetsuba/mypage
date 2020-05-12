@@ -114,7 +114,6 @@ body {
 
 a {
   text-decoration: none;
-  color: black;
 }
 
 /*----------レイアウト----------*/
@@ -174,7 +173,7 @@ a {
   left: 25%;
   font-size: 4rem;
 }
-
+/* ヘッダー */
 .header_contents {
     display: flex;
     height: 100%;
@@ -202,16 +201,19 @@ a {
   font-family: "Arial Black";
   font-size: 2rem;
 }
+.header_navItem a{
+  color: black;
+}
 .header_navItem :hover {
     color: lightgray;
 }
+
 .header_menu{
     margin: auto;
 }
 .menu-trigger{
     z-index: 2;
 }
-
 .menu_box_list {
   width: 75%;
   height: 70%;
@@ -222,10 +224,14 @@ a {
   font-family: "Arial Black";
   font-size: 3.5rem;
 }
+.menu_box_Item a {
+  color: white;
+}
 .menu_box_Item :hover {
     color: yellow;
 }
 
+/* テキスト */
 .text_contents{
 padding-top: 50%;
 text-align: right;
@@ -236,6 +242,7 @@ text-align: right;
   font-size: 2.5rem;
 }
 
+/* コントローラ */
 .controller_contents {
   display: flex;
   height: 100%;
