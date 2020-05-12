@@ -1,5 +1,4 @@
-@charset "UTF-8";
-/*-------------------ハンバーガーのやつ-------------------*/
+/*-------------------ハンバーガー-------------------*/
 .menu-trigger,
 .menu-trigger span {
   display: inline-block;
@@ -183,7 +182,8 @@
 	position: absolute;
 	background-size: cover;
 	background-position: 50% 0%;
-	will-change: transform;
+  will-change: transform;
+  opacity: 0.8;
 }
 .content__item-title {
 	position: relative;
@@ -192,222 +192,202 @@
 	margin: calc(var(--size-title) * -1/2) 0 0 0;
 	align-self: start;
 	line-height: 1;
-	color: rgba(240, 240, 90, 100);
+	color: black;
 }
 .content__item-title--layer {
 	padding: 0;
 	grid-area: 1 / 1 / 2 / 3;
 	width: 100%;
-	text-align: center;
+  text-align: center;
+  color: white;
 }
 
-/*--------------------*/
-
-
+/*----------ベース----------*/
 body {
-    margin: 0;
-    --imgwidthmax: 500px;
+  margin: 0;
+  --imgwidthmax: 500px;
 	--size-title: 4rem;
 }
 
-main {
-    margin: 0;
-	background-color: red;
-}
-
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-/*----------openig----------*/
-#opening {
-    position: fixed;
-    z-index: 2;
-    background-color: red;
-    width: 100%;
-    height: 100%;
-}
-.opening_text {
-    position: absolute;
-    top: 40%;
-    left: 25%;
-    font-size: 4rem;
-}
-.opening_text h1{
-    margin: 0;
-}
-
-/*----------ヘッダー----------*/
-header {
-    z-index: 1;
-    width: 90%;
-    padding: 0 5%;
-    background-color: black;
-    position: fixed;
-}
-
-#header-contents {
-    height: 100%;
-    display: flex;
-}
-
-.header_logo {
-    padding: 21px 0;
-    margin: 0;
-}
-
-.log_img {
-    width: 118px;
-    height: auto;
-}
-
-.header_nav {
-    width: 100%;
-    padding-right: 20px;
-}
-
-.header_navList {
-    margin: 0;
-    height: 100%;
-    text-align: right;
-}
-
-.header_navItem {
-    display: inline;
-    font-family: "Arial Black";
-    font-size: 1.8rem;
-}
-
-.Item {
-    display: inline-block;
-    padding: 20px 5%;
-}
-
-.Item a{
-    cursor: pointer;
-    color: white;
-}
-
-
-
-.Item a:hover {
-    color: yellow;
-}
-
-#header_menu{
-    /*margin: 0;*/
-}
-
-#header_menu a{
-    margin: 20px;
-}
-
-.menu-trigger{
-    z-index: 2;
+/*----------レイアウト----------*/
+#home {
+  height: 100%;
+	background-color: #ED303C;
 }
 
 .menu_box {
-    z-index: 1;
-    position: absolute;
-    display: none;
-    background-color: rgba(40, 40, 70, 100);
-    width: 100vw;
-    height: 100vh;
-    top: 0;
-    right: 0;
+  z-index: 1;
+  position: fixed;
+  display: none;
+  background-color: rgba(40, 40, 70, 100);
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  right: 0;
 }
 
-.menu_list {
-    width: 75%;
-    height: 70%;
-    padding: 15% 10% 0 10%;
-    text-align: right;
+#ly_opening {
+  z-index: 2;
+  position: fixed;
+	background-color: #ED303C;
+  width: 100%;
+  height: 100%;
 }
 
-.menu_list a{
-    font-family: "Arial Black";
-    font-size: 3.5rem;
-    color: white;
+#ly_header {
+  z-index: 1;
+  position: fixed;
+  height: 10vh;
+  width: 90%;
+  padding: 0 5%;
+  background-color: black;
 }
 
-.menu_list a:hover {
-    color: yellow;
+#ly_top_contents {
+  padding-top: 10vh;
+  height: 90vh;
 }
 
-/*----------中身----------*/
-#main_contents {
-    padding-top: 90px;
-}
-.top_main{
-    display: flex;
-}
-.top_main_text {
-    writing-mode: vertical-rl;
-    font-size: 8em;
-    /*font-family: "Arial Black";*/
-}
-.top_main_text h1{
-    display: none;
-}
-.top_main_slide {
-    position: absolute;
-    right: 0;
-    width: 70%;
+#ly_top_contents_text {
+  height: 100%;
+  width: 25%
 }
 
-.center_text{
-    text-align: center;
-    margin-top: 100px;
-    font-size: 3rem;
+#ly_top_contents_slide {
+  height: 100%;
+  width: 75%;
 }
-.center_text p{
-    font-family: "Arial Black";
+
+#ly_illust {
+}
+
+/*----------モジュール----------*/
+.opening_contents {
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  font-size: 4rem;
+}
+.opening_text h1{
+  margin: 0;
+}
+
+/* ヘッダー */
+.header_contents {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.header_logo {
+  margin: auto;
+}
+.log_img {
+  width: 118px;
+  height: auto;
+}
+.header_nav {
+  height: 100%;
+  width: 100%;
+  padding-right: 5%;
+}
+.header_navList {
+  display: flex;
+  height: 100%;
+  padding-left: 40%;
+}
+.header_navItem {
+  margin: auto;
+  font-family: "Arial Black";
+  font-size: 2rem;
+}
+.header_navItem a{
+  color: white;
+}
+.header_navItem :hover {
+  color:  yellow;
+}
+.header_menu{
+  margin: auto;
+}
+.menu-trigger{
+  z-index: 2;
+}
+.menu_box_list {
+  width: 75%;
+  height: 70%;
+  padding: 15% 10% 0 10%;
+  text-align: right;
+}
+.menu_box_Item {
+  font-family: "Arial Black";
+  font-size: 3.5rem;
+}
+.menu_box_Item a {
+  color: white;
+}
+.menu_box_Item :hover {
+  color: yellow;
+}
+
+/*top*/
+.top_contents {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.top_text_list {
+  width: 100%;
+  writing-mode: vertical-rl;
+  font-size: 3.7em;
+  font-family: "Arial Black";
 }
 
 /*スライド*/
-.slider{
-    margin: 0;
+.slider_list{
+  margin: 0;
+  height: 100%;
+  width: 100%;
 }
 .slide{
-    position: relative;
+  position: relative;
 }
 .slide__link{
-    color: #fff;
-    text-align: center;
+  color: #fff;
+  text-align: center;
 }
 .slide img{
-    width: 1000px;
-    height: 800px;
-    object-fit: cover;
+  width: 100%;
+  height: 90vh;
+  object-position: 0 0;
+  object-fit: cover;
 }
 .slide__content-wrap{
-    left: 50%;
-    position: absolute;
-    top: 50%;
+  left: 50%;
+  position: absolute;
+  top: 50%;
 }
 .slide__content{
-    display: block;
-    opacity: 0;
-    transform: translate(-50%,20%);
-    transition: 0s;
+  display: block;
+  opacity: 0;
+  transform: translate(-50%,20%);
+  transition: 0s;
 }
 .slide__content.on{
-    opacity: 1;
-    transform: translate(-50%,-50%);
-    transition: .5s;
+  opacity: 1;
+  transform: translate(-50%,-50%);
+  transition: .5s;
 }
 .slide__title{
-    font-size: 48px;
-    background-color: darkblue;
+  font-size: 48px;
+  background-color: darkblue;
 }
-/*slick setting*/
-.slick-prev:before,
-.slick-next:before{
-    color: #000;
+
+/*illust*/
+.illust_text_list {
+  text-align: center;
+  font-size: 2em;
 }
