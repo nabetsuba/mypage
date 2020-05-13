@@ -123,11 +123,12 @@ a {
 }
 
 #ly_opening {
-  position: fixed;
-  z-index: 2;
-  background-color: white;
-  width: 100%;
-  height: 100%;
+  z-index: 3;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  transform: translateY(-100%);
+  animation: opening_anime 6s forwards;
 }
 
 .menu_box {
@@ -168,10 +169,65 @@ a {
 
 /*----------モジュール----------*/
 .opening_text {
+  z-index: 3;
   position: absolute;
-  top: 40%;
-  left: 25%;
-  font-size: 4rem;
+}
+.opening_anime {
+position: absolute;
+height: 100%;
+width: 100%;
+display: flex;
+}
+.opening_div1 {
+height: 100%;
+width: 25%;
+background-color: #faf7d9;
+transform: translateY(-100%);
+animation: opening_anime 1s forwards;
+}
+.opening_div2 {
+height: 100%;
+width: 25%;
+background-color: #faf7d9;
+transform: translateY(-100%);
+animation: opening_anime 2s forwards;
+}
+.opening_div3 {
+height: 100%;
+width: 25%;
+background-color: #faf7d9;
+transform: translateY(-100%);
+animation: opening_anime 3s forwards;
+}
+.opening_div4 {
+height: 100%;
+width: 25%;
+background-color: #faf7d9;
+transform: translateY(-100%);
+animation: opening_anime 4s forwards;
+}
+.opening_div5 {
+height: 100%;
+width: 25%;
+background-color: #faf7d9;
+transform: translateY(-100%);
+animation: opening_anime 5s forwards;
+}
+.opening_div6 {
+height: 100%;
+width: 25%;
+background-color: #faf7d9;
+transform: translateY(-100%);
+animation: opening_anime 6s forwards;
+}
+
+@keyframes opening_anime {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
 }
 /* ヘッダー */
 .header_contents {
