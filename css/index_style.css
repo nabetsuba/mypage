@@ -124,11 +124,17 @@ a {
 
 #ly_opening {
   z-index: 3;
-  position: absolute;
+  position: fixed;
   height: 100vh;
   width: 100vw;
-  transform: translateY(-100%);
-  animation: opening_anime 6s forwards;
+  background-color: #faf7d9;
+}
+
+#ly_anime {
+  z-index: 3;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
 }
 
 .menu_box {
@@ -168,61 +174,57 @@ a {
 }
 
 /*----------モジュール----------*/
+/* opening */
 .opening_text {
-  z-index: 3;
-  position: absolute;
+  height: 50%;
+  width: 100%;
+  margin: ;
 }
-.opening_anime {
-position: absolute;
-height: 100%;
-width: 100%;
-display: flex;
-}
-.opening_div1 {
-height: 100%;
-width: 25%;
-background-color: #faf7d9;
-transform: translateY(-100%);
-animation: opening_anime 1s forwards;
-}
-.opening_div2 {
-height: 100%;
-width: 25%;
-background-color: #faf7d9;
-transform: translateY(-100%);
-animation: opening_anime 2s forwards;
-}
-.opening_div3 {
-height: 100%;
-width: 25%;
-background-color: #faf7d9;
-transform: translateY(-100%);
-animation: opening_anime 3s forwards;
-}
-.opening_div4 {
-height: 100%;
-width: 25%;
-background-color: #faf7d9;
-transform: translateY(-100%);
-animation: opening_anime 4s forwards;
-}
-.opening_div5 {
-height: 100%;
-width: 25%;
-background-color: #faf7d9;
-transform: translateY(-100%);
-animation: opening_anime 5s forwards;
-}
-.opening_div6 {
-height: 100%;
-width: 25%;
-background-color: #faf7d9;
-transform: translateY(-100%);
-animation: opening_anime 6s forwards;
+.opening_text h1 {
+  text-align: center;
 }
 
-@keyframes opening_anime {
+.opening_anime {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.opening_div1 {
+  height: 100%;
+  width: 50%;
+  background-color: black;
+  animation: opening_down 6s forwards;
+}
+.opening_div2 {
+  height: 100%;
+  width: 50%;
+  background-color: white;
+  animation: opening_up 6s forwards;
+}
+
+@keyframes opening_down {
   0% {
+    transform: translateY(-100%);
+  }
+  50% {
+    transform: translateY(-100%);
+  }
+  75% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+@keyframes opening_up {
+  0% {
+    transform: translateY(100%);
+  }
+  50% {
+    transform: translateY(100%);
+  }
+  75% {
     transform: translateY(0);
   }
   100% {
