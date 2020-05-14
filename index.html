@@ -16,15 +16,13 @@
     <div id="home">
         <div id="ly_opening">
             <div class="opening_text">
-                <h1></h1>
+                <h1>Mypage</h1>
             </div>
+        </div>
+        <div id="ly_anime">
             <section class="opening_anime">
                 <div class="opening_div1"></div>
                 <div class="opening_div2"></div>
-                <div class="opening_div3"></div>
-                <div class="opening_div4"></div>
-                <div class="opening_div5"></div>
-                <div class="opening_div6"></div>
             </section>
         </div>
         <div id="ly_background">
@@ -79,6 +77,13 @@
     </div>
 
     <script>
+        //----------openingアニメーション----------//
+        var closeBox = (function (x) {
+            $(x).fadeOut(0);
+        })
+        setTimeout('closeBox("#ly_opening")', 4500);
+        setTimeout('closeBox("#ly_anime")', 6000);
+
         //----------textアニメーション----------//
         var rotateInUpRight = (function (x) {
             $(x).textillate({
