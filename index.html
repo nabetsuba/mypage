@@ -16,15 +16,20 @@
     <div id="home">
         <div id="ly_opening">
             <div class="opening_text">
-                <h1>Mypage</h1>
+                <h1>俺の作品集</h1>
             </div>
         </div>
-        <div id="ly_anime">
-            <section class="opening_anime">
-                <div class="opening_div1"></div>
-                <div class="opening_div2"></div>
-            </section>
-        </div>
+        <section id="op_first_anime">
+            <div class="op_first_right"></div>
+            <div class="op_first_left"></div>
+            <div class="op_first_right"></div>
+            <div class="op_first_left"></div>
+            <div class="op_first_right"></div>
+        </section>
+        <section id="op_last_anime">
+            <div class="op_last_down"></div>
+            <div class="op_last_up"></div>
+        </section>
         <div id="ly_background">
             <header id="ly_header">
                 <div class="header_contents">
@@ -82,7 +87,8 @@
             $(x).fadeOut(0);
         })
         setTimeout('closeBox("#ly_opening")', 4500);
-        setTimeout('closeBox("#ly_anime")', 6000);
+        setTimeout('closeBox("#op_first_anime")', 4500);
+        setTimeout('closeBox("#op_last_anime")', 6000);
 
         //----------textアニメーション----------//
         var rotateInUpRight = (function (x) {
