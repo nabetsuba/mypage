@@ -13,23 +13,24 @@
 </head>
 
 <body>
-    <div id="home">
-        <div id="ly_opening">
-            <div class="opening_text">
-                <h1>俺の作品集</h1>
-            </div>
+    <div id="ly_opening">
+        <div class="opening_text">
+            <h1>俺の作品集</h1>
+            <div class="line"></div>
         </div>
-        <section id="op_first_anime">
-            <div class="op_first_right"></div>
-            <div class="op_first_left"></div>
-            <div class="op_first_right"></div>
-            <div class="op_first_left"></div>
-            <div class="op_first_right"></div>
-        </section>
-        <section id="op_last_anime">
-            <div class="op_last_down"></div>
-            <div class="op_last_up"></div>
-        </section>
+    </div>
+    <section id="op_first_anime">
+        <div class="op_first_right"></div>
+        <div class="op_first_left"></div>
+        <div class="op_first_right"></div>
+        <div class="op_first_left"></div>
+        <div class="op_first_right"></div>
+    </section>
+    <section id="op_last_anime">
+        <div class="op_last_down"></div>
+        <div class="op_last_up"></div>
+    </section>
+    <div id="home">
         <div id="ly_background">
             <header id="ly_header">
                 <div class="header_contents">
@@ -44,28 +45,34 @@
                             <div class="header_navItem"><a href="">D</a></div>
                         </div>
                     </nav>
-                    <nav class="header_menu">
+                    <section id="header_menu">
                         <a class="menu-trigger" href="#">
                             <span></span>
                             <span></span>
                             <span></span>
                         </a>
-                        <div class="menu_box">
+                        <section id="menu_box">
+                            <div class="menu_box_bg">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
                             <div class="menu_box_list">
                                 <div class="menu_box_Item"><a href="http://localhost:8080/upload">顔面モザイク</a></div>
                                 <div class="menu_box_Item"><a href="http://localhost:8080/twitter">twitterのツール</a></div>
-                                <div class="menu_box_Item"><a href="http://localhost:8080/weather">富山の平均気温</a></div>
                                 <div class="menu_box_Item"><a href="">犬猫判定マシーン</a></div>
                                 <div class="menu_box_Item"><a href="illustration.html">イラスト</a></div>
                             </div>
-                        </div>
-                    </nav>
+                        </section>
+                    </section>
                 </div>
             </header>
             <div id="ly_text">
                 <div class="text_contents">
                     <div class="text_list">
-                        <div class="text_Item"><a>２０２０年に描いた作品たち</a></div>
+                        <div class="text_Item"><a>２０２０年に描いたイラスト</a></div>
                     </div>
                 </div>
             </div>
@@ -73,11 +80,11 @@
                 <div class="controller_contents">
                     <div class="copyright">©2020 My work collection. All rights reserved</div>
                     <div class="toolbar">
-                        <div id="arrow_prev"></div>
-                        <div id="arrow_next"></div>
+                        <div class="arrow_prev"></div>
+                        <div class="arrow_next"></div>
                     </div>
                 </div>
-                <nav>
+            <nav>
         </div>
     </div>
 
@@ -86,9 +93,13 @@
         var closeBox = (function (x) {
             $(x).fadeOut(0);
         })
-        setTimeout('closeBox("#ly_opening")', 4500);
-        setTimeout('closeBox("#op_first_anime")', 4500);
-        setTimeout('closeBox("#op_last_anime")', 6000);
+        var openBox = (function (x) {
+            $(x).fadeIn(0);
+        })
+        setTimeout('closeBox("#ly_opening")', 4000);
+        setTimeout('closeBox("#op_first_anime")', 4000);
+        setTimeout('closeBox("#op_last_anime")', 5000);
+        setTimeout('openBox("#home")', 4000);
 
         //----------textアニメーション----------//
         var rotateInUpRight = (function (x) {
@@ -136,10 +147,10 @@
             effect: "drop",
         });
         $(document).ready(function () {
-            $('#arrow_next').on('click', function () {
+            $('.arrow_next').on('click', function () {
                 $('#ly_background').bgswitcher('next');
             });
-            $('#arrow_prev').on('click', function () {
+            $('.arrow_prev').on('click', function () {
                 $('#ly_background').bgswitcher('prev');
             })
         });
@@ -149,10 +160,9 @@
             $('.menu-trigger').click(function () {
                 $(this).toggleClass('active');
                 $(this).next().toggleClass('onanimation');
-                $('.menu_box').each(function (i) {
-                    $(this).delay(80 * i).fadeToggle(500);
+                $('#menu_box').each(function (i) {
+                    $(this).fadeToggle(0);
                 });
-                rotateInUpRight('.menu_box_Item a');
             });
         });
     </script>
