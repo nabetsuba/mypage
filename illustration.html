@@ -5,12 +5,9 @@
     <meta charset="UTF-8">
     <title>俺の作品集</title>
     <link href="css/illustration_style.css" rel="stylesheet" type="text/css">
-    <link href="css/animate.css" rel="stylesheet">
     <link href="css/slick-theme.css" rel="stylesheet" type="text/css">
     <link href="css/slick.css" rel="stylesheet" type="text/css">
     <script src="js/jquery.js"></script>
-    <script src="js/jquery.bgswitcher.js"></script>
-    <script src="js/jquery.textillate.js"></script>
     <script src="js/jquery.lettering.js"></script>
     <script type="text/javascript" src="js/slick.min.js"></script>
 </head>
@@ -188,63 +185,6 @@
         $(document).ready(function () {
             $('#ly_opening').fadeOut(2000);
         });
-
-        //----------textアニメーション----------//
-        var rotateInUpRight = (function (x) {
-            $(x).textillate({
-                //繰り返し
-                loop: false,
-                // アニメーションの間隔時間
-                minDisplayTime: 3000,
-                // アニメーション開始までの遅延時間
-                initialDelay: 0,
-                // アニメーションの自動スタート
-                autoStart: true,
-
-                // 開始時のアニメーション設定
-                in: {
-                    // エフェクトの指定
-                    effect: 'rotateInUpRight',
-                    // 遅延時間の指数
-                    delayScale: 1.5,
-                    // 文字ごとの遅延時間
-                    delay: 50,
-                    // true:アニメーションをすべての文字に同時適用
-                    sync: true,
-                    // true:文字表示がランダムな順に表示される
-                    shuffle: false
-                }
-            });
-        });
-        var rollin = (function (x) {
-            $(x).textillate({
-                //繰り返し
-                loop: false,
-                // アニメーションの間隔時間
-                minDisplayTime: 3000,
-                // アニメーション開始までの遅延時間
-                initialDelay: 0,
-                // アニメーションの自動スタート
-                autoStart: true,
-
-                // 開始時のアニメーション設定
-                in: {
-                    // エフェクトの指定
-                    effect: 'rollin',
-                    // 遅延時間の指数
-                    delayScale: 1.5,
-                    // 文字ごとの遅延時間
-                    delay: 50,
-                    // true:アニメーションをすべての文字に同時適用
-                    sync: false,
-                    // true:文字表示がランダムな順に表示される
-                    shuffle: true
-                }
-            });
-        });
-
-        rotateInUpRight('.top_text_list h1');
-        rollin('.center_text');
 
         //----------slideアニメーション----------//
         $('.slider_list').on('init', function () {
