@@ -5,10 +5,8 @@
     <meta charset="UTF-8">
     <title>俺の作品集</title>
     <link href="css/index_style.css" rel="stylesheet" type="text/css">
-    <link href="css/animate.css" rel="stylesheet">
     <script src="js/jquery.js"></script>
     <script src="js/jquery.bgswitcher.js"></script>
-    <script src="js/jquery.textillate.js"></script>
     <script src="js/jquery.lettering.js"></script>
 </head>
 
@@ -45,7 +43,7 @@
                             <div class="header_navItem"><a href="">D</a></div>
                         </div>
                     </nav>
-                    <section id="header_menu">
+                    <class id="header_menu">
                         <a class="menu-trigger" href="#">
                             <span></span>
                             <span></span>
@@ -66,25 +64,25 @@
                                 <div class="menu_box_Item"><a href="illustration.html">イラスト</a></div>
                             </div>
                         </section>
-                    </section>
+                    </class>
                 </div>
             </header>
             <div id="ly_text">
                 <div class="text_contents">
                     <div class="text_list">
-                        <div class="text_Item"><a>２０２０年に描いたイラスト</a></div>
+                        <!-- <div class="text_Item"><a>２０２０年に描いたイラスト</a></div> -->
                     </div>
                 </div>
             </div>
             <nav id="ly_controller">
                 <div class="controller_contents">
                     <div class="copyright">©2020 My work collection. All rights reserved</div>
-                    <div class="toolbar">
+                    <div class="arrow">
                         <div class="arrow_prev"></div>
                         <div class="arrow_next"></div>
                     </div>
                 </div>
-            <nav>
+                <nav>
         </div>
     </div>
 
@@ -100,45 +98,6 @@
         setTimeout('closeBox("#op_first_anime")', 4000);
         setTimeout('closeBox("#op_last_anime")', 5000);
         setTimeout('openBox("#home")', 4000);
-
-        //----------textアニメーション----------//
-        var rotateInUpRight = (function (x) {
-            $(x).textillate({
-                //繰り返し
-                loop: false,
-                // アニメーションの間隔時間
-                minDisplayTime: 3000,
-                // アニメーション開始までの遅延時間
-                initialDelay: 0,
-                // アニメーションの自動スタート
-                autoStart: true,
-
-                // 開始時のアニメーション設定
-                in: {
-                    // エフェクトの指定
-                    effect: 'rotateInUpRight',
-                    // 遅延時間の指数
-                    delayScale: 1.5,
-                    // 文字ごとの遅延時間
-                    delay: 50,
-                    // true:アニメーションをすべての文字に同時適用
-                    sync: true,
-                    // true:文字表示がランダムな順に表示される
-                    shuffle: false
-                },
-
-                // 終了時のアニメーション設定
-                out: {
-                    effect: 'tada',
-                    delayScale: 1.5,
-                    delay: 50,
-                    sync: true,
-                    shuffle: false
-                }
-            });
-        });
-
-        rotateInUpRight('.text_Item');
 
         //----------背景アニメーション----------//
         images = ["illust/たまき（おひさ.png", "illust/みゃーもり.png", "illust/絵麻ちゃん.png", "illust/萃香.png", "illust/のぶたま（コラボ.png", "illust/みるく.png", "illust/のぶひめ（グッバイ.png", "illust/いろはす.png"];
