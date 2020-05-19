@@ -33,7 +33,7 @@
             <header id="ly_header">
                 <div class="header_contents">
                     <div class="header_logo">
-                        <a href="index.html"><img class="log_img" src="illust/ヘッダー.png"></a>
+                        <a href="index.html"><img class="log_img" src="illust/ロゴ.png"></a>
                     </div>
                     <nav class="header_nav">
                         <div class="header_navList">
@@ -49,24 +49,32 @@
                             <span></span>
                             <span></span>
                         </a>
-                        <section id="menu_box">
-                            <div class="menu_box_bg">
-                                <div></div>
-                                <div></div>
-                                <div></div>
-                                <div></div>
-                                <div></div>
-                            </div>
-                            <div class="menu_box_list">
-                                <div class="menu_box_Item"><a href="http://localhost:8080/upload">顔面モザイク</a></div>
-                                <div class="menu_box_Item"><a href="http://localhost:8080/twitter">twitterのツール</a></div>
-                                <div class="menu_box_Item"><a href="">犬猫判定マシーン</a></div>
-                                <div class="menu_box_Item"><a href="illustration.html">イラスト</a></div>
-                            </div>
-                        </section>
                     </class>
                 </div>
             </header>
+            <div id="ly_menu_box">
+                <div class="menu_box_bg">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="menu_box_list">
+                    <div>
+                        <div class="menu_box_Item"><a href="http://localhost:8080/face_mosaic_main">顔面モザイク</a></div>
+                    </div>
+                    <div>
+                        <div class="menu_box_Item"><a href="http://localhost:8080/twitter_main">twitterのツール</a></div>
+                    </div>
+                    <div>
+                        <div class="menu_box_Item"><a href="http://localhost:8080/cat_dog_main">犬猫判定マシーン</a></div>
+                    </div>
+                    <div>
+                        <div class="menu_box_Item"><a href="illustration.html">イラスト</a></div>
+                    </div>
+                </div>
+            </div>
             <div id="ly_text">
                 <div class="text_contents">
                     <div class="text_list">
@@ -100,7 +108,7 @@
         setTimeout('openBox("#home")', 4000);
 
         //----------背景アニメーション----------//
-        images = ["illust/たまき（おひさ.png", "illust/みゃーもり.png", "illust/絵麻ちゃん.png", "illust/萃香.png", "illust/のぶたま（コラボ.png", "illust/みるく.png", "illust/のぶひめ（グッバイ.png", "illust/いろはす.png"];
+        images = ["illust/1.png", "illust/2.png", "illust/3.png", "illust/4.png", "illust/5.png", "illust/6.png", "illust/7.png", "illust/8.png"];
         $('#ly_background').bgswitcher({
             images,
             effect: "drop",
@@ -119,7 +127,7 @@
             $('.menu-trigger').click(function () {
                 $(this).toggleClass('active');
                 $(this).next().toggleClass('onanimation');
-                $('#menu_box').each(function (i) {
+                $('#ly_menu_box').each(function (i) {
                     $(this).fadeToggle(0);
                 });
             });
