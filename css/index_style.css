@@ -134,6 +134,22 @@ h1 {
   display: none;
 }
 
+#ly_background {
+  z-index: -1;
+  position: absolute;
+  height: calc(100vh - 10px);
+  width: 100vw;
+}
+
+#bg_time {
+  z-index: -1;
+  position: absolute;
+  height: 10px;
+  width: 100vw;
+  bottom: 0;
+  background-color: lightblue;
+}
+
 #ly_menu_box {
   z-index: 1;
   position: absolute;
@@ -289,17 +305,96 @@ h1 {
   }
 }
 
-/* ヘッダー */
-.header_contents {
-  display: flex;
+/* 背景スライド */
+.background_slide {
   height: 100%;
   width: 100%;
-  opacity: 0;
-  animation: header_scale 0.3s 0.7s forwards;
+}
+.background_slide img{
+  position: absolute;
+  top: 0;
+  height: calc(100% - 10px);
+  width: 100%;
+  object-position: 0 0;
+  object-fit: cover;
+  animation: bg_slide 80s infinite;
+}
+.background_slide img:nth-child(1) {
+  animation-delay: 0s;
+}
+.background_slide img:nth-child(2){
+  z-index: -2;
+  animation-delay: 10s;
+}
+.background_slide img:nth-child(3){
+  z-index: -3;
+  animation-delay: 20s;
+}
+.background_slide img:nth-child(4){
+  z-index: -4;
+  animation-delay: 30s;
+}
+.background_slide img:nth-child(5){
+  z-index: -5;
+  animation-delay: 40s;
+}
+.background_slide img:nth-child(6){
+  z-index: -6;
+  animation-delay: 50s;
+}
+.background_slide img:nth-child(7){
+  z-index: -7;
+  animation-delay: 60s;
+}
+.background_slide img:nth-child(8){
+  z-index: -8;
+  animation-delay: 70s;
+}
+@keyframes bg_slide {
+  0% {
+    transform: translateX(0);
+  }
+  11.25% {
+    transform: translateX(0);
+  }
+  12.5% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+#bg_time div {
+  height: 100%;
+  background-color: black;
+  animation: bg_time 10s infinite;
+}
+@keyframes bg_time {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* ヘッダー */
+.header_contents {
+  z-index: 2;
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 0;
+  height: 20vh;
+  width: 90vw;
+  padding: 0 5%;
+  /* opacity: 0;
+  animation: header_scale 0.3s 0.7s forwards; */
 }
 @keyframes header_scale {
   0% {
-    transform: scale(1.2);
+    transform: scale(1.1);
     opacity: 0;
   }
   100% {
@@ -310,13 +405,13 @@ h1 {
 .header_logo {
   margin: auto;
 }
-.log_img {
+.header_logo img {
   width: 148px;
   height: auto;
   box-shadow: 0 0 10px lightgray;
   transition: all 0.5s;
 }
-.log_img:hover {
+.header_logo img:hover {
   transform: scale(1.15);
 }
 .header_nav {
@@ -453,8 +548,8 @@ h1 {
 
 /* テキスト */
 .text_contents{
-padding-top: 50%;
-text-align: right;
+ padding-top: 50%;
+ text-align: right;
 }
 .text_Item {
   font-family: "Libre Baskerville", serif;
@@ -468,12 +563,12 @@ text-align: right;
   height: 100%;
   width: 100%;
   background-color: rgba(255,255,255,0.8);
-  opacity: 0;
-  animation: controller_scale 0.3s 0.7s forwards;
+  /* opacity: 0;
+  animation: controller_scale 0.3s 0.7s forwards; */
 }
 @keyframes controller_scale {
   0% {
-    transform: scale(1);
+    transform: scale(1.1);
     opacity: 0;
   }
   100% {
