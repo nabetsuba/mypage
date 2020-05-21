@@ -30,67 +30,78 @@
     </section>
     <div id="home">
         <div id="ly_background">
-            <header id="ly_header">
-                <div class="header_contents">
-                    <div class="header_logo">
-                        <a href="index.html"><img class="log_img" src="illust/ロゴ.png"></a>
-                    </div>
-                    <nav class="header_nav">
-                        <div class="header_navList">
-                            <div class="header_navItem"><a href="">A</a></div>
-                            <div class="header_navItem"><a href="">B</a></div>
-                            <div class="header_navItem"><a href="">C</a></div>
-                            <div class="header_navItem"><a href="">D</a></div>
-                        </div>
-                    </nav>
-                    <class id="header_menu">
-                        <a class="menu-trigger" href="#">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </a>
-                    </class>
+			<div class="background_slide">
+				<img src="illust/1.png">
+				<img src="illust/2.png">
+				<img src="illust/3.png">
+				<img src="illust/4.png">
+				<img src="illust/5.png">
+				<img src="illust/6.png">
+				<img src="illust/7.png">
+				<img src="illust/8.png">
+			</div>
+		</div>
+		<div id="bg_time"><div></div></div>
+        <header id="ly_header">
+            <div class="header_contents">
+                <div class="header_logo">
+                    <a href="index.html"><img src="illust/ロゴ.png"></a>
                 </div>
-            </header>
-            <div id="ly_menu_box">
-                <div class="menu_box_bg">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                <nav class="header_nav">
+                    <div class="header_navList">
+                        <div class="header_navItem"><a href="">A</a></div>
+                        <div class="header_navItem"><a href="">B</a></div>
+                        <div class="header_navItem"><a href="">C</a></div>
+                        <div class="header_navItem"><a href="">D</a></div>
+                    </div>
+                </nav>
+                <class id="header_menu">
+                    <a class="menu-trigger" href="#">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                </class>
+            </div>
+        </header>
+        <div id="ly_menu_box">
+            <div class="menu_box_bg">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="menu_box_list">
+                <div>
+                    <div class="menu_box_Item"><a href="http://localhost:8080/face_mosaic_main">顔面モザイク</a></div>
                 </div>
-                <div class="menu_box_list">
-                    <div>
-                        <div class="menu_box_Item"><a href="http://localhost:8080/face_mosaic_main">顔面モザイク</a></div>
-                    </div>
-                    <div>
-                        <div class="menu_box_Item"><a href="http://localhost:8080/twitter_main">twitterのツール</a></div>
-                    </div>
-                    <div>
-                        <div class="menu_box_Item"><a href="http://localhost:8080/cat_dog_main">犬猫判定マシーン</a></div>
-                    </div>
-                    <div>
-                        <div class="menu_box_Item"><a href="illustration.html">イラスト</a></div>
-                    </div>
+                <div>
+                    <div class="menu_box_Item"><a href="http://localhost:8080/twitter_main">twitterのツール</a></div>
+                </div>
+                <div>
+                    <div class="menu_box_Item"><a href="http://localhost:8080/cat_dog_main">犬猫判定マシーン</a></div>
+                </div>
+                <div>
+                    <div class="menu_box_Item"><a href="illustration.html">イラスト</a></div>
                 </div>
             </div>
-            <div id="ly_text">
-                <div class="text_contents">
-                    <div class="text_list">
-                        <!-- <div class="text_Item"><a>２０２０年に描いたイラスト</a></div> -->
-                    </div>
+        </div>
+        <div id="ly_text">
+            <div class="text_contents">
+                <div class="text_list">
+                    <!-- <div class="text_Item"><a>２０２０年に描いたイラスト</a></div> -->
                 </div>
             </div>
-            <nav id="ly_controller">
-                <div class="controller_contents">
-                    <div class="copyright">©2020 My work collection. All rights reserved</div>
-                    <div class="arrow">
-                        <div class="arrow_prev"></div>
-                        <div class="arrow_next"></div>
-                    </div>
+        </div>
+        <div id="ly_controller">
+            <div class="controller_contents">
+                <div class="copyright">©2020 My work collection. All rights reserved</div>
+                <div class="arrow">
+                    <div class="arrow_prev"></div>
+                    <div class="arrow_next"></div>
                 </div>
-                <nav>
+            </div>
         </div>
     </div>
 
@@ -106,21 +117,6 @@
         setTimeout('closeBox("#op_first_anime")', 4000);
         setTimeout('closeBox("#op_last_anime")', 5000);
         setTimeout('openBox("#home")', 4000);
-
-        //----------背景アニメーション----------//
-        images = ["illust/1.png", "illust/2.png", "illust/3.png", "illust/4.png", "illust/5.png", "illust/6.png", "illust/7.png", "illust/8.png"];
-        $('#ly_background').bgswitcher({
-            images,
-            effect: "drop",
-        });
-        $(document).ready(function () {
-            $('.arrow_next').on('click', function () {
-                $('#ly_background').bgswitcher('next');
-            });
-            $('.arrow_prev').on('click', function () {
-                $('#ly_background').bgswitcher('prev');
-            })
-        });
 
         //----------menuアニメーション----------//
         $(document).ready(function () {
