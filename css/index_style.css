@@ -401,7 +401,7 @@ h1 {
   width: 84px;
   margin-top: auto;
   margin-bottom: auto;
-  border-radius: 10%;
+  border-radius: 10px;
   background-color: #faf7d9;
 }
 #header_menu::before {
@@ -409,7 +409,7 @@ h1 {
   position: absolute;
   height: 84px;
   width: 84px;
-  border-radius: 10%;
+  border-radius: 10px;
   background-color: #4aa9a4;
   transform: scale(0);
   transition: all 0.3s;
