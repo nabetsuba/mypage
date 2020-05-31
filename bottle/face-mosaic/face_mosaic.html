@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>画像選択</title>
+</head>
+<body>
+    <h1>モザイク処理をしたい画像を選択してください</h1>
+    <form method="post" action="/face_mosaic_result"  enctype="multipart/form-data">
+        <p>
+            <input type="file" name="upload" accept="img/*">
+        </p>
+        <p>
+            <input type="submit" value="送信する">
+        </p>
+    </form>
+</body>
+</html>
