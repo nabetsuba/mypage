@@ -110,31 +110,12 @@ h1 {
 #ly_background {
   z-index: -1;
   position: absolute;
-  height: calc(100vh - 10px);
-  width: 100vw;
-}
-
-#bg_time {
-  z-index: -1;
-  position: absolute;
-  height: 10px;
-  width: 100vw;
-  bottom: 0;
-  background-color: lightblue;
-}
-
-#ly_menu_box {
-  z-index: 1;
-  position: fixed;
-  display: none;
   height: 100vh;
   width: 100vw;
-  top: 0;
-  left: 0;
 }
 
 #ly_header {
-  z-index: 2;
+  z-index: 1;
   position: absolute;
   height: 20vh;
   width: 90vw;
@@ -191,7 +172,7 @@ h1 {
   }
 }
 
-.line {
+.op_line {
   height: 1px;
   width: 0;
   margin-left: auto;
@@ -378,15 +359,15 @@ h1 {
 }
 
 /* 背景スライド */
-.background_slide {
-  height: 100%;
+.bg_slide {
+  height: calc(100% - 10px);
   width: 100%;
 }
 
-.background_slide img {
+.bg_slide img {
   position: absolute;
   top: 0;
-  height: 100%;
+  height: calc(100% - 10px);
   width: 100%;
   -o-object-position: 0 0;
      object-position: 0 0;
@@ -398,42 +379,42 @@ h1 {
           animation: bg_slide 80s infinite;
 }
 
-.background_slide img:nth-child(1) {
+.bg_slide img:nth-child(1) {
   -webkit-animation-delay: 0s;
           animation-delay: 0s;
 }
 
-.background_slide img:nth-child(2) {
+.bg_slide img:nth-child(2) {
   -webkit-animation-delay: 10s;
           animation-delay: 10s;
 }
 
-.background_slide img:nth-child(3) {
+.bg_slide img:nth-child(3) {
   -webkit-animation-delay: 20s;
           animation-delay: 20s;
 }
 
-.background_slide img:nth-child(4) {
+.bg_slide img:nth-child(4) {
   -webkit-animation-delay: 30s;
           animation-delay: 30s;
 }
 
-.background_slide img:nth-child(5) {
+.bg_slide img:nth-child(5) {
   -webkit-animation-delay: 40s;
           animation-delay: 40s;
 }
 
-.background_slide img:nth-child(6) {
+.bg_slide img:nth-child(6) {
   -webkit-animation-delay: 50s;
           animation-delay: 50s;
 }
 
-.background_slide img:nth-child(7) {
+.bg_slide img:nth-child(7) {
   -webkit-animation-delay: 60s;
           animation-delay: 60s;
 }
 
-.background_slide img:nth-child(8) {
+.bg_slide img:nth-child(8) {
   -webkit-animation-delay: 70s;
           animation-delay: 70s;
 }
@@ -500,7 +481,13 @@ h1 {
   }
 }
 
-#bg_time div {
+.bg_time {
+  height: 10px;
+  width: 100%;
+  background-color: lightblue;
+}
+
+.bg_time div {
   height: 100%;
   background-color: black;
   -webkit-animation: bg_time 10s infinite;
@@ -624,25 +611,23 @@ h1 {
   font-style: italic;
   font-size: 2.5rem;
   border-radius: 10px;
-  color: white;
-  background-color: #282846;
 }
 
-#header_menu {
+.header_menu {
   height: 84px;
   width: 84px;
   margin-top: auto;
   margin-bottom: auto;
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: #faf7d9;
 }
 
-#header_menu::before {
+.header_menu::before {
   content: "";
   position: absolute;
   height: 84px;
   width: 84px;
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: #4aa9a4;
   -webkit-transform: scale(0);
           transform: scale(0);
@@ -650,7 +635,7 @@ h1 {
   transition: all 0.3s;
 }
 
-#header_menu:hover::before {
+.header_menu:hover::before {
   -webkit-transform: scale(1);
           transform: scale(1);
 }
@@ -658,6 +643,16 @@ h1 {
 .menu-trigger {
   top: 17px;
   left: 17px;
+}
+
+.menu_box {
+  z-index: -1;
+  position: absolute;
+  display: none;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
 }
 
 .menu_box_bg {

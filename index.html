@@ -12,23 +12,23 @@
     <div id="ly_opening">
         <div class="opening_text">
             <h1>俺の作品集</h1>
-            <div class="line"></div>
+            <div class="op_line"></div>
         </div>
     </div>
-    <section id="op_first_anime">
+    <div id="op_first_anime">
         <div class="op_first_right"></div>
         <div class="op_first_left"></div>
         <div class="op_first_right"></div>
         <div class="op_first_left"></div>
         <div class="op_first_right"></div>
-    </section>
-    <section id="op_last_anime">
+    </div>
+    <div id="op_last_anime">
         <div class="op_last_down"></div>
         <div class="op_last_up"></div>
-    </section>
+    </div>
     <div id="home">
         <div id="ly_background">
-            <div class="background_slide">
+            <div class="bg_slide">
                 <img src="illust/1.png">
                 <img src="illust/2.png">
                 <img src="illust/3.png">
@@ -38,10 +38,11 @@
                 <img src="illust/7.png">
                 <img src="illust/8.png">
             </div>
+            <div class="bg_time">
+                <div></div>
+            </div>
         </div>
-        <div id="bg_time">
-            <div></div>
-        </div>
+
         <header id="ly_header">
             <div class="header_contents">
                 <div class="header_logo">
@@ -49,10 +50,10 @@
                 </div>
                 <nav class="header_nav">
                     <div class="header_navList">
-                        <!-- <div class="header_navItem">2020年に描いたイラスト</div> -->
+                        <div class="header_navItem">2020年に描いたイラスト</div>
                     </div>
                 </nav>
-                <class id="header_menu">
+                <class class="header_menu">
                     <a class="menu-trigger" href="#">
                         <span></span>
                         <span></span>
@@ -60,30 +61,30 @@
                     </a>
                 </class>
             </div>
+            <div class="menu_box">
+                <div class="menu_box_bg">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="menu_box_list">
+                    <div>
+                        <div class="menu_box_Item"><a href="http://localhost:8080/face_mosaic_main">顔面モザイク</a></div>
+                    </div>
+                    <div>
+                        <div class="menu_box_Item"><a href="http://localhost:8080/twitter_main">twitterのツール</a></div>
+                    </div>
+                    <div>
+                        <div class="menu_box_Item"><a href="http://localhost:8080/cat_dog_main">犬猫判定マシーン</a></div>
+                    </div>
+                    <div>
+                        <div class="menu_box_Item"><a href="illustration.html">イラスト</a></div>
+                    </div>
+                </div>
+            </div>
         </header>
-        <div id="ly_menu_box">
-            <div class="menu_box_bg">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div class="menu_box_list">
-                <div>
-                    <div class="menu_box_Item"><a href="http://localhost:8080/face_mosaic_main">顔面モザイク</a></div>
-                </div>
-                <div>
-                    <div class="menu_box_Item"><a href="http://localhost:8080/twitter_main">twitterのツール</a></div>
-                </div>
-                <div>
-                    <div class="menu_box_Item"><a href="http://localhost:8080/cat_dog_main">犬猫判定マシーン</a></div>
-                </div>
-                <div>
-                    <div class="menu_box_Item"><a href="illustration.html">イラスト</a></div>
-                </div>
-            </div>
-        </div>
         <div id="ly_text">
             <div class="text_contents">
                 <div class="text_list">
@@ -103,7 +104,7 @@
     </div>
 
     <script>
-        //----------openingアニメーション----------//
+        //----------時間設定----------//
         var closeBox = (function (x) {
             $(x).fadeOut(0);
         })
@@ -120,7 +121,7 @@
             $('.menu-trigger').click(function () {
                 $(this).toggleClass('active');
                 $(this).next().toggleClass('onanimation');
-                $('#ly_menu_box').each(function (i) {
+                $('.menu_box').each(function (i) {
                     $(this).fadeToggle(0);
                 });
             });

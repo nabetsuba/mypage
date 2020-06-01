@@ -1,0 +1,334 @@
+/*-------------------ハンバーガー-------------------*/
+.menu-trigger,
+.menu-trigger span {
+    display: inline-block;
+    transition: all 0.4s;
+    box-sizing: border-box;
+}
+.menu-trigger {
+    position: relative;
+    width: 50px;
+    height: 44px;
+}
+.menu-trigger span {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    border-radius: 4px;
+}
+.menu-trigger span:nth-of-type(1) {
+    top: 0;
+}
+.menu-trigger span:nth-of-type(2) {
+    top: 20px;
+}
+.menu-trigger span:nth-of-type(3) {
+    bottom: 0;
+}
+.menu-trigger::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    content: "";
+    width: 84px;
+    height: 84px;
+    margin: -45px 0 0 -45px;
+    border-radius: 50%;
+    border: 4px solid transparent;
+    transition: all 0.75s;
+}
+.menu-trigger.active span:nth-of-type(1) {
+    -webkit-transform: translateY(20px) rotate(-45deg);
+    transform: translateY(20px) rotate(-45deg);
+}
+.menu-trigger.active span:nth-of-type(2) {
+    left: 60%;
+    opacity: 0;
+    -webkit-animation: active-menu-bar02 0.8s forwards;
+    animation: active-menu-bar02 0.8s forwards;
+}
+@-webkit-keyframes active-menu-bar02 {
+    100% {
+        height: 0;
+    }
+}
+@keyframes active-menu-bar02 {
+    100% {
+        height: 0;
+    }
+}
+.menu-trigger.active span:nth-of-type(3) {
+    -webkit-transform: translateY(-20px) rotate(45deg);
+    transform: translateY(-20px) rotate(45deg);
+}
+
+/*----------ベース----------*/
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*----------レイアウト----------*/
+#ly_opening {
+    z-index: 2;
+    position: fixed;
+    background-color: #ed303c;
+    width: 100%;
+    height: 100%;
+}
+
+#home {
+    height: 100%;
+    background-color: #ed303c;
+}
+
+#ly_header {
+    z-index: 1;
+    position: fixed;
+    height: 10vh;
+    width: 90%;
+    padding: 0 5%;
+    background-color: black;
+}
+
+/*----------モジュール----------*/
+// opening
+.opening_contents {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    font-size: 4rem;
+}
+.opening_text h1 {
+    margin: 0;
+}
+
+/* シャッター */
+#shutter {
+    display: none;
+    z-index: 2;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+  }
+  .shutter_item {
+    position: fixed;
+    height: 50vh;
+    width: 50vw;
+    transform-origin:left bottom;
+  }
+  .shutter_item:nth-child(2){
+    width: 60vw;
+    top: calc(-60vw * 0.5);
+    left: calc(50vw - 60vw * 0.87);
+    transform: rotate(30deg);
+  }
+  .shutter_item:nth-child(3){
+    top: calc(-50vw * 0.87);
+    left: calc(50vw - 50vw * 0.5);
+    transform: rotate(60deg);
+  }
+  .shutter_item:nth-child(4){
+    top: calc(-50vw);
+    left: calc(50vw);
+    transform: rotate(90deg);
+  }
+  .shutter_item:nth-child(5){
+    width: 60vw;
+    top: calc(-60vw * 0.87);
+    left: calc(50vw + 60vw * 0.5);
+    transform: rotate(120deg);
+  }
+  .shutter_item:nth-child(6){
+    width: 60vw;
+    top: calc(-60vw * 0.5);
+    left: calc(50vw + 60vw * 0.87);
+    transform: rotate(150deg);
+  }
+  .shutter_item:nth-child(7){
+    left: calc(50vw + 50vw);
+    transform: rotate(180deg);
+  }
+  .shutter_item:nth-child(8){
+    width: 60vw;
+    top: calc(60vw * 0.5);
+    left: calc(50vw + 60vw * 0.87);
+    transform: rotate(210deg);
+  }
+  .shutter_item:nth-child(9){
+    top: calc(50vw * 0.87);
+    left: calc(50vw + 50vw * 0.5);
+    transform: rotate(240deg);
+  }
+  .shutter_item:nth-child(10){
+    top: calc(50vw);
+    left: calc(50vw);
+    transform: rotate(270deg);
+  }
+  .shutter_item:nth-child(11){
+    width: 60vw;
+    top: calc(60vw * 0.87);
+    left: calc(50vw - 60vw * 0.5);
+    transform: rotate(300deg);
+  }
+  .shutter_item:nth-child(12){
+    width: 60vw;
+    top: calc(60vw * 0.5);
+    left: calc(50vw - 60vw * 0.87);
+    transform: rotate(330deg);
+  }
+  .shutter_item div {
+    height: 100%;
+    width: 100%;
+    transform-origin:left bottom;
+    background-color: darkgray;
+    border: 1px solid white;
+    animation: shutter_anime 1.5s forwards;
+  }
+  @keyframes shutter_anime {
+    0% {
+      transform: rotate(-90deg);
+    }
+    50% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(-90deg);
+    }
+  }
+
+/* ヘッダー */
+.header_contents {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.header_logo {
+    margin: auto;
+}
+.log_img {
+    width: 118px;
+    height: auto;
+}
+.header_nav {
+    height: 100%;
+    width: 100%;
+    padding-right: 5%;
+}
+.header_navList {
+    display: flex;
+    height: 100%;
+    padding-left: 40%;
+}
+.header_navItem {
+    margin: auto;
+    font-family: "Arial Black";
+    font-size: 2rem;
+}
+.header_navItem a {
+    color: white;
+}
+.header_navItem :hover {
+    color: yellow;
+}
+.header_menu {
+    margin: auto;
+}
+.menu-trigger {
+    top: 17px;
+    left: 17px;
+}
+
+.menu_box {
+    z-index: -1;
+    position: absolute;
+    display: none;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+}
+.menu_box_bg {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.menu_box_bg div {
+    height: 100%;
+    width: 20%;
+    transform: translateY(-100%);
+    background-color: rgb(40, 40, 70);
+    animation: menu_down 0.3s forwards;
+}
+@for $i from 0 to 5 {
+    $delay_time: $i * 0.1;
+
+    .menu_box_bg div:nth-child(#{$i + 1}) {
+        animation-delay: ($delay_time + 0.25) + s;
+    }
+}
+@keyframes menu_down {
+    0% {
+        transform: translateY(-100%);
+    }
+    70% {
+        transform: translateY(-5%);
+    }
+    80% {
+        transform: translateY(0);
+    }
+    90% {
+        transform: translateY(-3.5%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.menu_box_list {
+    position: fixed;
+    top: 0;
+    width: 70%;
+    height: 85%;
+    padding: 15% 15% 0 15%;
+    text-align: right;
+    transform: translateX(100%);
+    animation: menu_list 0.5s 0.8s forwards;
+}
+@keyframes menu_list {
+    0% {
+        transform: translateX(100%);
+    }
+    70% {
+        transform: translateX(4%);
+    }
+    80% {
+        transform: translateX(0);
+    }
+    90% {
+        transform: translateX(1.5%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+.menu_box_Item {
+    display: inline-block;
+    font-family: "Arial Black";
+    font-size: 3.5rem;
+    transition: all 0.3s;
+}
+.menu_box_Item a {
+    color: white;
+}
+.menu_box_Item:hover {
+    transform: scale(1.1);
+}
+.menu_box_Item a:hover {
+    color: yellow;
+}
