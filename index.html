@@ -22,9 +22,28 @@
         <div class="op_first_left"></div>
         <div class="op_first_right"></div>
     </div>
-    <div id="op_last_anime">
-        <div class="op_last_down"></div>
-        <div class="op_last_up"></div>
+    <div id="graph_anime">
+        <div class="graph_row0"></div>
+        <div class="graph_row1"></div>
+        <div class="graph_row2"></div>
+        <div class="graph_row3"></div>
+        <div class="graph_row4"></div>
+        <div class="graph_row5"></div>
+        <div class="graph_row6"></div>
+        <div class="graph_row7"></div>
+        <div class="graph_row8"></div>
+        <div class="graph_row9"></div>
+        <div class="graph_row10"></div>
+        <div class="graph_row11"></div>
+        <div class="graph_row12"></div>
+        <div class="graph_row13"></div>
+        <div class="graph_row14"></div>
+        <div class="graph_row15"></div>
+        <div class="graph_row16"></div>
+        <div class="graph_row17"></div>
+        <div class="graph_row18"></div>
+        <div class="graph_row19"></div>
+        <div class="graph_row20"></div>
     </div>
     <div id="home">
         <div id="ly_background">
@@ -113,8 +132,18 @@
         })
         setTimeout('closeBox("#ly_opening")', 4000);
         setTimeout('closeBox("#op_first_anime")', 4000);
-        setTimeout('closeBox("#op_last_anime")', 5000);
+        setTimeout('closeBox("#graph_anime")', 5000);
         setTimeout('openBox("#home")', 4000);
+
+        //----------graphアニメーション----------//
+        var row_item = 20;
+        var line_item = 10;
+
+        for (var i = 0; i <= row_item; i++) {
+            for (var j = 0; j < line_item; j++) {
+                $(".graph_row" + i).append('<div class="graph_line' + i + j + '"></div>');
+            }
+        }
 
         //----------menuアニメーション----------//
         $(document).ready(function () {

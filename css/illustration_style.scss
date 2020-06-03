@@ -78,14 +78,13 @@ a {
 #ly_opening {
     z-index: 2;
     position: fixed;
-    background-color: #ed303c;
     width: 100%;
     height: 100%;
 }
 
 #home {
+    display: none;
     height: 100%;
-    background-color: #ed303c;
 }
 
 #ly_header {
@@ -100,6 +99,7 @@ a {
 /*----------モジュール----------*/
 // opening
 .opening_contents {
+    z-index: 1;
     position: absolute;
     top: 40%;
     left: 25%;
@@ -107,6 +107,49 @@ a {
 }
 .opening_text h1 {
     margin: 0;
+}
+
+// グラフ
+#graph_anime {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+@for $i from 0 to 21 {
+    .graph_row#{$i} {
+        position: absolute;
+        top: 100px;
+        left: (50 + $i * 60) + px;
+        height: calc(100% - 200px);
+        width: 50px;
+    }
+}
+@for $i from 0 to 21 {
+    $random_time: random(
+        $limit: 21,
+    );
+
+    @for $j from 0 to 10 {
+        $delay_time: ($random_time + $j) * 0.01;
+        $color: $j * 15;
+
+        .graph_line#{$i}#{$j} {
+            height: 10%;
+            margin-top: 5px;
+            background-color: rgb((250 - $color), 100, (250 - $color));
+            animation: line_out 0s linear ($delay_time) + s forwards, line_in 0s linear (0.4 - $delay_time) + s forwards;
+        }
+    }
+}
+@keyframes line_out {
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes line_in {
+    100% {
+        opacity: 1;
+    }
 }
 
 /* シャッター */

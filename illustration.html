@@ -14,20 +14,68 @@
         <div class="opening_contents">
             <h1>illustration</h1>
         </div>
+        <div id="graph_anime">
+            <div class="graph_row0"></div>
+            <div class="graph_row1"></div>
+            <div class="graph_row2"></div>
+            <div class="graph_row3"></div>
+            <div class="graph_row4"></div>
+            <div class="graph_row5"></div>
+            <div class="graph_row6"></div>
+            <div class="graph_row7"></div>
+            <div class="graph_row8"></div>
+            <div class="graph_row9"></div>
+            <div class="graph_row10"></div>
+            <div class="graph_row11"></div>
+            <div class="graph_row12"></div>
+            <div class="graph_row13"></div>
+            <div class="graph_row14"></div>
+            <div class="graph_row15"></div>
+            <div class="graph_row16"></div>
+            <div class="graph_row17"></div>
+            <div class="graph_row18"></div>
+            <div class="graph_row19"></div>
+            <div class="graph_row20"></div>
+        </div>
     </div>
+
     <div id="shutter">
-        <div class="shutter_item"><div></div></div>
-        <div class="shutter_item"><div></div></div>
-        <div class="shutter_item"><div></div></div>
-        <div class="shutter_item"><div></div></div>
-        <div class="shutter_item"><div></div></div>
-        <div class="shutter_item"><div></div></div>
-        <div class="shutter_item"><div></div></div>
-        <div class="shutter_item"><div></div></div>
-        <div class="shutter_item"><div></div></div>
-        <div class="shutter_item"><div></div></div>
-        <div class="shutter_item"><div></div></div>
-        <div class="shutter_item"><div></div></div>
+        <div class="shutter_item">
+            <div></div>
+        </div>
+        <div class="shutter_item">
+            <div></div>
+        </div>
+        <div class="shutter_item">
+            <div></div>
+        </div>
+        <div class="shutter_item">
+            <div></div>
+        </div>
+        <div class="shutter_item">
+            <div></div>
+        </div>
+        <div class="shutter_item">
+            <div></div>
+        </div>
+        <div class="shutter_item">
+            <div></div>
+        </div>
+        <div class="shutter_item">
+            <div></div>
+        </div>
+        <div class="shutter_item">
+            <div></div>
+        </div>
+        <div class="shutter_item">
+            <div></div>
+        </div>
+        <div class="shutter_item">
+            <div></div>
+        </div>
+        <div class="shutter_item">
+            <div></div>
+        </div>
     </div>
     <div id="home">
         <header id="ly_header">
@@ -81,14 +129,31 @@
     <script>
         //----------時間設定----------//
         var closeBox = (function (x) {
-			$(x).fadeOut(0);
-		})
-		var openBox = (function (x) {
-			$(x).fadeIn(0);
-		})
-        setTimeout('closeBox("#ly_opening")', 1700);
-        setTimeout('openBox("#shutter")', 1000);
-        setTimeout('closeBox("#shutter")', 2500)
+            $(x).fadeOut(0);
+        })
+        var openBox = (function (x) {
+            $(x).fadeIn(0);
+        })
+        var graph_times = 5;
+
+        for (var i = 0; i < graph_times; i++) {
+            setTimeout('closeBox("#graph_anime")', 400 * i);
+            setTimeout('openBox("#graph_anime")', 400 * i);
+        }
+        setTimeout('closeBox("#ly_opening")', 2000);
+        setTimeout('openBox("#shutter")', 1300);
+        setTimeout('closeBox("#shutter")', 2800);
+        setTimeout('openBox("#home")', 2100);
+
+        //----------graphアニメーション----------//
+        var row_item = 20;
+        var line_item = 10;
+
+        for (var i = 0; i <= row_item; i++) {
+            for (var j = 0; j < line_item; j++) {
+                $(".graph_row" + i).append('<div class="graph_line' + i + j + '"></div>');
+            }
+        }
 
         //----------menuアニメーション----------//
         $(document).ready(function () {

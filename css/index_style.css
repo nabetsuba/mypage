@@ -268,93 +268,1861 @@ h1 {
   }
 }
 
-#op_last_anime {
+#graph_anime {
   z-index: 2;
   position: fixed;
   height: 100vh;
   width: 100vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
-.op_last_down {
+.graph_row0 {
+  position: absolute;
+  left: 0px;
   height: 100%;
-  width: 50%;
-  background-color: black;
-  -webkit-transform: translateY(-100%);
-          transform: translateY(-100%);
-  -webkit-animation: opening_down 2s 3s forwards;
-          animation: opening_down 2s 3s forwards;
+  width: 5%;
 }
 
-.op_last_up {
+.graph_row1 {
+  position: absolute;
+  left: 65px;
   height: 100%;
-  width: 50%;
-  background-color: white;
-  -webkit-transform: translateY(100%);
-          transform: translateY(100%);
-  -webkit-animation: opening_up 2s 3s forwards;
-          animation: opening_up 2s 3s forwards;
+  width: 5%;
 }
 
-@-webkit-keyframes opening_down {
-  0% {
-    -webkit-transform: translateY(-100%);
-            transform: translateY(-100%);
-  }
-  50% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
+.graph_row2 {
+  position: absolute;
+  left: 130px;
+  height: 100%;
+  width: 5%;
+}
+
+.graph_row3 {
+  position: absolute;
+  left: 195px;
+  height: 100%;
+  width: 5%;
+}
+
+.graph_row4 {
+  position: absolute;
+  left: 260px;
+  height: 100%;
+  width: 5%;
+}
+
+.graph_row5 {
+  position: absolute;
+  left: 325px;
+  height: 100%;
+  width: 5%;
+}
+
+.graph_row6 {
+  position: absolute;
+  left: 390px;
+  height: 100%;
+  width: 5%;
+}
+
+.graph_row7 {
+  position: absolute;
+  left: 455px;
+  height: 100%;
+  width: 5%;
+}
+
+.graph_row8 {
+  position: absolute;
+  left: 520px;
+  height: 100%;
+  width: 5%;
+}
+
+.graph_row9 {
+  position: absolute;
+  left: 585px;
+  height: 100%;
+  width: 5%;
+}
+
+.graph_row10 {
+  position: absolute;
+  left: 650px;
+  height: 100%;
+  width: 5%;
+}
+
+.graph_row11 {
+  position: absolute;
+  left: 715px;
+  height: 100%;
+  width: 5%;
+}
+
+.graph_row12 {
+  position: absolute;
+  left: 780px;
+  height: 100%;
+  width: 5%;
+}
+
+.graph_row13 {
+  position: absolute;
+  left: 845px;
+  height: 100%;
+  width: 5%;
+}
+
+.graph_row14 {
+  position: absolute;
+  left: 910px;
+  height: 100%;
+  width: 5%;
+}
+
+.graph_row15 {
+  position: absolute;
+  left: 975px;
+  height: 100%;
+  width: 5%;
+}
+
+.graph_row16 {
+  position: absolute;
+  left: 1040px;
+  height: 100%;
+  width: 5%;
+}
+
+.graph_row17 {
+  position: absolute;
+  left: 1105px;
+  height: 100%;
+  width: 5%;
+}
+
+.graph_row18 {
+  position: absolute;
+  left: 1170px;
+  height: 100%;
+  width: 5%;
+}
+
+.graph_row19 {
+  position: absolute;
+  left: 1235px;
+  height: 100%;
+  width: 5%;
+}
+
+.graph_row20 {
+  position: absolute;
+  left: 1300px;
+  height: 100%;
+  width: 5%;
+}
+
+.graph_line00 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.59s forwards, line_out 0s linear 4.41s forwards;
+          animation: line_in 0s linear 3.59s forwards, line_out 0s linear 4.41s forwards;
+}
+
+.graph_line01 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.53s forwards, line_out 0s linear 4.47s forwards;
+          animation: line_in 0s linear 3.53s forwards, line_out 0s linear 4.47s forwards;
+}
+
+.graph_line02 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.66s forwards, line_out 0s linear 4.34s forwards;
+          animation: line_in 0s linear 3.66s forwards, line_out 0s linear 4.34s forwards;
+}
+
+.graph_line03 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.67s forwards, line_out 0s linear 4.33s forwards;
+          animation: line_in 0s linear 3.67s forwards, line_out 0s linear 4.33s forwards;
+}
+
+.graph_line04 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.59s forwards, line_out 0s linear 4.41s forwards;
+          animation: line_in 0s linear 3.59s forwards, line_out 0s linear 4.41s forwards;
+}
+
+.graph_line05 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.69s forwards, line_out 0s linear 4.31s forwards;
+          animation: line_in 0s linear 3.69s forwards, line_out 0s linear 4.31s forwards;
+}
+
+.graph_line06 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.65s forwards, line_out 0s linear 4.35s forwards;
+          animation: line_in 0s linear 3.65s forwards, line_out 0s linear 4.35s forwards;
+}
+
+.graph_line07 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.75s forwards, line_out 0s linear 4.25s forwards;
+          animation: line_in 0s linear 3.75s forwards, line_out 0s linear 4.25s forwards;
+}
+
+.graph_line08 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.6s forwards, line_out 0s linear 4.4s forwards;
+          animation: line_in 0s linear 3.6s forwards, line_out 0s linear 4.4s forwards;
+}
+
+.graph_line09 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.6s forwards, line_out 0s linear 4.4s forwards;
+          animation: line_in 0s linear 3.6s forwards, line_out 0s linear 4.4s forwards;
+}
+
+.graph_line10 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.6s forwards, line_out 0s linear 4.4s forwards;
+          animation: line_in 0s linear 3.6s forwards, line_out 0s linear 4.4s forwards;
+}
+
+.graph_line11 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.63s forwards, line_out 0s linear 4.37s forwards;
+          animation: line_in 0s linear 3.63s forwards, line_out 0s linear 4.37s forwards;
+}
+
+.graph_line12 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.68s forwards, line_out 0s linear 4.32s forwards;
+          animation: line_in 0s linear 3.68s forwards, line_out 0s linear 4.32s forwards;
+}
+
+.graph_line13 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.57s forwards, line_out 0s linear 4.43s forwards;
+          animation: line_in 0s linear 3.57s forwards, line_out 0s linear 4.43s forwards;
+}
+
+.graph_line14 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.63s forwards, line_out 0s linear 4.37s forwards;
+          animation: line_in 0s linear 3.63s forwards, line_out 0s linear 4.37s forwards;
+}
+
+.graph_line15 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.63s forwards, line_out 0s linear 4.37s forwards;
+          animation: line_in 0s linear 3.63s forwards, line_out 0s linear 4.37s forwards;
+}
+
+.graph_line16 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.72s forwards, line_out 0s linear 4.28s forwards;
+          animation: line_in 0s linear 3.72s forwards, line_out 0s linear 4.28s forwards;
+}
+
+.graph_line17 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.63s forwards, line_out 0s linear 4.37s forwards;
+          animation: line_in 0s linear 3.63s forwards, line_out 0s linear 4.37s forwards;
+}
+
+.graph_line18 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.63s forwards, line_out 0s linear 4.37s forwards;
+          animation: line_in 0s linear 3.63s forwards, line_out 0s linear 4.37s forwards;
+}
+
+.graph_line19 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.61s forwards, line_out 0s linear 4.39s forwards;
+          animation: line_in 0s linear 3.61s forwards, line_out 0s linear 4.39s forwards;
+}
+
+.graph_line20 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.62s forwards, line_out 0s linear 4.38s forwards;
+          animation: line_in 0s linear 3.62s forwards, line_out 0s linear 4.38s forwards;
+}
+
+.graph_line21 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.65s forwards, line_out 0s linear 4.35s forwards;
+          animation: line_in 0s linear 3.65s forwards, line_out 0s linear 4.35s forwards;
+}
+
+.graph_line22 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.55s forwards, line_out 0s linear 4.45s forwards;
+          animation: line_in 0s linear 3.55s forwards, line_out 0s linear 4.45s forwards;
+}
+
+.graph_line23 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.59s forwards, line_out 0s linear 4.41s forwards;
+          animation: line_in 0s linear 3.59s forwards, line_out 0s linear 4.41s forwards;
+}
+
+.graph_line24 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.65s forwards, line_out 0s linear 4.35s forwards;
+          animation: line_in 0s linear 3.65s forwards, line_out 0s linear 4.35s forwards;
+}
+
+.graph_line25 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.7s forwards, line_out 0s linear 4.3s forwards;
+          animation: line_in 0s linear 3.7s forwards, line_out 0s linear 4.3s forwards;
+}
+
+.graph_line26 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.6s forwards, line_out 0s linear 4.4s forwards;
+          animation: line_in 0s linear 3.6s forwards, line_out 0s linear 4.4s forwards;
+}
+
+.graph_line27 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.77s forwards, line_out 0s linear 4.23s forwards;
+          animation: line_in 0s linear 3.77s forwards, line_out 0s linear 4.23s forwards;
+}
+
+.graph_line28 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.71s forwards, line_out 0s linear 4.29s forwards;
+          animation: line_in 0s linear 3.71s forwards, line_out 0s linear 4.29s forwards;
+}
+
+.graph_line29 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.71s forwards, line_out 0s linear 4.29s forwards;
+          animation: line_in 0s linear 3.71s forwards, line_out 0s linear 4.29s forwards;
+}
+
+.graph_line30 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.61s forwards, line_out 0s linear 4.39s forwards;
+          animation: line_in 0s linear 3.61s forwards, line_out 0s linear 4.39s forwards;
+}
+
+.graph_line31 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.7s forwards, line_out 0s linear 4.3s forwards;
+          animation: line_in 0s linear 3.7s forwards, line_out 0s linear 4.3s forwards;
+}
+
+.graph_line32 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.65s forwards, line_out 0s linear 4.35s forwards;
+          animation: line_in 0s linear 3.65s forwards, line_out 0s linear 4.35s forwards;
+}
+
+.graph_line33 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.67s forwards, line_out 0s linear 4.33s forwards;
+          animation: line_in 0s linear 3.67s forwards, line_out 0s linear 4.33s forwards;
+}
+
+.graph_line34 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.64s forwards, line_out 0s linear 4.36s forwards;
+          animation: line_in 0s linear 3.64s forwards, line_out 0s linear 4.36s forwards;
+}
+
+.graph_line35 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.68s forwards, line_out 0s linear 4.32s forwards;
+          animation: line_in 0s linear 3.68s forwards, line_out 0s linear 4.32s forwards;
+}
+
+.graph_line36 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.69s forwards, line_out 0s linear 4.31s forwards;
+          animation: line_in 0s linear 3.69s forwards, line_out 0s linear 4.31s forwards;
+}
+
+.graph_line37 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.68s forwards, line_out 0s linear 4.32s forwards;
+          animation: line_in 0s linear 3.68s forwards, line_out 0s linear 4.32s forwards;
+}
+
+.graph_line38 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.62s forwards, line_out 0s linear 4.38s forwards;
+          animation: line_in 0s linear 3.62s forwards, line_out 0s linear 4.38s forwards;
+}
+
+.graph_line39 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.75s forwards, line_out 0s linear 4.25s forwards;
+          animation: line_in 0s linear 3.75s forwards, line_out 0s linear 4.25s forwards;
+}
+
+.graph_line40 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.54s forwards, line_out 0s linear 4.46s forwards;
+          animation: line_in 0s linear 3.54s forwards, line_out 0s linear 4.46s forwards;
+}
+
+.graph_line41 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.62s forwards, line_out 0s linear 4.38s forwards;
+          animation: line_in 0s linear 3.62s forwards, line_out 0s linear 4.38s forwards;
+}
+
+.graph_line42 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.69s forwards, line_out 0s linear 4.31s forwards;
+          animation: line_in 0s linear 3.69s forwards, line_out 0s linear 4.31s forwards;
+}
+
+.graph_line43 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.63s forwards, line_out 0s linear 4.37s forwards;
+          animation: line_in 0s linear 3.63s forwards, line_out 0s linear 4.37s forwards;
+}
+
+.graph_line44 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.74s forwards, line_out 0s linear 4.26s forwards;
+          animation: line_in 0s linear 3.74s forwards, line_out 0s linear 4.26s forwards;
+}
+
+.graph_line45 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.63s forwards, line_out 0s linear 4.37s forwards;
+          animation: line_in 0s linear 3.63s forwards, line_out 0s linear 4.37s forwards;
+}
+
+.graph_line46 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.58s forwards, line_out 0s linear 4.42s forwards;
+          animation: line_in 0s linear 3.58s forwards, line_out 0s linear 4.42s forwards;
+}
+
+.graph_line47 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.71s forwards, line_out 0s linear 4.29s forwards;
+          animation: line_in 0s linear 3.71s forwards, line_out 0s linear 4.29s forwards;
+}
+
+.graph_line48 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.65s forwards, line_out 0s linear 4.35s forwards;
+          animation: line_in 0s linear 3.65s forwards, line_out 0s linear 4.35s forwards;
+}
+
+.graph_line49 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.62s forwards, line_out 0s linear 4.38s forwards;
+          animation: line_in 0s linear 3.62s forwards, line_out 0s linear 4.38s forwards;
+}
+
+.graph_line50 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.66s forwards, line_out 0s linear 4.34s forwards;
+          animation: line_in 0s linear 3.66s forwards, line_out 0s linear 4.34s forwards;
+}
+
+.graph_line51 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.65s forwards, line_out 0s linear 4.35s forwards;
+          animation: line_in 0s linear 3.65s forwards, line_out 0s linear 4.35s forwards;
+}
+
+.graph_line52 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.57s forwards, line_out 0s linear 4.43s forwards;
+          animation: line_in 0s linear 3.57s forwards, line_out 0s linear 4.43s forwards;
+}
+
+.graph_line53 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.62s forwards, line_out 0s linear 4.38s forwards;
+          animation: line_in 0s linear 3.62s forwards, line_out 0s linear 4.38s forwards;
+}
+
+.graph_line54 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.55s forwards, line_out 0s linear 4.45s forwards;
+          animation: line_in 0s linear 3.55s forwards, line_out 0s linear 4.45s forwards;
+}
+
+.graph_line55 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.59s forwards, line_out 0s linear 4.41s forwards;
+          animation: line_in 0s linear 3.59s forwards, line_out 0s linear 4.41s forwards;
+}
+
+.graph_line56 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.68s forwards, line_out 0s linear 4.32s forwards;
+          animation: line_in 0s linear 3.68s forwards, line_out 0s linear 4.32s forwards;
+}
+
+.graph_line57 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.68s forwards, line_out 0s linear 4.32s forwards;
+          animation: line_in 0s linear 3.68s forwards, line_out 0s linear 4.32s forwards;
+}
+
+.graph_line58 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.66s forwards, line_out 0s linear 4.34s forwards;
+          animation: line_in 0s linear 3.66s forwards, line_out 0s linear 4.34s forwards;
+}
+
+.graph_line59 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.74s forwards, line_out 0s linear 4.26s forwards;
+          animation: line_in 0s linear 3.74s forwards, line_out 0s linear 4.26s forwards;
+}
+
+.graph_line60 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.6s forwards, line_out 0s linear 4.4s forwards;
+          animation: line_in 0s linear 3.6s forwards, line_out 0s linear 4.4s forwards;
+}
+
+.graph_line61 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.52s forwards, line_out 0s linear 4.48s forwards;
+          animation: line_in 0s linear 3.52s forwards, line_out 0s linear 4.48s forwards;
+}
+
+.graph_line62 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.66s forwards, line_out 0s linear 4.34s forwards;
+          animation: line_in 0s linear 3.66s forwards, line_out 0s linear 4.34s forwards;
+}
+
+.graph_line63 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.65s forwards, line_out 0s linear 4.35s forwards;
+          animation: line_in 0s linear 3.65s forwards, line_out 0s linear 4.35s forwards;
+}
+
+.graph_line64 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.63s forwards, line_out 0s linear 4.37s forwards;
+          animation: line_in 0s linear 3.63s forwards, line_out 0s linear 4.37s forwards;
+}
+
+.graph_line65 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.58s forwards, line_out 0s linear 4.42s forwards;
+          animation: line_in 0s linear 3.58s forwards, line_out 0s linear 4.42s forwards;
+}
+
+.graph_line66 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.77s forwards, line_out 0s linear 4.23s forwards;
+          animation: line_in 0s linear 3.77s forwards, line_out 0s linear 4.23s forwards;
+}
+
+.graph_line67 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.7s forwards, line_out 0s linear 4.3s forwards;
+          animation: line_in 0s linear 3.7s forwards, line_out 0s linear 4.3s forwards;
+}
+
+.graph_line68 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.77s forwards, line_out 0s linear 4.23s forwards;
+          animation: line_in 0s linear 3.77s forwards, line_out 0s linear 4.23s forwards;
+}
+
+.graph_line69 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.64s forwards, line_out 0s linear 4.36s forwards;
+          animation: line_in 0s linear 3.64s forwards, line_out 0s linear 4.36s forwards;
+}
+
+.graph_line70 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.56s forwards, line_out 0s linear 4.44s forwards;
+          animation: line_in 0s linear 3.56s forwards, line_out 0s linear 4.44s forwards;
+}
+
+.graph_line71 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.55s forwards, line_out 0s linear 4.45s forwards;
+          animation: line_in 0s linear 3.55s forwards, line_out 0s linear 4.45s forwards;
+}
+
+.graph_line72 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.54s forwards, line_out 0s linear 4.46s forwards;
+          animation: line_in 0s linear 3.54s forwards, line_out 0s linear 4.46s forwards;
+}
+
+.graph_line73 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.54s forwards, line_out 0s linear 4.46s forwards;
+          animation: line_in 0s linear 3.54s forwards, line_out 0s linear 4.46s forwards;
+}
+
+.graph_line74 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.65s forwards, line_out 0s linear 4.35s forwards;
+          animation: line_in 0s linear 3.65s forwards, line_out 0s linear 4.35s forwards;
+}
+
+.graph_line75 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.56s forwards, line_out 0s linear 4.44s forwards;
+          animation: line_in 0s linear 3.56s forwards, line_out 0s linear 4.44s forwards;
+}
+
+.graph_line76 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.7s forwards, line_out 0s linear 4.3s forwards;
+          animation: line_in 0s linear 3.7s forwards, line_out 0s linear 4.3s forwards;
+}
+
+.graph_line77 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.65s forwards, line_out 0s linear 4.35s forwards;
+          animation: line_in 0s linear 3.65s forwards, line_out 0s linear 4.35s forwards;
+}
+
+.graph_line78 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.77s forwards, line_out 0s linear 4.23s forwards;
+          animation: line_in 0s linear 3.77s forwards, line_out 0s linear 4.23s forwards;
+}
+
+.graph_line79 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.72s forwards, line_out 0s linear 4.28s forwards;
+          animation: line_in 0s linear 3.72s forwards, line_out 0s linear 4.28s forwards;
+}
+
+.graph_line80 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.61s forwards, line_out 0s linear 4.39s forwards;
+          animation: line_in 0s linear 3.61s forwards, line_out 0s linear 4.39s forwards;
+}
+
+.graph_line81 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.62s forwards, line_out 0s linear 4.38s forwards;
+          animation: line_in 0s linear 3.62s forwards, line_out 0s linear 4.38s forwards;
+}
+
+.graph_line82 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.61s forwards, line_out 0s linear 4.39s forwards;
+          animation: line_in 0s linear 3.61s forwards, line_out 0s linear 4.39s forwards;
+}
+
+.graph_line83 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.63s forwards, line_out 0s linear 4.37s forwards;
+          animation: line_in 0s linear 3.63s forwards, line_out 0s linear 4.37s forwards;
+}
+
+.graph_line84 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.72s forwards, line_out 0s linear 4.28s forwards;
+          animation: line_in 0s linear 3.72s forwards, line_out 0s linear 4.28s forwards;
+}
+
+.graph_line85 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.69s forwards, line_out 0s linear 4.31s forwards;
+          animation: line_in 0s linear 3.69s forwards, line_out 0s linear 4.31s forwards;
+}
+
+.graph_line86 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.68s forwards, line_out 0s linear 4.32s forwards;
+          animation: line_in 0s linear 3.68s forwards, line_out 0s linear 4.32s forwards;
+}
+
+.graph_line87 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.63s forwards, line_out 0s linear 4.37s forwards;
+          animation: line_in 0s linear 3.63s forwards, line_out 0s linear 4.37s forwards;
+}
+
+.graph_line88 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.72s forwards, line_out 0s linear 4.28s forwards;
+          animation: line_in 0s linear 3.72s forwards, line_out 0s linear 4.28s forwards;
+}
+
+.graph_line89 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.63s forwards, line_out 0s linear 4.37s forwards;
+          animation: line_in 0s linear 3.63s forwards, line_out 0s linear 4.37s forwards;
+}
+
+.graph_line90 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.7s forwards, line_out 0s linear 4.3s forwards;
+          animation: line_in 0s linear 3.7s forwards, line_out 0s linear 4.3s forwards;
+}
+
+.graph_line91 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.64s forwards, line_out 0s linear 4.36s forwards;
+          animation: line_in 0s linear 3.64s forwards, line_out 0s linear 4.36s forwards;
+}
+
+.graph_line92 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.66s forwards, line_out 0s linear 4.34s forwards;
+          animation: line_in 0s linear 3.66s forwards, line_out 0s linear 4.34s forwards;
+}
+
+.graph_line93 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.67s forwards, line_out 0s linear 4.33s forwards;
+          animation: line_in 0s linear 3.67s forwards, line_out 0s linear 4.33s forwards;
+}
+
+.graph_line94 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.72s forwards, line_out 0s linear 4.28s forwards;
+          animation: line_in 0s linear 3.72s forwards, line_out 0s linear 4.28s forwards;
+}
+
+.graph_line95 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.65s forwards, line_out 0s linear 4.35s forwards;
+          animation: line_in 0s linear 3.65s forwards, line_out 0s linear 4.35s forwards;
+}
+
+.graph_line96 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.74s forwards, line_out 0s linear 4.26s forwards;
+          animation: line_in 0s linear 3.74s forwards, line_out 0s linear 4.26s forwards;
+}
+
+.graph_line97 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.64s forwards, line_out 0s linear 4.36s forwards;
+          animation: line_in 0s linear 3.64s forwards, line_out 0s linear 4.36s forwards;
+}
+
+.graph_line98 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.79s forwards, line_out 0s linear 4.21s forwards;
+          animation: line_in 0s linear 3.79s forwards, line_out 0s linear 4.21s forwards;
+}
+
+.graph_line99 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.77s forwards, line_out 0s linear 4.23s forwards;
+          animation: line_in 0s linear 3.77s forwards, line_out 0s linear 4.23s forwards;
+}
+
+.graph_line100 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.56s forwards, line_out 0s linear 4.44s forwards;
+          animation: line_in 0s linear 3.56s forwards, line_out 0s linear 4.44s forwards;
+}
+
+.graph_line101 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.72s forwards, line_out 0s linear 4.28s forwards;
+          animation: line_in 0s linear 3.72s forwards, line_out 0s linear 4.28s forwards;
+}
+
+.graph_line102 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.66s forwards, line_out 0s linear 4.34s forwards;
+          animation: line_in 0s linear 3.66s forwards, line_out 0s linear 4.34s forwards;
+}
+
+.graph_line103 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.58s forwards, line_out 0s linear 4.42s forwards;
+          animation: line_in 0s linear 3.58s forwards, line_out 0s linear 4.42s forwards;
+}
+
+.graph_line104 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.71s forwards, line_out 0s linear 4.29s forwards;
+          animation: line_in 0s linear 3.71s forwards, line_out 0s linear 4.29s forwards;
+}
+
+.graph_line105 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.63s forwards, line_out 0s linear 4.37s forwards;
+          animation: line_in 0s linear 3.63s forwards, line_out 0s linear 4.37s forwards;
+}
+
+.graph_line106 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.74s forwards, line_out 0s linear 4.26s forwards;
+          animation: line_in 0s linear 3.74s forwards, line_out 0s linear 4.26s forwards;
+}
+
+.graph_line107 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.62s forwards, line_out 0s linear 4.38s forwards;
+          animation: line_in 0s linear 3.62s forwards, line_out 0s linear 4.38s forwards;
+}
+
+.graph_line108 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.69s forwards, line_out 0s linear 4.31s forwards;
+          animation: line_in 0s linear 3.69s forwards, line_out 0s linear 4.31s forwards;
+}
+
+.graph_line109 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.72s forwards, line_out 0s linear 4.28s forwards;
+          animation: line_in 0s linear 3.72s forwards, line_out 0s linear 4.28s forwards;
+}
+
+.graph_line110 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.55s forwards, line_out 0s linear 4.45s forwards;
+          animation: line_in 0s linear 3.55s forwards, line_out 0s linear 4.45s forwards;
+}
+
+.graph_line111 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.6s forwards, line_out 0s linear 4.4s forwards;
+          animation: line_in 0s linear 3.6s forwards, line_out 0s linear 4.4s forwards;
+}
+
+.graph_line112 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.62s forwards, line_out 0s linear 4.38s forwards;
+          animation: line_in 0s linear 3.62s forwards, line_out 0s linear 4.38s forwards;
+}
+
+.graph_line113 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.63s forwards, line_out 0s linear 4.37s forwards;
+          animation: line_in 0s linear 3.63s forwards, line_out 0s linear 4.37s forwards;
+}
+
+.graph_line114 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.61s forwards, line_out 0s linear 4.39s forwards;
+          animation: line_in 0s linear 3.61s forwards, line_out 0s linear 4.39s forwards;
+}
+
+.graph_line115 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.62s forwards, line_out 0s linear 4.38s forwards;
+          animation: line_in 0s linear 3.62s forwards, line_out 0s linear 4.38s forwards;
+}
+
+.graph_line116 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.69s forwards, line_out 0s linear 4.31s forwards;
+          animation: line_in 0s linear 3.69s forwards, line_out 0s linear 4.31s forwards;
+}
+
+.graph_line117 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.61s forwards, line_out 0s linear 4.39s forwards;
+          animation: line_in 0s linear 3.61s forwards, line_out 0s linear 4.39s forwards;
+}
+
+.graph_line118 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.64s forwards, line_out 0s linear 4.36s forwards;
+          animation: line_in 0s linear 3.64s forwards, line_out 0s linear 4.36s forwards;
+}
+
+.graph_line119 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.68s forwards, line_out 0s linear 4.32s forwards;
+          animation: line_in 0s linear 3.68s forwards, line_out 0s linear 4.32s forwards;
+}
+
+.graph_line120 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.7s forwards, line_out 0s linear 4.3s forwards;
+          animation: line_in 0s linear 3.7s forwards, line_out 0s linear 4.3s forwards;
+}
+
+.graph_line121 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.66s forwards, line_out 0s linear 4.34s forwards;
+          animation: line_in 0s linear 3.66s forwards, line_out 0s linear 4.34s forwards;
+}
+
+.graph_line122 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.57s forwards, line_out 0s linear 4.43s forwards;
+          animation: line_in 0s linear 3.57s forwards, line_out 0s linear 4.43s forwards;
+}
+
+.graph_line123 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.58s forwards, line_out 0s linear 4.42s forwards;
+          animation: line_in 0s linear 3.58s forwards, line_out 0s linear 4.42s forwards;
+}
+
+.graph_line124 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.58s forwards, line_out 0s linear 4.42s forwards;
+          animation: line_in 0s linear 3.58s forwards, line_out 0s linear 4.42s forwards;
+}
+
+.graph_line125 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.56s forwards, line_out 0s linear 4.44s forwards;
+          animation: line_in 0s linear 3.56s forwards, line_out 0s linear 4.44s forwards;
+}
+
+.graph_line126 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.74s forwards, line_out 0s linear 4.26s forwards;
+          animation: line_in 0s linear 3.74s forwards, line_out 0s linear 4.26s forwards;
+}
+
+.graph_line127 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.73s forwards, line_out 0s linear 4.27s forwards;
+          animation: line_in 0s linear 3.73s forwards, line_out 0s linear 4.27s forwards;
+}
+
+.graph_line128 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.79s forwards, line_out 0s linear 4.21s forwards;
+          animation: line_in 0s linear 3.79s forwards, line_out 0s linear 4.21s forwards;
+}
+
+.graph_line129 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.7s forwards, line_out 0s linear 4.3s forwards;
+          animation: line_in 0s linear 3.7s forwards, line_out 0s linear 4.3s forwards;
+}
+
+.graph_line130 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.6s forwards, line_out 0s linear 4.4s forwards;
+          animation: line_in 0s linear 3.6s forwards, line_out 0s linear 4.4s forwards;
+}
+
+.graph_line131 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.7s forwards, line_out 0s linear 4.3s forwards;
+          animation: line_in 0s linear 3.7s forwards, line_out 0s linear 4.3s forwards;
+}
+
+.graph_line132 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.54s forwards, line_out 0s linear 4.46s forwards;
+          animation: line_in 0s linear 3.54s forwards, line_out 0s linear 4.46s forwards;
+}
+
+.graph_line133 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.64s forwards, line_out 0s linear 4.36s forwards;
+          animation: line_in 0s linear 3.64s forwards, line_out 0s linear 4.36s forwards;
+}
+
+.graph_line134 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.73s forwards, line_out 0s linear 4.27s forwards;
+          animation: line_in 0s linear 3.73s forwards, line_out 0s linear 4.27s forwards;
+}
+
+.graph_line135 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.71s forwards, line_out 0s linear 4.29s forwards;
+          animation: line_in 0s linear 3.71s forwards, line_out 0s linear 4.29s forwards;
+}
+
+.graph_line136 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.73s forwards, line_out 0s linear 4.27s forwards;
+          animation: line_in 0s linear 3.73s forwards, line_out 0s linear 4.27s forwards;
+}
+
+.graph_line137 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.66s forwards, line_out 0s linear 4.34s forwards;
+          animation: line_in 0s linear 3.66s forwards, line_out 0s linear 4.34s forwards;
+}
+
+.graph_line138 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.79s forwards, line_out 0s linear 4.21s forwards;
+          animation: line_in 0s linear 3.79s forwards, line_out 0s linear 4.21s forwards;
+}
+
+.graph_line139 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.69s forwards, line_out 0s linear 4.31s forwards;
+          animation: line_in 0s linear 3.69s forwards, line_out 0s linear 4.31s forwards;
+}
+
+.graph_line140 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.64s forwards, line_out 0s linear 4.36s forwards;
+          animation: line_in 0s linear 3.64s forwards, line_out 0s linear 4.36s forwards;
+}
+
+.graph_line141 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.61s forwards, line_out 0s linear 4.39s forwards;
+          animation: line_in 0s linear 3.61s forwards, line_out 0s linear 4.39s forwards;
+}
+
+.graph_line142 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.54s forwards, line_out 0s linear 4.46s forwards;
+          animation: line_in 0s linear 3.54s forwards, line_out 0s linear 4.46s forwards;
+}
+
+.graph_line143 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.57s forwards, line_out 0s linear 4.43s forwards;
+          animation: line_in 0s linear 3.57s forwards, line_out 0s linear 4.43s forwards;
+}
+
+.graph_line144 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.68s forwards, line_out 0s linear 4.32s forwards;
+          animation: line_in 0s linear 3.68s forwards, line_out 0s linear 4.32s forwards;
+}
+
+.graph_line145 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.65s forwards, line_out 0s linear 4.35s forwards;
+          animation: line_in 0s linear 3.65s forwards, line_out 0s linear 4.35s forwards;
+}
+
+.graph_line146 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.6s forwards, line_out 0s linear 4.4s forwards;
+          animation: line_in 0s linear 3.6s forwards, line_out 0s linear 4.4s forwards;
+}
+
+.graph_line147 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.72s forwards, line_out 0s linear 4.28s forwards;
+          animation: line_in 0s linear 3.72s forwards, line_out 0s linear 4.28s forwards;
+}
+
+.graph_line148 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.6s forwards, line_out 0s linear 4.4s forwards;
+          animation: line_in 0s linear 3.6s forwards, line_out 0s linear 4.4s forwards;
+}
+
+.graph_line149 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.69s forwards, line_out 0s linear 4.31s forwards;
+          animation: line_in 0s linear 3.69s forwards, line_out 0s linear 4.31s forwards;
+}
+
+.graph_line150 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.61s forwards, line_out 0s linear 4.39s forwards;
+          animation: line_in 0s linear 3.61s forwards, line_out 0s linear 4.39s forwards;
+}
+
+.graph_line151 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.55s forwards, line_out 0s linear 4.45s forwards;
+          animation: line_in 0s linear 3.55s forwards, line_out 0s linear 4.45s forwards;
+}
+
+.graph_line152 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.53s forwards, line_out 0s linear 4.47s forwards;
+          animation: line_in 0s linear 3.53s forwards, line_out 0s linear 4.47s forwards;
+}
+
+.graph_line153 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.59s forwards, line_out 0s linear 4.41s forwards;
+          animation: line_in 0s linear 3.59s forwards, line_out 0s linear 4.41s forwards;
+}
+
+.graph_line154 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.64s forwards, line_out 0s linear 4.36s forwards;
+          animation: line_in 0s linear 3.64s forwards, line_out 0s linear 4.36s forwards;
+}
+
+.graph_line155 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.72s forwards, line_out 0s linear 4.28s forwards;
+          animation: line_in 0s linear 3.72s forwards, line_out 0s linear 4.28s forwards;
+}
+
+.graph_line156 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.58s forwards, line_out 0s linear 4.42s forwards;
+          animation: line_in 0s linear 3.58s forwards, line_out 0s linear 4.42s forwards;
+}
+
+.graph_line157 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.58s forwards, line_out 0s linear 4.42s forwards;
+          animation: line_in 0s linear 3.58s forwards, line_out 0s linear 4.42s forwards;
+}
+
+.graph_line158 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.7s forwards, line_out 0s linear 4.3s forwards;
+          animation: line_in 0s linear 3.7s forwards, line_out 0s linear 4.3s forwards;
+}
+
+.graph_line159 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.63s forwards, line_out 0s linear 4.37s forwards;
+          animation: line_in 0s linear 3.63s forwards, line_out 0s linear 4.37s forwards;
+}
+
+.graph_line160 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.59s forwards, line_out 0s linear 4.41s forwards;
+          animation: line_in 0s linear 3.59s forwards, line_out 0s linear 4.41s forwards;
+}
+
+.graph_line161 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.59s forwards, line_out 0s linear 4.41s forwards;
+          animation: line_in 0s linear 3.59s forwards, line_out 0s linear 4.41s forwards;
+}
+
+.graph_line162 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.69s forwards, line_out 0s linear 4.31s forwards;
+          animation: line_in 0s linear 3.69s forwards, line_out 0s linear 4.31s forwards;
+}
+
+.graph_line163 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.55s forwards, line_out 0s linear 4.45s forwards;
+          animation: line_in 0s linear 3.55s forwards, line_out 0s linear 4.45s forwards;
+}
+
+.graph_line164 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.72s forwards, line_out 0s linear 4.28s forwards;
+          animation: line_in 0s linear 3.72s forwards, line_out 0s linear 4.28s forwards;
+}
+
+.graph_line165 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.65s forwards, line_out 0s linear 4.35s forwards;
+          animation: line_in 0s linear 3.65s forwards, line_out 0s linear 4.35s forwards;
+}
+
+.graph_line166 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.61s forwards, line_out 0s linear 4.39s forwards;
+          animation: line_in 0s linear 3.61s forwards, line_out 0s linear 4.39s forwards;
+}
+
+.graph_line167 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.62s forwards, line_out 0s linear 4.38s forwards;
+          animation: line_in 0s linear 3.62s forwards, line_out 0s linear 4.38s forwards;
+}
+
+.graph_line168 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.74s forwards, line_out 0s linear 4.26s forwards;
+          animation: line_in 0s linear 3.74s forwards, line_out 0s linear 4.26s forwards;
+}
+
+.graph_line169 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.64s forwards, line_out 0s linear 4.36s forwards;
+          animation: line_in 0s linear 3.64s forwards, line_out 0s linear 4.36s forwards;
+}
+
+.graph_line170 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.56s forwards, line_out 0s linear 4.44s forwards;
+          animation: line_in 0s linear 3.56s forwards, line_out 0s linear 4.44s forwards;
+}
+
+.graph_line171 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.61s forwards, line_out 0s linear 4.39s forwards;
+          animation: line_in 0s linear 3.61s forwards, line_out 0s linear 4.39s forwards;
+}
+
+.graph_line172 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.73s forwards, line_out 0s linear 4.27s forwards;
+          animation: line_in 0s linear 3.73s forwards, line_out 0s linear 4.27s forwards;
+}
+
+.graph_line173 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.69s forwards, line_out 0s linear 4.31s forwards;
+          animation: line_in 0s linear 3.69s forwards, line_out 0s linear 4.31s forwards;
+}
+
+.graph_line174 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.7s forwards, line_out 0s linear 4.3s forwards;
+          animation: line_in 0s linear 3.7s forwards, line_out 0s linear 4.3s forwards;
+}
+
+.graph_line175 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.75s forwards, line_out 0s linear 4.25s forwards;
+          animation: line_in 0s linear 3.75s forwards, line_out 0s linear 4.25s forwards;
+}
+
+.graph_line176 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.75s forwards, line_out 0s linear 4.25s forwards;
+          animation: line_in 0s linear 3.75s forwards, line_out 0s linear 4.25s forwards;
+}
+
+.graph_line177 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.63s forwards, line_out 0s linear 4.37s forwards;
+          animation: line_in 0s linear 3.63s forwards, line_out 0s linear 4.37s forwards;
+}
+
+.graph_line178 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.76s forwards, line_out 0s linear 4.24s forwards;
+          animation: line_in 0s linear 3.76s forwards, line_out 0s linear 4.24s forwards;
+}
+
+.graph_line179 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.68s forwards, line_out 0s linear 4.32s forwards;
+          animation: line_in 0s linear 3.68s forwards, line_out 0s linear 4.32s forwards;
+}
+
+.graph_line180 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.68s forwards, line_out 0s linear 4.32s forwards;
+          animation: line_in 0s linear 3.68s forwards, line_out 0s linear 4.32s forwards;
+}
+
+.graph_line181 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.7s forwards, line_out 0s linear 4.3s forwards;
+          animation: line_in 0s linear 3.7s forwards, line_out 0s linear 4.3s forwards;
+}
+
+.graph_line182 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.69s forwards, line_out 0s linear 4.31s forwards;
+          animation: line_in 0s linear 3.69s forwards, line_out 0s linear 4.31s forwards;
+}
+
+.graph_line183 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.71s forwards, line_out 0s linear 4.29s forwards;
+          animation: line_in 0s linear 3.71s forwards, line_out 0s linear 4.29s forwards;
+}
+
+.graph_line184 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.74s forwards, line_out 0s linear 4.26s forwards;
+          animation: line_in 0s linear 3.74s forwards, line_out 0s linear 4.26s forwards;
+}
+
+.graph_line185 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.72s forwards, line_out 0s linear 4.28s forwards;
+          animation: line_in 0s linear 3.72s forwards, line_out 0s linear 4.28s forwards;
+}
+
+.graph_line186 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.71s forwards, line_out 0s linear 4.29s forwards;
+          animation: line_in 0s linear 3.71s forwards, line_out 0s linear 4.29s forwards;
+}
+
+.graph_line187 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.78s forwards, line_out 0s linear 4.22s forwards;
+          animation: line_in 0s linear 3.78s forwards, line_out 0s linear 4.22s forwards;
+}
+
+.graph_line188 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.6s forwards, line_out 0s linear 4.4s forwards;
+          animation: line_in 0s linear 3.6s forwards, line_out 0s linear 4.4s forwards;
+}
+
+.graph_line189 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.65s forwards, line_out 0s linear 4.35s forwards;
+          animation: line_in 0s linear 3.65s forwards, line_out 0s linear 4.35s forwards;
+}
+
+.graph_line190 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.71s forwards, line_out 0s linear 4.29s forwards;
+          animation: line_in 0s linear 3.71s forwards, line_out 0s linear 4.29s forwards;
+}
+
+.graph_line191 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.55s forwards, line_out 0s linear 4.45s forwards;
+          animation: line_in 0s linear 3.55s forwards, line_out 0s linear 4.45s forwards;
+}
+
+.graph_line192 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.69s forwards, line_out 0s linear 4.31s forwards;
+          animation: line_in 0s linear 3.69s forwards, line_out 0s linear 4.31s forwards;
+}
+
+.graph_line193 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.69s forwards, line_out 0s linear 4.31s forwards;
+          animation: line_in 0s linear 3.69s forwards, line_out 0s linear 4.31s forwards;
+}
+
+.graph_line194 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.69s forwards, line_out 0s linear 4.31s forwards;
+          animation: line_in 0s linear 3.69s forwards, line_out 0s linear 4.31s forwards;
+}
+
+.graph_line195 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.75s forwards, line_out 0s linear 4.25s forwards;
+          animation: line_in 0s linear 3.75s forwards, line_out 0s linear 4.25s forwards;
+}
+
+.graph_line196 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.6s forwards, line_out 0s linear 4.4s forwards;
+          animation: line_in 0s linear 3.6s forwards, line_out 0s linear 4.4s forwards;
+}
+
+.graph_line197 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.67s forwards, line_out 0s linear 4.33s forwards;
+          animation: line_in 0s linear 3.67s forwards, line_out 0s linear 4.33s forwards;
+}
+
+.graph_line198 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.69s forwards, line_out 0s linear 4.31s forwards;
+          animation: line_in 0s linear 3.69s forwards, line_out 0s linear 4.31s forwards;
+}
+
+.graph_line199 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.67s forwards, line_out 0s linear 4.33s forwards;
+          animation: line_in 0s linear 3.67s forwards, line_out 0s linear 4.33s forwards;
+}
+
+.graph_line200 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.62s forwards, line_out 0s linear 4.38s forwards;
+          animation: line_in 0s linear 3.62s forwards, line_out 0s linear 4.38s forwards;
+}
+
+.graph_line201 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.52s forwards, line_out 0s linear 4.48s forwards;
+          animation: line_in 0s linear 3.52s forwards, line_out 0s linear 4.48s forwards;
+}
+
+.graph_line202 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.53s forwards, line_out 0s linear 4.47s forwards;
+          animation: line_in 0s linear 3.53s forwards, line_out 0s linear 4.47s forwards;
+}
+
+.graph_line203 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.66s forwards, line_out 0s linear 4.34s forwards;
+          animation: line_in 0s linear 3.66s forwards, line_out 0s linear 4.34s forwards;
+}
+
+.graph_line204 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.58s forwards, line_out 0s linear 4.42s forwards;
+          animation: line_in 0s linear 3.58s forwards, line_out 0s linear 4.42s forwards;
+}
+
+.graph_line205 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.73s forwards, line_out 0s linear 4.27s forwards;
+          animation: line_in 0s linear 3.73s forwards, line_out 0s linear 4.27s forwards;
+}
+
+.graph_line206 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.74s forwards, line_out 0s linear 4.26s forwards;
+          animation: line_in 0s linear 3.74s forwards, line_out 0s linear 4.26s forwards;
+}
+
+.graph_line207 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.63s forwards, line_out 0s linear 4.37s forwards;
+          animation: line_in 0s linear 3.63s forwards, line_out 0s linear 4.37s forwards;
+}
+
+.graph_line208 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.74s forwards, line_out 0s linear 4.26s forwards;
+          animation: line_in 0s linear 3.74s forwards, line_out 0s linear 4.26s forwards;
+}
+
+.graph_line209 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 3.71s forwards, line_out 0s linear 4.29s forwards;
+          animation: line_in 0s linear 3.71s forwards, line_out 0s linear 4.29s forwards;
+}
+
+@-webkit-keyframes line_out {
   100% {
-    -webkit-transform: translateY(100%);
-            transform: translateY(100%);
+    opacity: 0;
   }
 }
 
-@keyframes opening_down {
-  0% {
-    -webkit-transform: translateY(-100%);
-            transform: translateY(-100%);
-  }
-  50% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
+@keyframes line_out {
   100% {
-    -webkit-transform: translateY(100%);
-            transform: translateY(100%);
+    opacity: 0;
   }
 }
 
-@-webkit-keyframes opening_up {
-  0% {
-    -webkit-transform: translateY(100%);
-            transform: translateY(100%);
-  }
-  50% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
+@-webkit-keyframes line_in {
   100% {
-    -webkit-transform: translateY(-100%);
-            transform: translateY(-100%);
+    opacity: 1;
   }
 }
 
-@keyframes opening_up {
-  0% {
-    -webkit-transform: translateY(100%);
-            transform: translateY(100%);
-  }
-  50% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
+@keyframes line_in {
   100% {
-    -webkit-transform: translateY(-100%);
-            transform: translateY(-100%);
+    opacity: 1;
   }
 }
 

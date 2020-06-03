@@ -191,47 +191,40 @@ h1 {
     }
 }
 
-#op_last_anime {
+#graph_anime {
     z-index: 2;
     position: fixed;
     height: 100vh;
     width: 100vw;
-    display: flex;
 }
-.op_last_down {
-    height: 100%;
-    width: 50%;
-    background-color: black;
-    transform: translateY(-100%);
-    animation: opening_down 2s 3s forwards;
-}
-.op_last_up {
-    height: 100%;
-    width: 50%;
-    background-color: white;
-    transform: translateY(100%);
-    animation: opening_up 2s 3s forwards;
-}
-@keyframes opening_down {
-    0% {
-        transform: translateY(-100%);
+@for $i from 0 to 21 {
+    .graph_row#{$i} {
+        position: absolute;
+        left: ($i * 65) + px;
+        height: 100%;
+        width: 5%;
     }
-    50% {
-        transform: translateY(0);
+}
+@for $i from 0 to 21 {
+    @for $j from 0 to 10 {
+        $delay_time: (random($limit: 21) + $j) * 0.01;
+    
+        .graph_line#{$i}#{$j} {
+            height: 10%;
+            background-color: lightblue;
+            opacity: 0;
+            animation: line_in 0s linear ($delay_time + 3.5) + s forwards, line_out 0s linear (1 - $delay_time + 3.5) + s forwards;
+        }
     }
+}
+@keyframes line_out {
     100% {
-        transform: translateY(100%);
+        opacity: 0;
     }
 }
-@keyframes opening_up {
-    0% {
-        transform: translateY(100%);
-    }
-    50% {
-        transform: translateY(0);
-    }
+@keyframes line_in {
     100% {
-        transform: translateY(-100%);
+        opacity: 1;
     }
 }
 
