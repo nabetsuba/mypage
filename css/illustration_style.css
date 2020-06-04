@@ -95,6 +95,7 @@ a {
   position: fixed;
   width: 100%;
   height: 100%;
+  background-color: lightyellow;
 }
 
 #home {
@@ -112,1870 +113,2138 @@ a {
 }
 
 /*----------モジュール----------*/
-.opening_contents {
+.op_text {
   z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: absolute;
-  top: 40%;
-  left: 25%;
-  font-size: 4rem;
+  top: 300px;
+  left: calc(50% - 160px);
+  height: calc(100% - 600px);
 }
 
-.opening_text h1 {
-  margin: 0;
+.op_text div {
+  font-size: 60px;
+  font-weight: 1000;
+  color: black;
+  margin: 0 10px;
+  opacity: 0;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
 }
 
-#graph_anime {
-  position: fixed;
+.op_text div:nth-child(1) {
+  -webkit-animation: text_down 0.5s ease 0s forwards;
+          animation: text_down 0.5s ease 0s forwards;
+}
+
+.op_text div:nth-child(2) {
+  -webkit-animation: text_down 0.5s ease 0.5s forwards;
+          animation: text_down 0.5s ease 0.5s forwards;
+}
+
+.op_text div:nth-child(3) {
+  -webkit-animation: text_down 0.5s ease 1s forwards;
+          animation: text_down 0.5s ease 1s forwards;
+}
+
+.op_text div:nth-child(4) {
+  -webkit-animation: text_down 0.5s ease 1.5s forwards;
+          animation: text_down 0.5s ease 1.5s forwards;
+}
+
+.op_text div:nth-child(5) {
+  -webkit-animation: text_down 0.5s ease 2s forwards;
+          animation: text_down 0.5s ease 2s forwards;
+}
+
+@-webkit-keyframes text_down {
+  90% {
+    -webkit-transform: translateY(10%);
+            transform: translateY(10%);
+  }
+  100% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes text_down {
+  90% {
+    -webkit-transform: translateY(10%);
+            transform: translateY(10%);
+  }
+  100% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+#matrix_anime {
+  position: absolute;
   height: 100vh;
   width: 100vw;
 }
 
-.graph_row0 {
+.matrix_row0 {
   position: absolute;
-  top: 100px;
+  top: 50px;
   left: 50px;
-  height: calc(100% - 200px);
+  height: calc(100% - 150px);
   width: 50px;
 }
 
-.graph_row1 {
+.matrix_row1 {
   position: absolute;
-  top: 100px;
+  top: 50px;
   left: 110px;
-  height: calc(100% - 200px);
+  height: calc(100% - 150px);
   width: 50px;
 }
 
-.graph_row2 {
+.matrix_row2 {
   position: absolute;
-  top: 100px;
+  top: 50px;
   left: 170px;
-  height: calc(100% - 200px);
+  height: calc(100% - 150px);
   width: 50px;
 }
 
-.graph_row3 {
+.matrix_row3 {
   position: absolute;
-  top: 100px;
+  top: 50px;
   left: 230px;
-  height: calc(100% - 200px);
+  height: calc(100% - 150px);
   width: 50px;
 }
 
-.graph_row4 {
+.matrix_row4 {
   position: absolute;
-  top: 100px;
+  top: 50px;
   left: 290px;
-  height: calc(100% - 200px);
+  height: calc(100% - 150px);
   width: 50px;
 }
 
-.graph_row5 {
+.matrix_row5 {
   position: absolute;
-  top: 100px;
+  top: 50px;
   left: 350px;
-  height: calc(100% - 200px);
+  height: calc(100% - 150px);
   width: 50px;
 }
 
-.graph_row6 {
+.matrix_row6 {
   position: absolute;
-  top: 100px;
+  top: 50px;
   left: 410px;
-  height: calc(100% - 200px);
+  height: calc(100% - 150px);
   width: 50px;
 }
 
-.graph_row7 {
+.matrix_row7 {
   position: absolute;
-  top: 100px;
+  top: 50px;
   left: 470px;
-  height: calc(100% - 200px);
+  height: calc(100% - 150px);
   width: 50px;
 }
 
-.graph_row8 {
+.matrix_row8 {
   position: absolute;
-  top: 100px;
+  top: 50px;
   left: 530px;
-  height: calc(100% - 200px);
+  height: calc(100% - 150px);
   width: 50px;
 }
 
-.graph_row9 {
+.matrix_row9 {
   position: absolute;
-  top: 100px;
+  top: 50px;
   left: 590px;
-  height: calc(100% - 200px);
+  height: calc(100% - 150px);
   width: 50px;
 }
 
-.graph_row10 {
+.matrix_row10 {
   position: absolute;
-  top: 100px;
+  top: 50px;
   left: 650px;
-  height: calc(100% - 200px);
+  height: calc(100% - 150px);
   width: 50px;
 }
 
-.graph_row11 {
+.matrix_row11 {
   position: absolute;
-  top: 100px;
+  top: 50px;
   left: 710px;
-  height: calc(100% - 200px);
+  height: calc(100% - 150px);
   width: 50px;
 }
 
-.graph_row12 {
+.matrix_row12 {
   position: absolute;
-  top: 100px;
+  top: 50px;
   left: 770px;
-  height: calc(100% - 200px);
+  height: calc(100% - 150px);
   width: 50px;
 }
 
-.graph_row13 {
+.matrix_row13 {
   position: absolute;
-  top: 100px;
+  top: 50px;
   left: 830px;
-  height: calc(100% - 200px);
+  height: calc(100% - 150px);
   width: 50px;
 }
 
-.graph_row14 {
+.matrix_row14 {
   position: absolute;
-  top: 100px;
+  top: 50px;
   left: 890px;
-  height: calc(100% - 200px);
+  height: calc(100% - 150px);
   width: 50px;
 }
 
-.graph_row15 {
+.matrix_row15 {
   position: absolute;
-  top: 100px;
+  top: 50px;
   left: 950px;
-  height: calc(100% - 200px);
+  height: calc(100% - 150px);
   width: 50px;
 }
 
-.graph_row16 {
+.matrix_row16 {
   position: absolute;
-  top: 100px;
+  top: 50px;
   left: 1010px;
-  height: calc(100% - 200px);
+  height: calc(100% - 150px);
   width: 50px;
 }
 
-.graph_row17 {
+.matrix_row17 {
   position: absolute;
-  top: 100px;
+  top: 50px;
   left: 1070px;
-  height: calc(100% - 200px);
+  height: calc(100% - 150px);
   width: 50px;
 }
 
-.graph_row18 {
+.matrix_row18 {
   position: absolute;
-  top: 100px;
+  top: 50px;
   left: 1130px;
-  height: calc(100% - 200px);
+  height: calc(100% - 150px);
   width: 50px;
 }
 
-.graph_row19 {
+.matrix_row19 {
   position: absolute;
-  top: 100px;
+  top: 50px;
   left: 1190px;
-  height: calc(100% - 200px);
+  height: calc(100% - 150px);
   width: 50px;
 }
 
-.graph_row20 {
+.matrix_row20 {
   position: absolute;
-  top: 100px;
+  top: 50px;
   left: 1250px;
-  height: calc(100% - 200px);
+  height: calc(100% - 150px);
   width: 50px;
 }
 
-.graph_line00 {
+.matrix_line00 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #fa64fa;
-  -webkit-animation: line_out 0s linear 0.2s forwards, line_in 0s linear 0.2s forwards;
-          animation: line_out 0s linear 0.2s forwards, line_in 0s linear 0.2s forwards;
+  -webkit-animation: line_in 0s linear 2.5s forwards;
+          animation: line_in 0s linear 2.5s forwards;
 }
 
-.graph_line01 {
+.matrix_line01 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #eb64eb;
-  -webkit-animation: line_out 0s linear 0.21s forwards, line_in 0s linear 0.19s forwards;
-          animation: line_out 0s linear 0.21s forwards, line_in 0s linear 0.19s forwards;
+  -webkit-animation: line_in 0s linear 2.49s forwards;
+          animation: line_in 0s linear 2.49s forwards;
 }
 
-.graph_line02 {
+.matrix_line02 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #dc64dc;
-  -webkit-animation: line_out 0s linear 0.22s forwards, line_in 0s linear 0.18s forwards;
-          animation: line_out 0s linear 0.22s forwards, line_in 0s linear 0.18s forwards;
+  -webkit-animation: line_in 0s linear 2.48s forwards;
+          animation: line_in 0s linear 2.48s forwards;
 }
 
-.graph_line03 {
+.matrix_line03 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #cd64cd;
-  -webkit-animation: line_out 0s linear 0.23s forwards, line_in 0s linear 0.17s forwards;
-          animation: line_out 0s linear 0.23s forwards, line_in 0s linear 0.17s forwards;
+  -webkit-animation: line_in 0s linear 2.47s forwards;
+          animation: line_in 0s linear 2.47s forwards;
 }
 
-.graph_line04 {
+.matrix_line04 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #be64be;
-  -webkit-animation: line_out 0s linear 0.24s forwards, line_in 0s linear 0.16s forwards;
-          animation: line_out 0s linear 0.24s forwards, line_in 0s linear 0.16s forwards;
+  -webkit-animation: line_in 0s linear 2.46s forwards;
+          animation: line_in 0s linear 2.46s forwards;
 }
 
-.graph_line05 {
+.matrix_line05 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #af64af;
-  -webkit-animation: line_out 0s linear 0.25s forwards, line_in 0s linear 0.15s forwards;
-          animation: line_out 0s linear 0.25s forwards, line_in 0s linear 0.15s forwards;
+  -webkit-animation: line_in 0s linear 2.45s forwards;
+          animation: line_in 0s linear 2.45s forwards;
 }
 
-.graph_line06 {
+.matrix_line06 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #a064a0;
-  -webkit-animation: line_out 0s linear 0.26s forwards, line_in 0s linear 0.14s forwards;
-          animation: line_out 0s linear 0.26s forwards, line_in 0s linear 0.14s forwards;
+  -webkit-animation: line_in 0s linear 2.44s forwards;
+          animation: line_in 0s linear 2.44s forwards;
 }
 
-.graph_line07 {
+.matrix_line07 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #916491;
-  -webkit-animation: line_out 0s linear 0.27s forwards, line_in 0s linear 0.13s forwards;
-          animation: line_out 0s linear 0.27s forwards, line_in 0s linear 0.13s forwards;
+  -webkit-animation: line_in 0s linear 2.43s forwards;
+          animation: line_in 0s linear 2.43s forwards;
 }
 
-.graph_line08 {
+.matrix_line08 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #826482;
-  -webkit-animation: line_out 0s linear 0.28s forwards, line_in 0s linear 0.12s forwards;
-          animation: line_out 0s linear 0.28s forwards, line_in 0s linear 0.12s forwards;
+  -webkit-animation: line_in 0s linear 2.42s forwards;
+          animation: line_in 0s linear 2.42s forwards;
 }
 
-.graph_line09 {
+.matrix_line09 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #736473;
-  -webkit-animation: line_out 0s linear 0.29s forwards, line_in 0s linear 0.11s forwards;
-          animation: line_out 0s linear 0.29s forwards, line_in 0s linear 0.11s forwards;
+  -webkit-animation: line_in 0s linear 2.41s forwards;
+          animation: line_in 0s linear 2.41s forwards;
 }
 
-.graph_line10 {
+.matrix_line10 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #fa64fa;
-  -webkit-animation: line_out 0s linear 0.09s forwards, line_in 0s linear 0.31s forwards;
-          animation: line_out 0s linear 0.09s forwards, line_in 0s linear 0.31s forwards;
+  -webkit-animation: line_in 0s linear 2.49s forwards;
+          animation: line_in 0s linear 2.49s forwards;
 }
 
-.graph_line11 {
+.matrix_line11 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #eb64eb;
-  -webkit-animation: line_out 0s linear 0.1s forwards, line_in 0s linear 0.3s forwards;
-          animation: line_out 0s linear 0.1s forwards, line_in 0s linear 0.3s forwards;
+  -webkit-animation: line_in 0s linear 2.48s forwards;
+          animation: line_in 0s linear 2.48s forwards;
 }
 
-.graph_line12 {
+.matrix_line12 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #dc64dc;
-  -webkit-animation: line_out 0s linear 0.11s forwards, line_in 0s linear 0.29s forwards;
-          animation: line_out 0s linear 0.11s forwards, line_in 0s linear 0.29s forwards;
+  -webkit-animation: line_in 0s linear 2.47s forwards;
+          animation: line_in 0s linear 2.47s forwards;
 }
 
-.graph_line13 {
+.matrix_line13 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #cd64cd;
-  -webkit-animation: line_out 0s linear 0.12s forwards, line_in 0s linear 0.28s forwards;
-          animation: line_out 0s linear 0.12s forwards, line_in 0s linear 0.28s forwards;
+  -webkit-animation: line_in 0s linear 2.46s forwards;
+          animation: line_in 0s linear 2.46s forwards;
 }
 
-.graph_line14 {
+.matrix_line14 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #be64be;
-  -webkit-animation: line_out 0s linear 0.13s forwards, line_in 0s linear 0.27s forwards;
-          animation: line_out 0s linear 0.13s forwards, line_in 0s linear 0.27s forwards;
+  -webkit-animation: line_in 0s linear 2.45s forwards;
+          animation: line_in 0s linear 2.45s forwards;
 }
 
-.graph_line15 {
+.matrix_line15 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #af64af;
-  -webkit-animation: line_out 0s linear 0.14s forwards, line_in 0s linear 0.26s forwards;
-          animation: line_out 0s linear 0.14s forwards, line_in 0s linear 0.26s forwards;
+  -webkit-animation: line_in 0s linear 2.44s forwards;
+          animation: line_in 0s linear 2.44s forwards;
 }
 
-.graph_line16 {
+.matrix_line16 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #a064a0;
-  -webkit-animation: line_out 0s linear 0.15s forwards, line_in 0s linear 0.25s forwards;
-          animation: line_out 0s linear 0.15s forwards, line_in 0s linear 0.25s forwards;
+  -webkit-animation: line_in 0s linear 2.43s forwards;
+          animation: line_in 0s linear 2.43s forwards;
 }
 
-.graph_line17 {
+.matrix_line17 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #916491;
-  -webkit-animation: line_out 0s linear 0.16s forwards, line_in 0s linear 0.24s forwards;
-          animation: line_out 0s linear 0.16s forwards, line_in 0s linear 0.24s forwards;
+  -webkit-animation: line_in 0s linear 2.42s forwards;
+          animation: line_in 0s linear 2.42s forwards;
 }
 
-.graph_line18 {
+.matrix_line18 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #826482;
-  -webkit-animation: line_out 0s linear 0.17s forwards, line_in 0s linear 0.23s forwards;
-          animation: line_out 0s linear 0.17s forwards, line_in 0s linear 0.23s forwards;
+  -webkit-animation: line_in 0s linear 2.41s forwards;
+          animation: line_in 0s linear 2.41s forwards;
 }
 
-.graph_line19 {
+.matrix_line19 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #736473;
-  -webkit-animation: line_out 0s linear 0.18s forwards, line_in 0s linear 0.22s forwards;
-          animation: line_out 0s linear 0.18s forwards, line_in 0s linear 0.22s forwards;
+  -webkit-animation: line_in 0s linear 2.4s forwards;
+          animation: line_in 0s linear 2.4s forwards;
 }
 
-.graph_line20 {
+.matrix_line20 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #fa64fa;
-  -webkit-animation: line_out 0s linear 0.08s forwards, line_in 0s linear 0.32s forwards;
-          animation: line_out 0s linear 0.08s forwards, line_in 0s linear 0.32s forwards;
+  -webkit-animation: line_in 0s linear 2.48s forwards;
+          animation: line_in 0s linear 2.48s forwards;
 }
 
-.graph_line21 {
+.matrix_line21 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #eb64eb;
-  -webkit-animation: line_out 0s linear 0.09s forwards, line_in 0s linear 0.31s forwards;
-          animation: line_out 0s linear 0.09s forwards, line_in 0s linear 0.31s forwards;
+  -webkit-animation: line_in 0s linear 2.47s forwards;
+          animation: line_in 0s linear 2.47s forwards;
 }
 
-.graph_line22 {
+.matrix_line22 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #dc64dc;
-  -webkit-animation: line_out 0s linear 0.1s forwards, line_in 0s linear 0.3s forwards;
-          animation: line_out 0s linear 0.1s forwards, line_in 0s linear 0.3s forwards;
+  -webkit-animation: line_in 0s linear 2.46s forwards;
+          animation: line_in 0s linear 2.46s forwards;
 }
 
-.graph_line23 {
+.matrix_line23 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #cd64cd;
-  -webkit-animation: line_out 0s linear 0.11s forwards, line_in 0s linear 0.29s forwards;
-          animation: line_out 0s linear 0.11s forwards, line_in 0s linear 0.29s forwards;
+  -webkit-animation: line_in 0s linear 2.45s forwards;
+          animation: line_in 0s linear 2.45s forwards;
 }
 
-.graph_line24 {
+.matrix_line24 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #be64be;
-  -webkit-animation: line_out 0s linear 0.12s forwards, line_in 0s linear 0.28s forwards;
-          animation: line_out 0s linear 0.12s forwards, line_in 0s linear 0.28s forwards;
+  -webkit-animation: line_in 0s linear 2.44s forwards;
+          animation: line_in 0s linear 2.44s forwards;
 }
 
-.graph_line25 {
+.matrix_line25 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #af64af;
-  -webkit-animation: line_out 0s linear 0.13s forwards, line_in 0s linear 0.27s forwards;
-          animation: line_out 0s linear 0.13s forwards, line_in 0s linear 0.27s forwards;
+  -webkit-animation: line_in 0s linear 2.43s forwards;
+          animation: line_in 0s linear 2.43s forwards;
 }
 
-.graph_line26 {
+.matrix_line26 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #a064a0;
-  -webkit-animation: line_out 0s linear 0.14s forwards, line_in 0s linear 0.26s forwards;
-          animation: line_out 0s linear 0.14s forwards, line_in 0s linear 0.26s forwards;
+  -webkit-animation: line_in 0s linear 2.42s forwards;
+          animation: line_in 0s linear 2.42s forwards;
 }
 
-.graph_line27 {
+.matrix_line27 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #916491;
-  -webkit-animation: line_out 0s linear 0.15s forwards, line_in 0s linear 0.25s forwards;
-          animation: line_out 0s linear 0.15s forwards, line_in 0s linear 0.25s forwards;
+  -webkit-animation: line_in 0s linear 2.41s forwards;
+          animation: line_in 0s linear 2.41s forwards;
 }
 
-.graph_line28 {
+.matrix_line28 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #826482;
-  -webkit-animation: line_out 0s linear 0.16s forwards, line_in 0s linear 0.24s forwards;
-          animation: line_out 0s linear 0.16s forwards, line_in 0s linear 0.24s forwards;
+  -webkit-animation: line_in 0s linear 2.4s forwards;
+          animation: line_in 0s linear 2.4s forwards;
 }
 
-.graph_line29 {
+.matrix_line29 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #736473;
-  -webkit-animation: line_out 0s linear 0.17s forwards, line_in 0s linear 0.23s forwards;
-          animation: line_out 0s linear 0.17s forwards, line_in 0s linear 0.23s forwards;
+  -webkit-animation: line_in 0s linear 2.39s forwards;
+          animation: line_in 0s linear 2.39s forwards;
 }
 
-.graph_line30 {
+.matrix_line30 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #fa64fa;
-  -webkit-animation: line_out 0s linear 0.2s forwards, line_in 0s linear 0.2s forwards;
-          animation: line_out 0s linear 0.2s forwards, line_in 0s linear 0.2s forwards;
+  -webkit-animation: line_in 0s linear 2.47s forwards;
+          animation: line_in 0s linear 2.47s forwards;
 }
 
-.graph_line31 {
+.matrix_line31 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #eb64eb;
-  -webkit-animation: line_out 0s linear 0.21s forwards, line_in 0s linear 0.19s forwards;
-          animation: line_out 0s linear 0.21s forwards, line_in 0s linear 0.19s forwards;
+  -webkit-animation: line_in 0s linear 2.46s forwards;
+          animation: line_in 0s linear 2.46s forwards;
 }
 
-.graph_line32 {
+.matrix_line32 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #dc64dc;
-  -webkit-animation: line_out 0s linear 0.22s forwards, line_in 0s linear 0.18s forwards;
-          animation: line_out 0s linear 0.22s forwards, line_in 0s linear 0.18s forwards;
+  -webkit-animation: line_in 0s linear 2.45s forwards;
+          animation: line_in 0s linear 2.45s forwards;
 }
 
-.graph_line33 {
+.matrix_line33 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #cd64cd;
-  -webkit-animation: line_out 0s linear 0.23s forwards, line_in 0s linear 0.17s forwards;
-          animation: line_out 0s linear 0.23s forwards, line_in 0s linear 0.17s forwards;
+  -webkit-animation: line_in 0s linear 2.44s forwards;
+          animation: line_in 0s linear 2.44s forwards;
 }
 
-.graph_line34 {
+.matrix_line34 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #be64be;
-  -webkit-animation: line_out 0s linear 0.24s forwards, line_in 0s linear 0.16s forwards;
-          animation: line_out 0s linear 0.24s forwards, line_in 0s linear 0.16s forwards;
+  -webkit-animation: line_in 0s linear 2.43s forwards;
+          animation: line_in 0s linear 2.43s forwards;
 }
 
-.graph_line35 {
+.matrix_line35 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #af64af;
-  -webkit-animation: line_out 0s linear 0.25s forwards, line_in 0s linear 0.15s forwards;
-          animation: line_out 0s linear 0.25s forwards, line_in 0s linear 0.15s forwards;
+  -webkit-animation: line_in 0s linear 2.42s forwards;
+          animation: line_in 0s linear 2.42s forwards;
 }
 
-.graph_line36 {
+.matrix_line36 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #a064a0;
-  -webkit-animation: line_out 0s linear 0.26s forwards, line_in 0s linear 0.14s forwards;
-          animation: line_out 0s linear 0.26s forwards, line_in 0s linear 0.14s forwards;
+  -webkit-animation: line_in 0s linear 2.41s forwards;
+          animation: line_in 0s linear 2.41s forwards;
 }
 
-.graph_line37 {
+.matrix_line37 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #916491;
-  -webkit-animation: line_out 0s linear 0.27s forwards, line_in 0s linear 0.13s forwards;
-          animation: line_out 0s linear 0.27s forwards, line_in 0s linear 0.13s forwards;
+  -webkit-animation: line_in 0s linear 2.4s forwards;
+          animation: line_in 0s linear 2.4s forwards;
 }
 
-.graph_line38 {
+.matrix_line38 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #826482;
-  -webkit-animation: line_out 0s linear 0.28s forwards, line_in 0s linear 0.12s forwards;
-          animation: line_out 0s linear 0.28s forwards, line_in 0s linear 0.12s forwards;
+  -webkit-animation: line_in 0s linear 2.39s forwards;
+          animation: line_in 0s linear 2.39s forwards;
 }
 
-.graph_line39 {
+.matrix_line39 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #736473;
-  -webkit-animation: line_out 0s linear 0.29s forwards, line_in 0s linear 0.11s forwards;
-          animation: line_out 0s linear 0.29s forwards, line_in 0s linear 0.11s forwards;
+  -webkit-animation: line_in 0s linear 2.38s forwards;
+          animation: line_in 0s linear 2.38s forwards;
 }
 
-.graph_line40 {
+.matrix_line40 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #fa64fa;
-  -webkit-animation: line_out 0s linear 0.19s forwards, line_in 0s linear 0.21s forwards;
-          animation: line_out 0s linear 0.19s forwards, line_in 0s linear 0.21s forwards;
+  -webkit-animation: line_in 0s linear 2.46s forwards;
+          animation: line_in 0s linear 2.46s forwards;
 }
 
-.graph_line41 {
+.matrix_line41 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #eb64eb;
-  -webkit-animation: line_out 0s linear 0.2s forwards, line_in 0s linear 0.2s forwards;
-          animation: line_out 0s linear 0.2s forwards, line_in 0s linear 0.2s forwards;
+  -webkit-animation: line_in 0s linear 2.45s forwards;
+          animation: line_in 0s linear 2.45s forwards;
 }
 
-.graph_line42 {
+.matrix_line42 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #dc64dc;
-  -webkit-animation: line_out 0s linear 0.21s forwards, line_in 0s linear 0.19s forwards;
-          animation: line_out 0s linear 0.21s forwards, line_in 0s linear 0.19s forwards;
+  -webkit-animation: line_in 0s linear 2.44s forwards;
+          animation: line_in 0s linear 2.44s forwards;
 }
 
-.graph_line43 {
+.matrix_line43 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #cd64cd;
-  -webkit-animation: line_out 0s linear 0.22s forwards, line_in 0s linear 0.18s forwards;
-          animation: line_out 0s linear 0.22s forwards, line_in 0s linear 0.18s forwards;
+  -webkit-animation: line_in 0s linear 2.43s forwards;
+          animation: line_in 0s linear 2.43s forwards;
 }
 
-.graph_line44 {
+.matrix_line44 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #be64be;
-  -webkit-animation: line_out 0s linear 0.23s forwards, line_in 0s linear 0.17s forwards;
-          animation: line_out 0s linear 0.23s forwards, line_in 0s linear 0.17s forwards;
+  -webkit-animation: line_in 0s linear 2.42s forwards;
+          animation: line_in 0s linear 2.42s forwards;
 }
 
-.graph_line45 {
+.matrix_line45 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #af64af;
-  -webkit-animation: line_out 0s linear 0.24s forwards, line_in 0s linear 0.16s forwards;
-          animation: line_out 0s linear 0.24s forwards, line_in 0s linear 0.16s forwards;
+  -webkit-animation: line_in 0s linear 2.41s forwards;
+          animation: line_in 0s linear 2.41s forwards;
 }
 
-.graph_line46 {
+.matrix_line46 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #a064a0;
-  -webkit-animation: line_out 0s linear 0.25s forwards, line_in 0s linear 0.15s forwards;
-          animation: line_out 0s linear 0.25s forwards, line_in 0s linear 0.15s forwards;
+  -webkit-animation: line_in 0s linear 2.4s forwards;
+          animation: line_in 0s linear 2.4s forwards;
 }
 
-.graph_line47 {
+.matrix_line47 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #916491;
-  -webkit-animation: line_out 0s linear 0.26s forwards, line_in 0s linear 0.14s forwards;
-          animation: line_out 0s linear 0.26s forwards, line_in 0s linear 0.14s forwards;
+  -webkit-animation: line_in 0s linear 2.39s forwards;
+          animation: line_in 0s linear 2.39s forwards;
 }
 
-.graph_line48 {
+.matrix_line48 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #826482;
-  -webkit-animation: line_out 0s linear 0.27s forwards, line_in 0s linear 0.13s forwards;
-          animation: line_out 0s linear 0.27s forwards, line_in 0s linear 0.13s forwards;
+  -webkit-animation: line_in 0s linear 2.38s forwards;
+          animation: line_in 0s linear 2.38s forwards;
 }
 
-.graph_line49 {
+.matrix_line49 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #736473;
-  -webkit-animation: line_out 0s linear 0.28s forwards, line_in 0s linear 0.12s forwards;
-          animation: line_out 0s linear 0.28s forwards, line_in 0s linear 0.12s forwards;
+  -webkit-animation: line_in 0s linear 2.37s forwards;
+          animation: line_in 0s linear 2.37s forwards;
 }
 
-.graph_line50 {
+.matrix_line50 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #fa64fa;
-  -webkit-animation: line_out 0s linear 0.17s forwards, line_in 0s linear 0.23s forwards;
-          animation: line_out 0s linear 0.17s forwards, line_in 0s linear 0.23s forwards;
+  -webkit-animation: line_in 0s linear 2.45s forwards;
+          animation: line_in 0s linear 2.45s forwards;
 }
 
-.graph_line51 {
+.matrix_line51 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #eb64eb;
-  -webkit-animation: line_out 0s linear 0.18s forwards, line_in 0s linear 0.22s forwards;
-          animation: line_out 0s linear 0.18s forwards, line_in 0s linear 0.22s forwards;
+  -webkit-animation: line_in 0s linear 2.44s forwards;
+          animation: line_in 0s linear 2.44s forwards;
 }
 
-.graph_line52 {
+.matrix_line52 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #dc64dc;
-  -webkit-animation: line_out 0s linear 0.19s forwards, line_in 0s linear 0.21s forwards;
-          animation: line_out 0s linear 0.19s forwards, line_in 0s linear 0.21s forwards;
+  -webkit-animation: line_in 0s linear 2.43s forwards;
+          animation: line_in 0s linear 2.43s forwards;
 }
 
-.graph_line53 {
+.matrix_line53 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #cd64cd;
-  -webkit-animation: line_out 0s linear 0.2s forwards, line_in 0s linear 0.2s forwards;
-          animation: line_out 0s linear 0.2s forwards, line_in 0s linear 0.2s forwards;
+  -webkit-animation: line_in 0s linear 2.42s forwards;
+          animation: line_in 0s linear 2.42s forwards;
 }
 
-.graph_line54 {
+.matrix_line54 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #be64be;
-  -webkit-animation: line_out 0s linear 0.21s forwards, line_in 0s linear 0.19s forwards;
-          animation: line_out 0s linear 0.21s forwards, line_in 0s linear 0.19s forwards;
+  -webkit-animation: line_in 0s linear 2.41s forwards;
+          animation: line_in 0s linear 2.41s forwards;
 }
 
-.graph_line55 {
+.matrix_line55 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #af64af;
-  -webkit-animation: line_out 0s linear 0.22s forwards, line_in 0s linear 0.18s forwards;
-          animation: line_out 0s linear 0.22s forwards, line_in 0s linear 0.18s forwards;
+  -webkit-animation: line_in 0s linear 2.4s forwards;
+          animation: line_in 0s linear 2.4s forwards;
 }
 
-.graph_line56 {
+.matrix_line56 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #a064a0;
-  -webkit-animation: line_out 0s linear 0.23s forwards, line_in 0s linear 0.17s forwards;
-          animation: line_out 0s linear 0.23s forwards, line_in 0s linear 0.17s forwards;
+  -webkit-animation: line_in 0s linear 2.39s forwards;
+          animation: line_in 0s linear 2.39s forwards;
 }
 
-.graph_line57 {
+.matrix_line57 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #916491;
-  -webkit-animation: line_out 0s linear 0.24s forwards, line_in 0s linear 0.16s forwards;
-          animation: line_out 0s linear 0.24s forwards, line_in 0s linear 0.16s forwards;
+  -webkit-animation: line_in 0s linear 2.38s forwards;
+          animation: line_in 0s linear 2.38s forwards;
 }
 
-.graph_line58 {
+.matrix_line58 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #826482;
-  -webkit-animation: line_out 0s linear 0.25s forwards, line_in 0s linear 0.15s forwards;
-          animation: line_out 0s linear 0.25s forwards, line_in 0s linear 0.15s forwards;
+  -webkit-animation: line_in 0s linear 2.37s forwards;
+          animation: line_in 0s linear 2.37s forwards;
 }
 
-.graph_line59 {
+.matrix_line59 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #736473;
-  -webkit-animation: line_out 0s linear 0.26s forwards, line_in 0s linear 0.14s forwards;
-          animation: line_out 0s linear 0.26s forwards, line_in 0s linear 0.14s forwards;
+  -webkit-animation: line_in 0s linear 2.36s forwards;
+          animation: line_in 0s linear 2.36s forwards;
 }
 
-.graph_line60 {
+.matrix_line60 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #fa64fa;
-  -webkit-animation: line_out 0s linear 0.04s forwards, line_in 0s linear 0.36s forwards;
-          animation: line_out 0s linear 0.04s forwards, line_in 0s linear 0.36s forwards;
+  -webkit-animation: line_in 0s linear 2.44s forwards;
+          animation: line_in 0s linear 2.44s forwards;
 }
 
-.graph_line61 {
+.matrix_line61 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #eb64eb;
-  -webkit-animation: line_out 0s linear 0.05s forwards, line_in 0s linear 0.35s forwards;
-          animation: line_out 0s linear 0.05s forwards, line_in 0s linear 0.35s forwards;
+  -webkit-animation: line_in 0s linear 2.43s forwards;
+          animation: line_in 0s linear 2.43s forwards;
 }
 
-.graph_line62 {
+.matrix_line62 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #dc64dc;
-  -webkit-animation: line_out 0s linear 0.06s forwards, line_in 0s linear 0.34s forwards;
-          animation: line_out 0s linear 0.06s forwards, line_in 0s linear 0.34s forwards;
+  -webkit-animation: line_in 0s linear 2.42s forwards;
+          animation: line_in 0s linear 2.42s forwards;
 }
 
-.graph_line63 {
+.matrix_line63 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #cd64cd;
-  -webkit-animation: line_out 0s linear 0.07s forwards, line_in 0s linear 0.33s forwards;
-          animation: line_out 0s linear 0.07s forwards, line_in 0s linear 0.33s forwards;
+  -webkit-animation: line_in 0s linear 2.41s forwards;
+          animation: line_in 0s linear 2.41s forwards;
 }
 
-.graph_line64 {
+.matrix_line64 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #be64be;
-  -webkit-animation: line_out 0s linear 0.08s forwards, line_in 0s linear 0.32s forwards;
-          animation: line_out 0s linear 0.08s forwards, line_in 0s linear 0.32s forwards;
+  -webkit-animation: line_in 0s linear 2.4s forwards;
+          animation: line_in 0s linear 2.4s forwards;
 }
 
-.graph_line65 {
+.matrix_line65 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #af64af;
-  -webkit-animation: line_out 0s linear 0.09s forwards, line_in 0s linear 0.31s forwards;
-          animation: line_out 0s linear 0.09s forwards, line_in 0s linear 0.31s forwards;
+  -webkit-animation: line_in 0s linear 2.39s forwards;
+          animation: line_in 0s linear 2.39s forwards;
 }
 
-.graph_line66 {
+.matrix_line66 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #a064a0;
-  -webkit-animation: line_out 0s linear 0.1s forwards, line_in 0s linear 0.3s forwards;
-          animation: line_out 0s linear 0.1s forwards, line_in 0s linear 0.3s forwards;
+  -webkit-animation: line_in 0s linear 2.38s forwards;
+          animation: line_in 0s linear 2.38s forwards;
 }
 
-.graph_line67 {
+.matrix_line67 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #916491;
-  -webkit-animation: line_out 0s linear 0.11s forwards, line_in 0s linear 0.29s forwards;
-          animation: line_out 0s linear 0.11s forwards, line_in 0s linear 0.29s forwards;
+  -webkit-animation: line_in 0s linear 2.37s forwards;
+          animation: line_in 0s linear 2.37s forwards;
 }
 
-.graph_line68 {
+.matrix_line68 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #826482;
-  -webkit-animation: line_out 0s linear 0.12s forwards, line_in 0s linear 0.28s forwards;
-          animation: line_out 0s linear 0.12s forwards, line_in 0s linear 0.28s forwards;
+  -webkit-animation: line_in 0s linear 2.36s forwards;
+          animation: line_in 0s linear 2.36s forwards;
 }
 
-.graph_line69 {
+.matrix_line69 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #736473;
-  -webkit-animation: line_out 0s linear 0.13s forwards, line_in 0s linear 0.27s forwards;
-          animation: line_out 0s linear 0.13s forwards, line_in 0s linear 0.27s forwards;
+  -webkit-animation: line_in 0s linear 2.35s forwards;
+          animation: line_in 0s linear 2.35s forwards;
 }
 
-.graph_line70 {
+.matrix_line70 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #fa64fa;
-  -webkit-animation: line_out 0s linear 0.2s forwards, line_in 0s linear 0.2s forwards;
-          animation: line_out 0s linear 0.2s forwards, line_in 0s linear 0.2s forwards;
+  -webkit-animation: line_in 0s linear 2.43s forwards;
+          animation: line_in 0s linear 2.43s forwards;
 }
 
-.graph_line71 {
+.matrix_line71 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #eb64eb;
-  -webkit-animation: line_out 0s linear 0.21s forwards, line_in 0s linear 0.19s forwards;
-          animation: line_out 0s linear 0.21s forwards, line_in 0s linear 0.19s forwards;
+  -webkit-animation: line_in 0s linear 2.42s forwards;
+          animation: line_in 0s linear 2.42s forwards;
 }
 
-.graph_line72 {
+.matrix_line72 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #dc64dc;
-  -webkit-animation: line_out 0s linear 0.22s forwards, line_in 0s linear 0.18s forwards;
-          animation: line_out 0s linear 0.22s forwards, line_in 0s linear 0.18s forwards;
+  -webkit-animation: line_in 0s linear 2.41s forwards;
+          animation: line_in 0s linear 2.41s forwards;
 }
 
-.graph_line73 {
+.matrix_line73 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #cd64cd;
-  -webkit-animation: line_out 0s linear 0.23s forwards, line_in 0s linear 0.17s forwards;
-          animation: line_out 0s linear 0.23s forwards, line_in 0s linear 0.17s forwards;
+  -webkit-animation: line_in 0s linear 2.4s forwards;
+          animation: line_in 0s linear 2.4s forwards;
 }
 
-.graph_line74 {
+.matrix_line74 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #be64be;
-  -webkit-animation: line_out 0s linear 0.24s forwards, line_in 0s linear 0.16s forwards;
-          animation: line_out 0s linear 0.24s forwards, line_in 0s linear 0.16s forwards;
+  -webkit-animation: line_in 0s linear 2.39s forwards;
+          animation: line_in 0s linear 2.39s forwards;
 }
 
-.graph_line75 {
+.matrix_line75 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #af64af;
-  -webkit-animation: line_out 0s linear 0.25s forwards, line_in 0s linear 0.15s forwards;
-          animation: line_out 0s linear 0.25s forwards, line_in 0s linear 0.15s forwards;
+  -webkit-animation: line_in 0s linear 2.38s forwards;
+          animation: line_in 0s linear 2.38s forwards;
 }
 
-.graph_line76 {
+.matrix_line76 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #a064a0;
-  -webkit-animation: line_out 0s linear 0.26s forwards, line_in 0s linear 0.14s forwards;
-          animation: line_out 0s linear 0.26s forwards, line_in 0s linear 0.14s forwards;
+  -webkit-animation: line_in 0s linear 2.37s forwards;
+          animation: line_in 0s linear 2.37s forwards;
 }
 
-.graph_line77 {
+.matrix_line77 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #916491;
-  -webkit-animation: line_out 0s linear 0.27s forwards, line_in 0s linear 0.13s forwards;
-          animation: line_out 0s linear 0.27s forwards, line_in 0s linear 0.13s forwards;
+  -webkit-animation: line_in 0s linear 2.36s forwards;
+          animation: line_in 0s linear 2.36s forwards;
 }
 
-.graph_line78 {
+.matrix_line78 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #826482;
-  -webkit-animation: line_out 0s linear 0.28s forwards, line_in 0s linear 0.12s forwards;
-          animation: line_out 0s linear 0.28s forwards, line_in 0s linear 0.12s forwards;
+  -webkit-animation: line_in 0s linear 2.35s forwards;
+          animation: line_in 0s linear 2.35s forwards;
 }
 
-.graph_line79 {
+.matrix_line79 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #736473;
-  -webkit-animation: line_out 0s linear 0.29s forwards, line_in 0s linear 0.11s forwards;
-          animation: line_out 0s linear 0.29s forwards, line_in 0s linear 0.11s forwards;
+  -webkit-animation: line_in 0s linear 2.34s forwards;
+          animation: line_in 0s linear 2.34s forwards;
 }
 
-.graph_line80 {
+.matrix_line80 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #fa64fa;
-  -webkit-animation: line_out 0s linear 0.09s forwards, line_in 0s linear 0.31s forwards;
-          animation: line_out 0s linear 0.09s forwards, line_in 0s linear 0.31s forwards;
+  -webkit-animation: line_in 0s linear 2.42s forwards;
+          animation: line_in 0s linear 2.42s forwards;
 }
 
-.graph_line81 {
+.matrix_line81 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #eb64eb;
-  -webkit-animation: line_out 0s linear 0.1s forwards, line_in 0s linear 0.3s forwards;
-          animation: line_out 0s linear 0.1s forwards, line_in 0s linear 0.3s forwards;
+  -webkit-animation: line_in 0s linear 2.41s forwards;
+          animation: line_in 0s linear 2.41s forwards;
 }
 
-.graph_line82 {
+.matrix_line82 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #dc64dc;
-  -webkit-animation: line_out 0s linear 0.11s forwards, line_in 0s linear 0.29s forwards;
-          animation: line_out 0s linear 0.11s forwards, line_in 0s linear 0.29s forwards;
+  -webkit-animation: line_in 0s linear 2.4s forwards;
+          animation: line_in 0s linear 2.4s forwards;
 }
 
-.graph_line83 {
+.matrix_line83 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #cd64cd;
-  -webkit-animation: line_out 0s linear 0.12s forwards, line_in 0s linear 0.28s forwards;
-          animation: line_out 0s linear 0.12s forwards, line_in 0s linear 0.28s forwards;
+  -webkit-animation: line_in 0s linear 2.39s forwards;
+          animation: line_in 0s linear 2.39s forwards;
 }
 
-.graph_line84 {
+.matrix_line84 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #be64be;
-  -webkit-animation: line_out 0s linear 0.13s forwards, line_in 0s linear 0.27s forwards;
-          animation: line_out 0s linear 0.13s forwards, line_in 0s linear 0.27s forwards;
+  -webkit-animation: line_in 0s linear 2.38s forwards;
+          animation: line_in 0s linear 2.38s forwards;
 }
 
-.graph_line85 {
+.matrix_line85 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #af64af;
-  -webkit-animation: line_out 0s linear 0.14s forwards, line_in 0s linear 0.26s forwards;
-          animation: line_out 0s linear 0.14s forwards, line_in 0s linear 0.26s forwards;
+  -webkit-animation: line_in 0s linear 2.37s forwards;
+          animation: line_in 0s linear 2.37s forwards;
 }
 
-.graph_line86 {
+.matrix_line86 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #a064a0;
-  -webkit-animation: line_out 0s linear 0.15s forwards, line_in 0s linear 0.25s forwards;
-          animation: line_out 0s linear 0.15s forwards, line_in 0s linear 0.25s forwards;
+  -webkit-animation: line_in 0s linear 2.36s forwards;
+          animation: line_in 0s linear 2.36s forwards;
 }
 
-.graph_line87 {
+.matrix_line87 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #916491;
-  -webkit-animation: line_out 0s linear 0.16s forwards, line_in 0s linear 0.24s forwards;
-          animation: line_out 0s linear 0.16s forwards, line_in 0s linear 0.24s forwards;
+  -webkit-animation: line_in 0s linear 2.35s forwards;
+          animation: line_in 0s linear 2.35s forwards;
 }
 
-.graph_line88 {
+.matrix_line88 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #826482;
-  -webkit-animation: line_out 0s linear 0.17s forwards, line_in 0s linear 0.23s forwards;
-          animation: line_out 0s linear 0.17s forwards, line_in 0s linear 0.23s forwards;
+  -webkit-animation: line_in 0s linear 2.34s forwards;
+          animation: line_in 0s linear 2.34s forwards;
 }
 
-.graph_line89 {
+.matrix_line89 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #736473;
-  -webkit-animation: line_out 0s linear 0.18s forwards, line_in 0s linear 0.22s forwards;
-          animation: line_out 0s linear 0.18s forwards, line_in 0s linear 0.22s forwards;
+  -webkit-animation: line_in 0s linear 2.33s forwards;
+          animation: line_in 0s linear 2.33s forwards;
 }
 
-.graph_line90 {
+.matrix_line90 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #fa64fa;
-  -webkit-animation: line_out 0s linear 0.12s forwards, line_in 0s linear 0.28s forwards;
-          animation: line_out 0s linear 0.12s forwards, line_in 0s linear 0.28s forwards;
+  -webkit-animation: line_in 0s linear 2.41s forwards;
+          animation: line_in 0s linear 2.41s forwards;
 }
 
-.graph_line91 {
+.matrix_line91 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #eb64eb;
-  -webkit-animation: line_out 0s linear 0.13s forwards, line_in 0s linear 0.27s forwards;
-          animation: line_out 0s linear 0.13s forwards, line_in 0s linear 0.27s forwards;
+  -webkit-animation: line_in 0s linear 2.4s forwards;
+          animation: line_in 0s linear 2.4s forwards;
 }
 
-.graph_line92 {
+.matrix_line92 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #dc64dc;
-  -webkit-animation: line_out 0s linear 0.14s forwards, line_in 0s linear 0.26s forwards;
-          animation: line_out 0s linear 0.14s forwards, line_in 0s linear 0.26s forwards;
+  -webkit-animation: line_in 0s linear 2.39s forwards;
+          animation: line_in 0s linear 2.39s forwards;
 }
 
-.graph_line93 {
+.matrix_line93 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #cd64cd;
-  -webkit-animation: line_out 0s linear 0.15s forwards, line_in 0s linear 0.25s forwards;
-          animation: line_out 0s linear 0.15s forwards, line_in 0s linear 0.25s forwards;
+  -webkit-animation: line_in 0s linear 2.38s forwards;
+          animation: line_in 0s linear 2.38s forwards;
 }
 
-.graph_line94 {
+.matrix_line94 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #be64be;
-  -webkit-animation: line_out 0s linear 0.16s forwards, line_in 0s linear 0.24s forwards;
-          animation: line_out 0s linear 0.16s forwards, line_in 0s linear 0.24s forwards;
+  -webkit-animation: line_in 0s linear 2.37s forwards;
+          animation: line_in 0s linear 2.37s forwards;
 }
 
-.graph_line95 {
+.matrix_line95 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #af64af;
-  -webkit-animation: line_out 0s linear 0.17s forwards, line_in 0s linear 0.23s forwards;
-          animation: line_out 0s linear 0.17s forwards, line_in 0s linear 0.23s forwards;
+  -webkit-animation: line_in 0s linear 2.36s forwards;
+          animation: line_in 0s linear 2.36s forwards;
 }
 
-.graph_line96 {
+.matrix_line96 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #a064a0;
-  -webkit-animation: line_out 0s linear 0.18s forwards, line_in 0s linear 0.22s forwards;
-          animation: line_out 0s linear 0.18s forwards, line_in 0s linear 0.22s forwards;
+  -webkit-animation: line_in 0s linear 2.35s forwards;
+          animation: line_in 0s linear 2.35s forwards;
 }
 
-.graph_line97 {
+.matrix_line97 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #916491;
-  -webkit-animation: line_out 0s linear 0.19s forwards, line_in 0s linear 0.21s forwards;
-          animation: line_out 0s linear 0.19s forwards, line_in 0s linear 0.21s forwards;
+  -webkit-animation: line_in 0s linear 2.34s forwards;
+          animation: line_in 0s linear 2.34s forwards;
 }
 
-.graph_line98 {
+.matrix_line98 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #826482;
-  -webkit-animation: line_out 0s linear 0.2s forwards, line_in 0s linear 0.2s forwards;
-          animation: line_out 0s linear 0.2s forwards, line_in 0s linear 0.2s forwards;
+  -webkit-animation: line_in 0s linear 2.33s forwards;
+          animation: line_in 0s linear 2.33s forwards;
 }
 
-.graph_line99 {
+.matrix_line99 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #736473;
-  -webkit-animation: line_out 0s linear 0.21s forwards, line_in 0s linear 0.19s forwards;
-          animation: line_out 0s linear 0.21s forwards, line_in 0s linear 0.19s forwards;
+  -webkit-animation: line_in 0s linear 2.32s forwards;
+          animation: line_in 0s linear 2.32s forwards;
 }
 
-.graph_line100 {
+.matrix_line100 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #fa64fa;
-  -webkit-animation: line_out 0s linear 0.04s forwards, line_in 0s linear 0.36s forwards;
-          animation: line_out 0s linear 0.04s forwards, line_in 0s linear 0.36s forwards;
+  -webkit-animation: line_in 0s linear 2.4s forwards;
+          animation: line_in 0s linear 2.4s forwards;
 }
 
-.graph_line101 {
+.matrix_line101 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #eb64eb;
-  -webkit-animation: line_out 0s linear 0.05s forwards, line_in 0s linear 0.35s forwards;
-          animation: line_out 0s linear 0.05s forwards, line_in 0s linear 0.35s forwards;
+  -webkit-animation: line_in 0s linear 2.39s forwards;
+          animation: line_in 0s linear 2.39s forwards;
 }
 
-.graph_line102 {
+.matrix_line102 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #dc64dc;
-  -webkit-animation: line_out 0s linear 0.06s forwards, line_in 0s linear 0.34s forwards;
-          animation: line_out 0s linear 0.06s forwards, line_in 0s linear 0.34s forwards;
+  -webkit-animation: line_in 0s linear 2.38s forwards;
+          animation: line_in 0s linear 2.38s forwards;
 }
 
-.graph_line103 {
+.matrix_line103 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #cd64cd;
-  -webkit-animation: line_out 0s linear 0.07s forwards, line_in 0s linear 0.33s forwards;
-          animation: line_out 0s linear 0.07s forwards, line_in 0s linear 0.33s forwards;
+  -webkit-animation: line_in 0s linear 2.37s forwards;
+          animation: line_in 0s linear 2.37s forwards;
 }
 
-.graph_line104 {
+.matrix_line104 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #be64be;
-  -webkit-animation: line_out 0s linear 0.08s forwards, line_in 0s linear 0.32s forwards;
-          animation: line_out 0s linear 0.08s forwards, line_in 0s linear 0.32s forwards;
+  -webkit-animation: line_in 0s linear 2.36s forwards;
+          animation: line_in 0s linear 2.36s forwards;
 }
 
-.graph_line105 {
+.matrix_line105 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #af64af;
-  -webkit-animation: line_out 0s linear 0.09s forwards, line_in 0s linear 0.31s forwards;
-          animation: line_out 0s linear 0.09s forwards, line_in 0s linear 0.31s forwards;
+  -webkit-animation: line_in 0s linear 2.35s forwards;
+          animation: line_in 0s linear 2.35s forwards;
 }
 
-.graph_line106 {
+.matrix_line106 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #a064a0;
-  -webkit-animation: line_out 0s linear 0.1s forwards, line_in 0s linear 0.3s forwards;
-          animation: line_out 0s linear 0.1s forwards, line_in 0s linear 0.3s forwards;
+  -webkit-animation: line_in 0s linear 2.34s forwards;
+          animation: line_in 0s linear 2.34s forwards;
 }
 
-.graph_line107 {
+.matrix_line107 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #916491;
-  -webkit-animation: line_out 0s linear 0.11s forwards, line_in 0s linear 0.29s forwards;
-          animation: line_out 0s linear 0.11s forwards, line_in 0s linear 0.29s forwards;
+  -webkit-animation: line_in 0s linear 2.33s forwards;
+          animation: line_in 0s linear 2.33s forwards;
 }
 
-.graph_line108 {
+.matrix_line108 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #826482;
-  -webkit-animation: line_out 0s linear 0.12s forwards, line_in 0s linear 0.28s forwards;
-          animation: line_out 0s linear 0.12s forwards, line_in 0s linear 0.28s forwards;
+  -webkit-animation: line_in 0s linear 2.32s forwards;
+          animation: line_in 0s linear 2.32s forwards;
 }
 
-.graph_line109 {
+.matrix_line109 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #736473;
-  -webkit-animation: line_out 0s linear 0.13s forwards, line_in 0s linear 0.27s forwards;
-          animation: line_out 0s linear 0.13s forwards, line_in 0s linear 0.27s forwards;
+  -webkit-animation: line_in 0s linear 2.31s forwards;
+          animation: line_in 0s linear 2.31s forwards;
 }
 
-.graph_line110 {
+.matrix_line110 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #fa64fa;
-  -webkit-animation: line_out 0s linear 0.07s forwards, line_in 0s linear 0.33s forwards;
-          animation: line_out 0s linear 0.07s forwards, line_in 0s linear 0.33s forwards;
+  -webkit-animation: line_in 0s linear 2.39s forwards;
+          animation: line_in 0s linear 2.39s forwards;
 }
 
-.graph_line111 {
+.matrix_line111 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #eb64eb;
-  -webkit-animation: line_out 0s linear 0.08s forwards, line_in 0s linear 0.32s forwards;
-          animation: line_out 0s linear 0.08s forwards, line_in 0s linear 0.32s forwards;
+  -webkit-animation: line_in 0s linear 2.38s forwards;
+          animation: line_in 0s linear 2.38s forwards;
 }
 
-.graph_line112 {
+.matrix_line112 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #dc64dc;
-  -webkit-animation: line_out 0s linear 0.09s forwards, line_in 0s linear 0.31s forwards;
-          animation: line_out 0s linear 0.09s forwards, line_in 0s linear 0.31s forwards;
+  -webkit-animation: line_in 0s linear 2.37s forwards;
+          animation: line_in 0s linear 2.37s forwards;
 }
 
-.graph_line113 {
+.matrix_line113 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #cd64cd;
-  -webkit-animation: line_out 0s linear 0.1s forwards, line_in 0s linear 0.3s forwards;
-          animation: line_out 0s linear 0.1s forwards, line_in 0s linear 0.3s forwards;
+  -webkit-animation: line_in 0s linear 2.36s forwards;
+          animation: line_in 0s linear 2.36s forwards;
 }
 
-.graph_line114 {
+.matrix_line114 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #be64be;
-  -webkit-animation: line_out 0s linear 0.11s forwards, line_in 0s linear 0.29s forwards;
-          animation: line_out 0s linear 0.11s forwards, line_in 0s linear 0.29s forwards;
+  -webkit-animation: line_in 0s linear 2.35s forwards;
+          animation: line_in 0s linear 2.35s forwards;
 }
 
-.graph_line115 {
+.matrix_line115 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #af64af;
-  -webkit-animation: line_out 0s linear 0.12s forwards, line_in 0s linear 0.28s forwards;
-          animation: line_out 0s linear 0.12s forwards, line_in 0s linear 0.28s forwards;
+  -webkit-animation: line_in 0s linear 2.34s forwards;
+          animation: line_in 0s linear 2.34s forwards;
 }
 
-.graph_line116 {
+.matrix_line116 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #a064a0;
-  -webkit-animation: line_out 0s linear 0.13s forwards, line_in 0s linear 0.27s forwards;
-          animation: line_out 0s linear 0.13s forwards, line_in 0s linear 0.27s forwards;
+  -webkit-animation: line_in 0s linear 2.33s forwards;
+          animation: line_in 0s linear 2.33s forwards;
 }
 
-.graph_line117 {
+.matrix_line117 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #916491;
-  -webkit-animation: line_out 0s linear 0.14s forwards, line_in 0s linear 0.26s forwards;
-          animation: line_out 0s linear 0.14s forwards, line_in 0s linear 0.26s forwards;
+  -webkit-animation: line_in 0s linear 2.32s forwards;
+          animation: line_in 0s linear 2.32s forwards;
 }
 
-.graph_line118 {
+.matrix_line118 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #826482;
-  -webkit-animation: line_out 0s linear 0.15s forwards, line_in 0s linear 0.25s forwards;
-          animation: line_out 0s linear 0.15s forwards, line_in 0s linear 0.25s forwards;
+  -webkit-animation: line_in 0s linear 2.31s forwards;
+          animation: line_in 0s linear 2.31s forwards;
 }
 
-.graph_line119 {
+.matrix_line119 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #736473;
-  -webkit-animation: line_out 0s linear 0.16s forwards, line_in 0s linear 0.24s forwards;
-          animation: line_out 0s linear 0.16s forwards, line_in 0s linear 0.24s forwards;
+  -webkit-animation: line_in 0s linear 2.3s forwards;
+          animation: line_in 0s linear 2.3s forwards;
 }
 
-.graph_line120 {
+.matrix_line120 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #fa64fa;
-  -webkit-animation: line_out 0s linear 0.01s forwards, line_in 0s linear 0.39s forwards;
-          animation: line_out 0s linear 0.01s forwards, line_in 0s linear 0.39s forwards;
+  -webkit-animation: line_in 0s linear 2.38s forwards;
+          animation: line_in 0s linear 2.38s forwards;
 }
 
-.graph_line121 {
+.matrix_line121 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #eb64eb;
-  -webkit-animation: line_out 0s linear 0.02s forwards, line_in 0s linear 0.38s forwards;
-          animation: line_out 0s linear 0.02s forwards, line_in 0s linear 0.38s forwards;
+  -webkit-animation: line_in 0s linear 2.37s forwards;
+          animation: line_in 0s linear 2.37s forwards;
 }
 
-.graph_line122 {
+.matrix_line122 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #dc64dc;
-  -webkit-animation: line_out 0s linear 0.03s forwards, line_in 0s linear 0.37s forwards;
-          animation: line_out 0s linear 0.03s forwards, line_in 0s linear 0.37s forwards;
+  -webkit-animation: line_in 0s linear 2.36s forwards;
+          animation: line_in 0s linear 2.36s forwards;
 }
 
-.graph_line123 {
+.matrix_line123 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #cd64cd;
-  -webkit-animation: line_out 0s linear 0.04s forwards, line_in 0s linear 0.36s forwards;
-          animation: line_out 0s linear 0.04s forwards, line_in 0s linear 0.36s forwards;
+  -webkit-animation: line_in 0s linear 2.35s forwards;
+          animation: line_in 0s linear 2.35s forwards;
 }
 
-.graph_line124 {
+.matrix_line124 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #be64be;
-  -webkit-animation: line_out 0s linear 0.05s forwards, line_in 0s linear 0.35s forwards;
-          animation: line_out 0s linear 0.05s forwards, line_in 0s linear 0.35s forwards;
+  -webkit-animation: line_in 0s linear 2.34s forwards;
+          animation: line_in 0s linear 2.34s forwards;
 }
 
-.graph_line125 {
+.matrix_line125 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #af64af;
-  -webkit-animation: line_out 0s linear 0.06s forwards, line_in 0s linear 0.34s forwards;
-          animation: line_out 0s linear 0.06s forwards, line_in 0s linear 0.34s forwards;
+  -webkit-animation: line_in 0s linear 2.33s forwards;
+          animation: line_in 0s linear 2.33s forwards;
 }
 
-.graph_line126 {
+.matrix_line126 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #a064a0;
-  -webkit-animation: line_out 0s linear 0.07s forwards, line_in 0s linear 0.33s forwards;
-          animation: line_out 0s linear 0.07s forwards, line_in 0s linear 0.33s forwards;
+  -webkit-animation: line_in 0s linear 2.32s forwards;
+          animation: line_in 0s linear 2.32s forwards;
 }
 
-.graph_line127 {
+.matrix_line127 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #916491;
-  -webkit-animation: line_out 0s linear 0.08s forwards, line_in 0s linear 0.32s forwards;
-          animation: line_out 0s linear 0.08s forwards, line_in 0s linear 0.32s forwards;
+  -webkit-animation: line_in 0s linear 2.31s forwards;
+          animation: line_in 0s linear 2.31s forwards;
 }
 
-.graph_line128 {
+.matrix_line128 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #826482;
-  -webkit-animation: line_out 0s linear 0.09s forwards, line_in 0s linear 0.31s forwards;
-          animation: line_out 0s linear 0.09s forwards, line_in 0s linear 0.31s forwards;
+  -webkit-animation: line_in 0s linear 2.3s forwards;
+          animation: line_in 0s linear 2.3s forwards;
 }
 
-.graph_line129 {
+.matrix_line129 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #736473;
-  -webkit-animation: line_out 0s linear 0.1s forwards, line_in 0s linear 0.3s forwards;
-          animation: line_out 0s linear 0.1s forwards, line_in 0s linear 0.3s forwards;
+  -webkit-animation: line_in 0s linear 2.29s forwards;
+          animation: line_in 0s linear 2.29s forwards;
 }
 
-.graph_line130 {
+.matrix_line130 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #fa64fa;
-  -webkit-animation: line_out 0s linear 0.2s forwards, line_in 0s linear 0.2s forwards;
-          animation: line_out 0s linear 0.2s forwards, line_in 0s linear 0.2s forwards;
+  -webkit-animation: line_in 0s linear 2.37s forwards;
+          animation: line_in 0s linear 2.37s forwards;
 }
 
-.graph_line131 {
+.matrix_line131 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #eb64eb;
-  -webkit-animation: line_out 0s linear 0.21s forwards, line_in 0s linear 0.19s forwards;
-          animation: line_out 0s linear 0.21s forwards, line_in 0s linear 0.19s forwards;
+  -webkit-animation: line_in 0s linear 2.36s forwards;
+          animation: line_in 0s linear 2.36s forwards;
 }
 
-.graph_line132 {
+.matrix_line132 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #dc64dc;
-  -webkit-animation: line_out 0s linear 0.22s forwards, line_in 0s linear 0.18s forwards;
-          animation: line_out 0s linear 0.22s forwards, line_in 0s linear 0.18s forwards;
+  -webkit-animation: line_in 0s linear 2.35s forwards;
+          animation: line_in 0s linear 2.35s forwards;
 }
 
-.graph_line133 {
+.matrix_line133 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #cd64cd;
-  -webkit-animation: line_out 0s linear 0.23s forwards, line_in 0s linear 0.17s forwards;
-          animation: line_out 0s linear 0.23s forwards, line_in 0s linear 0.17s forwards;
+  -webkit-animation: line_in 0s linear 2.34s forwards;
+          animation: line_in 0s linear 2.34s forwards;
 }
 
-.graph_line134 {
+.matrix_line134 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #be64be;
-  -webkit-animation: line_out 0s linear 0.24s forwards, line_in 0s linear 0.16s forwards;
-          animation: line_out 0s linear 0.24s forwards, line_in 0s linear 0.16s forwards;
+  -webkit-animation: line_in 0s linear 2.33s forwards;
+          animation: line_in 0s linear 2.33s forwards;
 }
 
-.graph_line135 {
+.matrix_line135 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #af64af;
-  -webkit-animation: line_out 0s linear 0.25s forwards, line_in 0s linear 0.15s forwards;
-          animation: line_out 0s linear 0.25s forwards, line_in 0s linear 0.15s forwards;
+  -webkit-animation: line_in 0s linear 2.32s forwards;
+          animation: line_in 0s linear 2.32s forwards;
 }
 
-.graph_line136 {
+.matrix_line136 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #a064a0;
-  -webkit-animation: line_out 0s linear 0.26s forwards, line_in 0s linear 0.14s forwards;
-          animation: line_out 0s linear 0.26s forwards, line_in 0s linear 0.14s forwards;
+  -webkit-animation: line_in 0s linear 2.31s forwards;
+          animation: line_in 0s linear 2.31s forwards;
 }
 
-.graph_line137 {
+.matrix_line137 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #916491;
-  -webkit-animation: line_out 0s linear 0.27s forwards, line_in 0s linear 0.13s forwards;
-          animation: line_out 0s linear 0.27s forwards, line_in 0s linear 0.13s forwards;
+  -webkit-animation: line_in 0s linear 2.3s forwards;
+          animation: line_in 0s linear 2.3s forwards;
 }
 
-.graph_line138 {
+.matrix_line138 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #826482;
-  -webkit-animation: line_out 0s linear 0.28s forwards, line_in 0s linear 0.12s forwards;
-          animation: line_out 0s linear 0.28s forwards, line_in 0s linear 0.12s forwards;
+  -webkit-animation: line_in 0s linear 2.29s forwards;
+          animation: line_in 0s linear 2.29s forwards;
 }
 
-.graph_line139 {
+.matrix_line139 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #736473;
-  -webkit-animation: line_out 0s linear 0.29s forwards, line_in 0s linear 0.11s forwards;
-          animation: line_out 0s linear 0.29s forwards, line_in 0s linear 0.11s forwards;
+  -webkit-animation: line_in 0s linear 2.28s forwards;
+          animation: line_in 0s linear 2.28s forwards;
 }
 
-.graph_line140 {
+.matrix_line140 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #fa64fa;
-  -webkit-animation: line_out 0s linear 0.19s forwards, line_in 0s linear 0.21s forwards;
-          animation: line_out 0s linear 0.19s forwards, line_in 0s linear 0.21s forwards;
+  -webkit-animation: line_in 0s linear 2.36s forwards;
+          animation: line_in 0s linear 2.36s forwards;
 }
 
-.graph_line141 {
+.matrix_line141 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #eb64eb;
-  -webkit-animation: line_out 0s linear 0.2s forwards, line_in 0s linear 0.2s forwards;
-          animation: line_out 0s linear 0.2s forwards, line_in 0s linear 0.2s forwards;
+  -webkit-animation: line_in 0s linear 2.35s forwards;
+          animation: line_in 0s linear 2.35s forwards;
 }
 
-.graph_line142 {
+.matrix_line142 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #dc64dc;
-  -webkit-animation: line_out 0s linear 0.21s forwards, line_in 0s linear 0.19s forwards;
-          animation: line_out 0s linear 0.21s forwards, line_in 0s linear 0.19s forwards;
+  -webkit-animation: line_in 0s linear 2.34s forwards;
+          animation: line_in 0s linear 2.34s forwards;
 }
 
-.graph_line143 {
+.matrix_line143 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #cd64cd;
-  -webkit-animation: line_out 0s linear 0.22s forwards, line_in 0s linear 0.18s forwards;
-          animation: line_out 0s linear 0.22s forwards, line_in 0s linear 0.18s forwards;
+  -webkit-animation: line_in 0s linear 2.33s forwards;
+          animation: line_in 0s linear 2.33s forwards;
 }
 
-.graph_line144 {
+.matrix_line144 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #be64be;
-  -webkit-animation: line_out 0s linear 0.23s forwards, line_in 0s linear 0.17s forwards;
-          animation: line_out 0s linear 0.23s forwards, line_in 0s linear 0.17s forwards;
+  -webkit-animation: line_in 0s linear 2.32s forwards;
+          animation: line_in 0s linear 2.32s forwards;
 }
 
-.graph_line145 {
+.matrix_line145 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #af64af;
-  -webkit-animation: line_out 0s linear 0.24s forwards, line_in 0s linear 0.16s forwards;
-          animation: line_out 0s linear 0.24s forwards, line_in 0s linear 0.16s forwards;
+  -webkit-animation: line_in 0s linear 2.31s forwards;
+          animation: line_in 0s linear 2.31s forwards;
 }
 
-.graph_line146 {
+.matrix_line146 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #a064a0;
-  -webkit-animation: line_out 0s linear 0.25s forwards, line_in 0s linear 0.15s forwards;
-          animation: line_out 0s linear 0.25s forwards, line_in 0s linear 0.15s forwards;
+  -webkit-animation: line_in 0s linear 2.3s forwards;
+          animation: line_in 0s linear 2.3s forwards;
 }
 
-.graph_line147 {
+.matrix_line147 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #916491;
-  -webkit-animation: line_out 0s linear 0.26s forwards, line_in 0s linear 0.14s forwards;
-          animation: line_out 0s linear 0.26s forwards, line_in 0s linear 0.14s forwards;
+  -webkit-animation: line_in 0s linear 2.29s forwards;
+          animation: line_in 0s linear 2.29s forwards;
 }
 
-.graph_line148 {
+.matrix_line148 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #826482;
-  -webkit-animation: line_out 0s linear 0.27s forwards, line_in 0s linear 0.13s forwards;
-          animation: line_out 0s linear 0.27s forwards, line_in 0s linear 0.13s forwards;
+  -webkit-animation: line_in 0s linear 2.28s forwards;
+          animation: line_in 0s linear 2.28s forwards;
 }
 
-.graph_line149 {
+.matrix_line149 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #736473;
-  -webkit-animation: line_out 0s linear 0.28s forwards, line_in 0s linear 0.12s forwards;
-          animation: line_out 0s linear 0.28s forwards, line_in 0s linear 0.12s forwards;
+  -webkit-animation: line_in 0s linear 2.27s forwards;
+          animation: line_in 0s linear 2.27s forwards;
 }
 
-.graph_line150 {
+.matrix_line150 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #fa64fa;
-  -webkit-animation: line_out 0s linear 0.16s forwards, line_in 0s linear 0.24s forwards;
-          animation: line_out 0s linear 0.16s forwards, line_in 0s linear 0.24s forwards;
+  -webkit-animation: line_in 0s linear 2.35s forwards;
+          animation: line_in 0s linear 2.35s forwards;
 }
 
-.graph_line151 {
+.matrix_line151 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #eb64eb;
-  -webkit-animation: line_out 0s linear 0.17s forwards, line_in 0s linear 0.23s forwards;
-          animation: line_out 0s linear 0.17s forwards, line_in 0s linear 0.23s forwards;
+  -webkit-animation: line_in 0s linear 2.34s forwards;
+          animation: line_in 0s linear 2.34s forwards;
 }
 
-.graph_line152 {
+.matrix_line152 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #dc64dc;
-  -webkit-animation: line_out 0s linear 0.18s forwards, line_in 0s linear 0.22s forwards;
-          animation: line_out 0s linear 0.18s forwards, line_in 0s linear 0.22s forwards;
+  -webkit-animation: line_in 0s linear 2.33s forwards;
+          animation: line_in 0s linear 2.33s forwards;
 }
 
-.graph_line153 {
+.matrix_line153 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #cd64cd;
-  -webkit-animation: line_out 0s linear 0.19s forwards, line_in 0s linear 0.21s forwards;
-          animation: line_out 0s linear 0.19s forwards, line_in 0s linear 0.21s forwards;
+  -webkit-animation: line_in 0s linear 2.32s forwards;
+          animation: line_in 0s linear 2.32s forwards;
 }
 
-.graph_line154 {
+.matrix_line154 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #be64be;
-  -webkit-animation: line_out 0s linear 0.2s forwards, line_in 0s linear 0.2s forwards;
-          animation: line_out 0s linear 0.2s forwards, line_in 0s linear 0.2s forwards;
+  -webkit-animation: line_in 0s linear 2.31s forwards;
+          animation: line_in 0s linear 2.31s forwards;
 }
 
-.graph_line155 {
+.matrix_line155 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #af64af;
-  -webkit-animation: line_out 0s linear 0.21s forwards, line_in 0s linear 0.19s forwards;
-          animation: line_out 0s linear 0.21s forwards, line_in 0s linear 0.19s forwards;
+  -webkit-animation: line_in 0s linear 2.3s forwards;
+          animation: line_in 0s linear 2.3s forwards;
 }
 
-.graph_line156 {
+.matrix_line156 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #a064a0;
-  -webkit-animation: line_out 0s linear 0.22s forwards, line_in 0s linear 0.18s forwards;
-          animation: line_out 0s linear 0.22s forwards, line_in 0s linear 0.18s forwards;
+  -webkit-animation: line_in 0s linear 2.29s forwards;
+          animation: line_in 0s linear 2.29s forwards;
 }
 
-.graph_line157 {
+.matrix_line157 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #916491;
-  -webkit-animation: line_out 0s linear 0.23s forwards, line_in 0s linear 0.17s forwards;
-          animation: line_out 0s linear 0.23s forwards, line_in 0s linear 0.17s forwards;
+  -webkit-animation: line_in 0s linear 2.28s forwards;
+          animation: line_in 0s linear 2.28s forwards;
 }
 
-.graph_line158 {
+.matrix_line158 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #826482;
-  -webkit-animation: line_out 0s linear 0.24s forwards, line_in 0s linear 0.16s forwards;
-          animation: line_out 0s linear 0.24s forwards, line_in 0s linear 0.16s forwards;
+  -webkit-animation: line_in 0s linear 2.27s forwards;
+          animation: line_in 0s linear 2.27s forwards;
 }
 
-.graph_line159 {
+.matrix_line159 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #736473;
-  -webkit-animation: line_out 0s linear 0.25s forwards, line_in 0s linear 0.15s forwards;
-          animation: line_out 0s linear 0.25s forwards, line_in 0s linear 0.15s forwards;
+  -webkit-animation: line_in 0s linear 2.26s forwards;
+          animation: line_in 0s linear 2.26s forwards;
 }
 
-.graph_line160 {
+.matrix_line160 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #fa64fa;
-  -webkit-animation: line_out 0s linear 0.03s forwards, line_in 0s linear 0.37s forwards;
-          animation: line_out 0s linear 0.03s forwards, line_in 0s linear 0.37s forwards;
+  -webkit-animation: line_in 0s linear 2.34s forwards;
+          animation: line_in 0s linear 2.34s forwards;
 }
 
-.graph_line161 {
+.matrix_line161 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #eb64eb;
-  -webkit-animation: line_out 0s linear 0.04s forwards, line_in 0s linear 0.36s forwards;
-          animation: line_out 0s linear 0.04s forwards, line_in 0s linear 0.36s forwards;
+  -webkit-animation: line_in 0s linear 2.33s forwards;
+          animation: line_in 0s linear 2.33s forwards;
 }
 
-.graph_line162 {
+.matrix_line162 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #dc64dc;
-  -webkit-animation: line_out 0s linear 0.05s forwards, line_in 0s linear 0.35s forwards;
-          animation: line_out 0s linear 0.05s forwards, line_in 0s linear 0.35s forwards;
+  -webkit-animation: line_in 0s linear 2.32s forwards;
+          animation: line_in 0s linear 2.32s forwards;
 }
 
-.graph_line163 {
+.matrix_line163 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #cd64cd;
-  -webkit-animation: line_out 0s linear 0.06s forwards, line_in 0s linear 0.34s forwards;
-          animation: line_out 0s linear 0.06s forwards, line_in 0s linear 0.34s forwards;
+  -webkit-animation: line_in 0s linear 2.31s forwards;
+          animation: line_in 0s linear 2.31s forwards;
 }
 
-.graph_line164 {
+.matrix_line164 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #be64be;
-  -webkit-animation: line_out 0s linear 0.07s forwards, line_in 0s linear 0.33s forwards;
-          animation: line_out 0s linear 0.07s forwards, line_in 0s linear 0.33s forwards;
+  -webkit-animation: line_in 0s linear 2.3s forwards;
+          animation: line_in 0s linear 2.3s forwards;
 }
 
-.graph_line165 {
+.matrix_line165 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #af64af;
-  -webkit-animation: line_out 0s linear 0.08s forwards, line_in 0s linear 0.32s forwards;
-          animation: line_out 0s linear 0.08s forwards, line_in 0s linear 0.32s forwards;
+  -webkit-animation: line_in 0s linear 2.29s forwards;
+          animation: line_in 0s linear 2.29s forwards;
 }
 
-.graph_line166 {
+.matrix_line166 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #a064a0;
-  -webkit-animation: line_out 0s linear 0.09s forwards, line_in 0s linear 0.31s forwards;
-          animation: line_out 0s linear 0.09s forwards, line_in 0s linear 0.31s forwards;
+  -webkit-animation: line_in 0s linear 2.28s forwards;
+          animation: line_in 0s linear 2.28s forwards;
 }
 
-.graph_line167 {
+.matrix_line167 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #916491;
-  -webkit-animation: line_out 0s linear 0.1s forwards, line_in 0s linear 0.3s forwards;
-          animation: line_out 0s linear 0.1s forwards, line_in 0s linear 0.3s forwards;
+  -webkit-animation: line_in 0s linear 2.27s forwards;
+          animation: line_in 0s linear 2.27s forwards;
 }
 
-.graph_line168 {
+.matrix_line168 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #826482;
-  -webkit-animation: line_out 0s linear 0.11s forwards, line_in 0s linear 0.29s forwards;
-          animation: line_out 0s linear 0.11s forwards, line_in 0s linear 0.29s forwards;
+  -webkit-animation: line_in 0s linear 2.26s forwards;
+          animation: line_in 0s linear 2.26s forwards;
 }
 
-.graph_line169 {
+.matrix_line169 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #736473;
-  -webkit-animation: line_out 0s linear 0.12s forwards, line_in 0s linear 0.28s forwards;
-          animation: line_out 0s linear 0.12s forwards, line_in 0s linear 0.28s forwards;
+  -webkit-animation: line_in 0s linear 2.25s forwards;
+          animation: line_in 0s linear 2.25s forwards;
 }
 
-.graph_line170 {
+.matrix_line170 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #fa64fa;
-  -webkit-animation: line_out 0s linear 0.13s forwards, line_in 0s linear 0.27s forwards;
-          animation: line_out 0s linear 0.13s forwards, line_in 0s linear 0.27s forwards;
+  -webkit-animation: line_in 0s linear 2.33s forwards;
+          animation: line_in 0s linear 2.33s forwards;
 }
 
-.graph_line171 {
+.matrix_line171 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #eb64eb;
-  -webkit-animation: line_out 0s linear 0.14s forwards, line_in 0s linear 0.26s forwards;
-          animation: line_out 0s linear 0.14s forwards, line_in 0s linear 0.26s forwards;
+  -webkit-animation: line_in 0s linear 2.32s forwards;
+          animation: line_in 0s linear 2.32s forwards;
 }
 
-.graph_line172 {
+.matrix_line172 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #dc64dc;
-  -webkit-animation: line_out 0s linear 0.15s forwards, line_in 0s linear 0.25s forwards;
-          animation: line_out 0s linear 0.15s forwards, line_in 0s linear 0.25s forwards;
+  -webkit-animation: line_in 0s linear 2.31s forwards;
+          animation: line_in 0s linear 2.31s forwards;
 }
 
-.graph_line173 {
+.matrix_line173 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #cd64cd;
-  -webkit-animation: line_out 0s linear 0.16s forwards, line_in 0s linear 0.24s forwards;
-          animation: line_out 0s linear 0.16s forwards, line_in 0s linear 0.24s forwards;
+  -webkit-animation: line_in 0s linear 2.3s forwards;
+          animation: line_in 0s linear 2.3s forwards;
 }
 
-.graph_line174 {
+.matrix_line174 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #be64be;
-  -webkit-animation: line_out 0s linear 0.17s forwards, line_in 0s linear 0.23s forwards;
-          animation: line_out 0s linear 0.17s forwards, line_in 0s linear 0.23s forwards;
+  -webkit-animation: line_in 0s linear 2.29s forwards;
+          animation: line_in 0s linear 2.29s forwards;
 }
 
-.graph_line175 {
+.matrix_line175 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #af64af;
-  -webkit-animation: line_out 0s linear 0.18s forwards, line_in 0s linear 0.22s forwards;
-          animation: line_out 0s linear 0.18s forwards, line_in 0s linear 0.22s forwards;
+  -webkit-animation: line_in 0s linear 2.28s forwards;
+          animation: line_in 0s linear 2.28s forwards;
 }
 
-.graph_line176 {
+.matrix_line176 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #a064a0;
-  -webkit-animation: line_out 0s linear 0.19s forwards, line_in 0s linear 0.21s forwards;
-          animation: line_out 0s linear 0.19s forwards, line_in 0s linear 0.21s forwards;
+  -webkit-animation: line_in 0s linear 2.27s forwards;
+          animation: line_in 0s linear 2.27s forwards;
 }
 
-.graph_line177 {
+.matrix_line177 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #916491;
-  -webkit-animation: line_out 0s linear 0.2s forwards, line_in 0s linear 0.2s forwards;
-          animation: line_out 0s linear 0.2s forwards, line_in 0s linear 0.2s forwards;
+  -webkit-animation: line_in 0s linear 2.26s forwards;
+          animation: line_in 0s linear 2.26s forwards;
 }
 
-.graph_line178 {
+.matrix_line178 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #826482;
-  -webkit-animation: line_out 0s linear 0.21s forwards, line_in 0s linear 0.19s forwards;
-          animation: line_out 0s linear 0.21s forwards, line_in 0s linear 0.19s forwards;
+  -webkit-animation: line_in 0s linear 2.25s forwards;
+          animation: line_in 0s linear 2.25s forwards;
 }
 
-.graph_line179 {
+.matrix_line179 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #736473;
-  -webkit-animation: line_out 0s linear 0.22s forwards, line_in 0s linear 0.18s forwards;
-          animation: line_out 0s linear 0.22s forwards, line_in 0s linear 0.18s forwards;
+  -webkit-animation: line_in 0s linear 2.24s forwards;
+          animation: line_in 0s linear 2.24s forwards;
 }
 
-.graph_line180 {
+.matrix_line180 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #fa64fa;
-  -webkit-animation: line_out 0s linear 0.03s forwards, line_in 0s linear 0.37s forwards;
-          animation: line_out 0s linear 0.03s forwards, line_in 0s linear 0.37s forwards;
+  -webkit-animation: line_in 0s linear 2.32s forwards;
+          animation: line_in 0s linear 2.32s forwards;
 }
 
-.graph_line181 {
+.matrix_line181 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #eb64eb;
-  -webkit-animation: line_out 0s linear 0.04s forwards, line_in 0s linear 0.36s forwards;
-          animation: line_out 0s linear 0.04s forwards, line_in 0s linear 0.36s forwards;
+  -webkit-animation: line_in 0s linear 2.31s forwards;
+          animation: line_in 0s linear 2.31s forwards;
 }
 
-.graph_line182 {
+.matrix_line182 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #dc64dc;
-  -webkit-animation: line_out 0s linear 0.05s forwards, line_in 0s linear 0.35s forwards;
-          animation: line_out 0s linear 0.05s forwards, line_in 0s linear 0.35s forwards;
+  -webkit-animation: line_in 0s linear 2.3s forwards;
+          animation: line_in 0s linear 2.3s forwards;
 }
 
-.graph_line183 {
+.matrix_line183 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #cd64cd;
-  -webkit-animation: line_out 0s linear 0.06s forwards, line_in 0s linear 0.34s forwards;
-          animation: line_out 0s linear 0.06s forwards, line_in 0s linear 0.34s forwards;
+  -webkit-animation: line_in 0s linear 2.29s forwards;
+          animation: line_in 0s linear 2.29s forwards;
 }
 
-.graph_line184 {
+.matrix_line184 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #be64be;
-  -webkit-animation: line_out 0s linear 0.07s forwards, line_in 0s linear 0.33s forwards;
-          animation: line_out 0s linear 0.07s forwards, line_in 0s linear 0.33s forwards;
+  -webkit-animation: line_in 0s linear 2.28s forwards;
+          animation: line_in 0s linear 2.28s forwards;
 }
 
-.graph_line185 {
+.matrix_line185 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #af64af;
-  -webkit-animation: line_out 0s linear 0.08s forwards, line_in 0s linear 0.32s forwards;
-          animation: line_out 0s linear 0.08s forwards, line_in 0s linear 0.32s forwards;
+  -webkit-animation: line_in 0s linear 2.27s forwards;
+          animation: line_in 0s linear 2.27s forwards;
 }
 
-.graph_line186 {
+.matrix_line186 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #a064a0;
-  -webkit-animation: line_out 0s linear 0.09s forwards, line_in 0s linear 0.31s forwards;
-          animation: line_out 0s linear 0.09s forwards, line_in 0s linear 0.31s forwards;
+  -webkit-animation: line_in 0s linear 2.26s forwards;
+          animation: line_in 0s linear 2.26s forwards;
 }
 
-.graph_line187 {
+.matrix_line187 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #916491;
-  -webkit-animation: line_out 0s linear 0.1s forwards, line_in 0s linear 0.3s forwards;
-          animation: line_out 0s linear 0.1s forwards, line_in 0s linear 0.3s forwards;
+  -webkit-animation: line_in 0s linear 2.25s forwards;
+          animation: line_in 0s linear 2.25s forwards;
 }
 
-.graph_line188 {
+.matrix_line188 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #826482;
-  -webkit-animation: line_out 0s linear 0.11s forwards, line_in 0s linear 0.29s forwards;
-          animation: line_out 0s linear 0.11s forwards, line_in 0s linear 0.29s forwards;
+  -webkit-animation: line_in 0s linear 2.24s forwards;
+          animation: line_in 0s linear 2.24s forwards;
 }
 
-.graph_line189 {
+.matrix_line189 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #736473;
-  -webkit-animation: line_out 0s linear 0.12s forwards, line_in 0s linear 0.28s forwards;
-          animation: line_out 0s linear 0.12s forwards, line_in 0s linear 0.28s forwards;
+  -webkit-animation: line_in 0s linear 2.23s forwards;
+          animation: line_in 0s linear 2.23s forwards;
 }
 
-.graph_line190 {
+.matrix_line190 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #fa64fa;
-  -webkit-animation: line_out 0s linear 0.2s forwards, line_in 0s linear 0.2s forwards;
-          animation: line_out 0s linear 0.2s forwards, line_in 0s linear 0.2s forwards;
+  -webkit-animation: line_in 0s linear 2.31s forwards;
+          animation: line_in 0s linear 2.31s forwards;
 }
 
-.graph_line191 {
+.matrix_line191 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #eb64eb;
-  -webkit-animation: line_out 0s linear 0.21s forwards, line_in 0s linear 0.19s forwards;
-          animation: line_out 0s linear 0.21s forwards, line_in 0s linear 0.19s forwards;
+  -webkit-animation: line_in 0s linear 2.3s forwards;
+          animation: line_in 0s linear 2.3s forwards;
 }
 
-.graph_line192 {
+.matrix_line192 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #dc64dc;
-  -webkit-animation: line_out 0s linear 0.22s forwards, line_in 0s linear 0.18s forwards;
-          animation: line_out 0s linear 0.22s forwards, line_in 0s linear 0.18s forwards;
+  -webkit-animation: line_in 0s linear 2.29s forwards;
+          animation: line_in 0s linear 2.29s forwards;
 }
 
-.graph_line193 {
+.matrix_line193 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #cd64cd;
-  -webkit-animation: line_out 0s linear 0.23s forwards, line_in 0s linear 0.17s forwards;
-          animation: line_out 0s linear 0.23s forwards, line_in 0s linear 0.17s forwards;
+  -webkit-animation: line_in 0s linear 2.28s forwards;
+          animation: line_in 0s linear 2.28s forwards;
 }
 
-.graph_line194 {
+.matrix_line194 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #be64be;
-  -webkit-animation: line_out 0s linear 0.24s forwards, line_in 0s linear 0.16s forwards;
-          animation: line_out 0s linear 0.24s forwards, line_in 0s linear 0.16s forwards;
+  -webkit-animation: line_in 0s linear 2.27s forwards;
+          animation: line_in 0s linear 2.27s forwards;
 }
 
-.graph_line195 {
+.matrix_line195 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #af64af;
-  -webkit-animation: line_out 0s linear 0.25s forwards, line_in 0s linear 0.15s forwards;
-          animation: line_out 0s linear 0.25s forwards, line_in 0s linear 0.15s forwards;
+  -webkit-animation: line_in 0s linear 2.26s forwards;
+          animation: line_in 0s linear 2.26s forwards;
 }
 
-.graph_line196 {
+.matrix_line196 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #a064a0;
-  -webkit-animation: line_out 0s linear 0.26s forwards, line_in 0s linear 0.14s forwards;
-          animation: line_out 0s linear 0.26s forwards, line_in 0s linear 0.14s forwards;
+  -webkit-animation: line_in 0s linear 2.25s forwards;
+          animation: line_in 0s linear 2.25s forwards;
 }
 
-.graph_line197 {
+.matrix_line197 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #916491;
-  -webkit-animation: line_out 0s linear 0.27s forwards, line_in 0s linear 0.13s forwards;
-          animation: line_out 0s linear 0.27s forwards, line_in 0s linear 0.13s forwards;
+  -webkit-animation: line_in 0s linear 2.24s forwards;
+          animation: line_in 0s linear 2.24s forwards;
 }
 
-.graph_line198 {
+.matrix_line198 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #826482;
-  -webkit-animation: line_out 0s linear 0.28s forwards, line_in 0s linear 0.12s forwards;
-          animation: line_out 0s linear 0.28s forwards, line_in 0s linear 0.12s forwards;
+  -webkit-animation: line_in 0s linear 2.23s forwards;
+          animation: line_in 0s linear 2.23s forwards;
 }
 
-.graph_line199 {
+.matrix_line199 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #736473;
-  -webkit-animation: line_out 0s linear 0.29s forwards, line_in 0s linear 0.11s forwards;
-          animation: line_out 0s linear 0.29s forwards, line_in 0s linear 0.11s forwards;
+  -webkit-animation: line_in 0s linear 2.22s forwards;
+          animation: line_in 0s linear 2.22s forwards;
 }
 
-.graph_line200 {
+.matrix_line200 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #fa64fa;
-  -webkit-animation: line_out 0s linear 0.01s forwards, line_in 0s linear 0.39s forwards;
-          animation: line_out 0s linear 0.01s forwards, line_in 0s linear 0.39s forwards;
+  -webkit-animation: line_in 0s linear 2.3s forwards;
+          animation: line_in 0s linear 2.3s forwards;
 }
 
-.graph_line201 {
+.matrix_line201 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #eb64eb;
-  -webkit-animation: line_out 0s linear 0.02s forwards, line_in 0s linear 0.38s forwards;
-          animation: line_out 0s linear 0.02s forwards, line_in 0s linear 0.38s forwards;
+  -webkit-animation: line_in 0s linear 2.29s forwards;
+          animation: line_in 0s linear 2.29s forwards;
 }
 
-.graph_line202 {
+.matrix_line202 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #dc64dc;
-  -webkit-animation: line_out 0s linear 0.03s forwards, line_in 0s linear 0.37s forwards;
-          animation: line_out 0s linear 0.03s forwards, line_in 0s linear 0.37s forwards;
+  -webkit-animation: line_in 0s linear 2.28s forwards;
+          animation: line_in 0s linear 2.28s forwards;
 }
 
-.graph_line203 {
+.matrix_line203 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #cd64cd;
-  -webkit-animation: line_out 0s linear 0.04s forwards, line_in 0s linear 0.36s forwards;
-          animation: line_out 0s linear 0.04s forwards, line_in 0s linear 0.36s forwards;
+  -webkit-animation: line_in 0s linear 2.27s forwards;
+          animation: line_in 0s linear 2.27s forwards;
 }
 
-.graph_line204 {
+.matrix_line204 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #be64be;
-  -webkit-animation: line_out 0s linear 0.05s forwards, line_in 0s linear 0.35s forwards;
-          animation: line_out 0s linear 0.05s forwards, line_in 0s linear 0.35s forwards;
+  -webkit-animation: line_in 0s linear 2.26s forwards;
+          animation: line_in 0s linear 2.26s forwards;
 }
 
-.graph_line205 {
+.matrix_line205 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #af64af;
-  -webkit-animation: line_out 0s linear 0.06s forwards, line_in 0s linear 0.34s forwards;
-          animation: line_out 0s linear 0.06s forwards, line_in 0s linear 0.34s forwards;
+  -webkit-animation: line_in 0s linear 2.25s forwards;
+          animation: line_in 0s linear 2.25s forwards;
 }
 
-.graph_line206 {
+.matrix_line206 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #a064a0;
-  -webkit-animation: line_out 0s linear 0.07s forwards, line_in 0s linear 0.33s forwards;
-          animation: line_out 0s linear 0.07s forwards, line_in 0s linear 0.33s forwards;
+  -webkit-animation: line_in 0s linear 2.24s forwards;
+          animation: line_in 0s linear 2.24s forwards;
 }
 
-.graph_line207 {
+.matrix_line207 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #916491;
-  -webkit-animation: line_out 0s linear 0.08s forwards, line_in 0s linear 0.32s forwards;
-          animation: line_out 0s linear 0.08s forwards, line_in 0s linear 0.32s forwards;
+  -webkit-animation: line_in 0s linear 2.23s forwards;
+          animation: line_in 0s linear 2.23s forwards;
 }
 
-.graph_line208 {
+.matrix_line208 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #826482;
-  -webkit-animation: line_out 0s linear 0.09s forwards, line_in 0s linear 0.31s forwards;
-          animation: line_out 0s linear 0.09s forwards, line_in 0s linear 0.31s forwards;
+  -webkit-animation: line_in 0s linear 2.22s forwards;
+          animation: line_in 0s linear 2.22s forwards;
 }
 
-.graph_line209 {
+.matrix_line209 {
   height: 10%;
   margin-top: 5px;
+  opacity: 0;
   background-color: #736473;
-  -webkit-animation: line_out 0s linear 0.1s forwards, line_in 0s linear 0.3s forwards;
-          animation: line_out 0s linear 0.1s forwards, line_in 0s linear 0.3s forwards;
+  -webkit-animation: line_in 0s linear 2.21s forwards;
+          animation: line_in 0s linear 2.21s forwards;
 }
 
 @-webkit-keyframes line_out {

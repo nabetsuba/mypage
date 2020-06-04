@@ -11,34 +11,36 @@
 
 <body>
     <div id="ly_opening">
-        <div class="opening_contents">
-            <h1>illustration</h1>
+        <div class="op_text">
+            <div>イ</div>
+            <div>ラ</div>
+            <div>ス</div>
+            <div>ト</div>
         </div>
-        <div id="graph_anime">
-            <div class="graph_row0"></div>
-            <div class="graph_row1"></div>
-            <div class="graph_row2"></div>
-            <div class="graph_row3"></div>
-            <div class="graph_row4"></div>
-            <div class="graph_row5"></div>
-            <div class="graph_row6"></div>
-            <div class="graph_row7"></div>
-            <div class="graph_row8"></div>
-            <div class="graph_row9"></div>
-            <div class="graph_row10"></div>
-            <div class="graph_row11"></div>
-            <div class="graph_row12"></div>
-            <div class="graph_row13"></div>
-            <div class="graph_row14"></div>
-            <div class="graph_row15"></div>
-            <div class="graph_row16"></div>
-            <div class="graph_row17"></div>
-            <div class="graph_row18"></div>
-            <div class="graph_row19"></div>
-            <div class="graph_row20"></div>
+        <div id="matrix_anime">
+            <div class="matrix_row0"></div>
+            <div class="matrix_row1"></div>
+            <div class="matrix_row2"></div>
+            <div class="matrix_row3"></div>
+            <div class="matrix_row4"></div>
+            <div class="matrix_row5"></div>
+            <div class="matrix_row6"></div>
+            <div class="matrix_row7"></div>
+            <div class="matrix_row8"></div>
+            <div class="matrix_row9"></div>
+            <div class="matrix_row10"></div>
+            <div class="matrix_row11"></div>
+            <div class="matrix_row12"></div>
+            <div class="matrix_row13"></div>
+            <div class="matrix_row14"></div>
+            <div class="matrix_row15"></div>
+            <div class="matrix_row16"></div>
+            <div class="matrix_row17"></div>
+            <div class="matrix_row18"></div>
+            <div class="matrix_row19"></div>
+            <div class="matrix_row20"></div>
         </div>
     </div>
-
     <div id="shutter">
         <div class="shutter_item">
             <div></div>
@@ -77,6 +79,7 @@
             <div></div>
         </div>
     </div>
+    
     <div id="home">
         <header id="ly_header">
             <div class="header_contents">
@@ -134,24 +137,18 @@
         var openBox = (function (x) {
             $(x).fadeIn(0);
         })
-        var graph_times = 5;
+        setTimeout('closeBox("#ly_opening")', 3500);
+        setTimeout('openBox("#shutter")', 2800);
+        setTimeout('closeBox("#shutter")', 4200);
+        setTimeout('openBox("#home")', 3600);
 
-        for (var i = 0; i < graph_times; i++) {
-            setTimeout('closeBox("#graph_anime")', 400 * i);
-            setTimeout('openBox("#graph_anime")', 400 * i);
-        }
-        setTimeout('closeBox("#ly_opening")', 2000);
-        setTimeout('openBox("#shutter")', 1300);
-        setTimeout('closeBox("#shutter")', 2800);
-        setTimeout('openBox("#home")', 2100);
-
-        //----------graphアニメーション----------//
+        //----------matrixアニメーション----------//
         var row_item = 20;
         var line_item = 10;
 
         for (var i = 0; i <= row_item; i++) {
             for (var j = 0; j < line_item; j++) {
-                $(".graph_row" + i).append('<div class="graph_line' + i + j + '"></div>');
+                $(".matrix_row" + i).append('<div class="matrix_line' + i + j + '"></div>');
             }
         }
 
