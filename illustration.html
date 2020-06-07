@@ -17,29 +17,6 @@
             <div>ス</div>
             <div>ト</div>
         </div>
-        <div id="matrix_anime">
-            <div class="matrix_row0"></div>
-            <div class="matrix_row1"></div>
-            <div class="matrix_row2"></div>
-            <div class="matrix_row3"></div>
-            <div class="matrix_row4"></div>
-            <div class="matrix_row5"></div>
-            <div class="matrix_row6"></div>
-            <div class="matrix_row7"></div>
-            <div class="matrix_row8"></div>
-            <div class="matrix_row9"></div>
-            <div class="matrix_row10"></div>
-            <div class="matrix_row11"></div>
-            <div class="matrix_row12"></div>
-            <div class="matrix_row13"></div>
-            <div class="matrix_row14"></div>
-            <div class="matrix_row15"></div>
-            <div class="matrix_row16"></div>
-            <div class="matrix_row17"></div>
-            <div class="matrix_row18"></div>
-            <div class="matrix_row19"></div>
-            <div class="matrix_row20"></div>
-        </div>
     </div>
     <div id="shutter">
         <div class="shutter_item">
@@ -79,12 +56,13 @@
             <div></div>
         </div>
     </div>
-    
+
     <div id="home">
+        <div id="illust_bubble"></div>
         <header id="ly_header">
             <div class="header_contents">
                 <div class="header_logo">
-                    <a href="index.html"><img class="log_img" src="illust/ロゴ.png"></a>
+                    <a href="index.html"><img src="illust/ロゴ.png"></a>
                 </div>
                 <nav class="header_nav">
                     <div class="header_navList">
@@ -94,13 +72,13 @@
                         <div class="header_navItem"><a href="">D</a></div>
                     </div>
                 </nav>
-                <class id="header_menu">
+                <div class="header_menu">
                     <a class="menu-trigger" href="#">
                         <span></span>
                         <span></span>
                         <span></span>
                     </a>
-                </class>
+                </div>
             </div>
             <div class="menu_box">
                 <div class="menu_box_bg">
@@ -126,7 +104,9 @@
                 </div>
             </div>
         </header>
-
+        <div id="home_select">
+            <div class="select_text"><h1>イラスト</h1></div>
+        </div>
     </div>
 
     <script>
@@ -140,16 +120,18 @@
         setTimeout('closeBox("#ly_opening")', 3500);
         setTimeout('openBox("#shutter")', 2800);
         setTimeout('closeBox("#shutter")', 4200);
-        setTimeout('openBox("#home")', 3600);
+        setTimeout('openBox("#home")', 3500);
 
-        //----------matrixアニメーション----------//
-        var row_item = 20;
-        var line_item = 10;
+        // -----泡アニメーション-----
+        var bubble = 20;
 
-        for (var i = 0; i <= row_item; i++) {
-            for (var j = 0; j < line_item; j++) {
-                $(".matrix_row" + i).append('<div class="matrix_line' + i + j + '"></div>');
-            }
+        for (var i = 0; i <= bubble; i++) {
+            var img_item = Math.ceil(Math.random() * 8)
+            var moveVal = Math.ceil(Math.random() * 20);
+            var posVal = Math.ceil(Math.random() * 20);
+            var scaleVal = Math.ceil(Math.random() * 10 + 5);
+            var shakeVal = Math.ceil(Math.random() * 5);
+            $("#illust_bubble").append('<div class="bubble_move' + moveVal + ' bubble_pos' + posVal + '"><div class="bubble_scale' + scaleVal + '"><div class="bubble_item bubble_shake' + shakeVal + '"><img src="illust/' + img_item + '.png"></div></div>');
         }
 
         //----------menuアニメーション----------//
