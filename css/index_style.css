@@ -428,123 +428,59 @@ h1 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
-          animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
+  -webkit-animation: line_in 0s linear 0.05s forwards, line_out 0s linear 0.95s forwards;
+          animation: line_in 0s linear 0.05s forwards, line_out 0s linear 0.95s forwards;
 }
 
 .matrix_line01 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.13s forwards, line_out 0s linear 0.87s forwards;
-          animation: line_in 0s linear 0.13s forwards, line_out 0s linear 0.87s forwards;
+  -webkit-animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
+          animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
 }
 
 .matrix_line02 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
-          animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
+  -webkit-animation: line_in 0s linear 0.07s forwards, line_out 0s linear 0.93s forwards;
+          animation: line_in 0s linear 0.07s forwards, line_out 0s linear 0.93s forwards;
 }
 
 .matrix_line03 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.15s forwards, line_out 0s linear 0.85s forwards;
-          animation: line_in 0s linear 0.15s forwards, line_out 0s linear 0.85s forwards;
+  -webkit-animation: line_in 0s linear 0.07s forwards, line_out 0s linear 0.93s forwards;
+          animation: line_in 0s linear 0.07s forwards, line_out 0s linear 0.93s forwards;
 }
 
 .matrix_line04 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
-          animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
+  -webkit-animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
+          animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
 }
 
 .matrix_line05 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.09s forwards, line_out 0s linear 0.91s forwards;
-          animation: line_in 0s linear 0.09s forwards, line_out 0s linear 0.91s forwards;
+  -webkit-animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
+          animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
 }
 
 .matrix_line06 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.23s forwards, line_out 0s linear 0.77s forwards;
-          animation: line_in 0s linear 0.23s forwards, line_out 0s linear 0.77s forwards;
+  -webkit-animation: line_in 0s linear 0.07s forwards, line_out 0s linear 0.93s forwards;
+          animation: line_in 0s linear 0.07s forwards, line_out 0s linear 0.93s forwards;
 }
 
 .matrix_line07 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.26s forwards, line_out 0s linear 0.74s forwards;
-          animation: line_in 0s linear 0.26s forwards, line_out 0s linear 0.74s forwards;
-}
-
-.matrix_line08 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.26s forwards, line_out 0s linear 0.74s forwards;
-          animation: line_in 0s linear 0.26s forwards, line_out 0s linear 0.74s forwards;
-}
-
-.matrix_line09 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.26s forwards, line_out 0s linear 0.74s forwards;
-          animation: line_in 0s linear 0.26s forwards, line_out 0s linear 0.74s forwards;
-}
-
-.matrix_line10 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.15s forwards, line_out 0s linear 0.85s forwards;
-          animation: line_in 0s linear 0.15s forwards, line_out 0s linear 0.85s forwards;
-}
-
-.matrix_line11 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.03s forwards, line_out 0s linear 0.97s forwards;
-          animation: line_in 0s linear 0.03s forwards, line_out 0s linear 0.97s forwards;
-}
-
-.matrix_line12 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
-          animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
-}
-
-.matrix_line13 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.04s forwards, line_out 0s linear 0.96s forwards;
-          animation: line_in 0s linear 0.04s forwards, line_out 0s linear 0.96s forwards;
-}
-
-.matrix_line14 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
-          animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
-}
-
-.matrix_line15 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
@@ -552,39 +488,23 @@ h1 {
           animation: line_in 0s linear 0.21s forwards, line_out 0s linear 0.79s forwards;
 }
 
-.matrix_line16 {
+.matrix_line08 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.13s forwards, line_out 0s linear 0.87s forwards;
-          animation: line_in 0s linear 0.13s forwards, line_out 0s linear 0.87s forwards;
+  -webkit-animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
+          animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
 }
 
-.matrix_line17 {
+.matrix_line09 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.25s forwards, line_out 0s linear 0.75s forwards;
-          animation: line_in 0s linear 0.25s forwards, line_out 0s linear 0.75s forwards;
+  -webkit-animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
+          animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
 }
 
-.matrix_line18 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.13s forwards, line_out 0s linear 0.87s forwards;
-          animation: line_in 0s linear 0.13s forwards, line_out 0s linear 0.87s forwards;
-}
-
-.matrix_line19 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.24s forwards, line_out 0s linear 0.76s forwards;
-          animation: line_in 0s linear 0.24s forwards, line_out 0s linear 0.76s forwards;
-}
-
-.matrix_line20 {
+.matrix_line10 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
@@ -592,23 +512,7 @@ h1 {
           animation: line_in 0s linear 0.12s forwards, line_out 0s linear 0.88s forwards;
 }
 
-.matrix_line21 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.02s forwards, line_out 0s linear 0.98s forwards;
-          animation: line_in 0s linear 0.02s forwards, line_out 0s linear 0.98s forwards;
-}
-
-.matrix_line22 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.22s forwards, line_out 0s linear 0.78s forwards;
-          animation: line_in 0s linear 0.22s forwards, line_out 0s linear 0.78s forwards;
-}
-
-.matrix_line23 {
+.matrix_line11 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
@@ -616,95 +520,7 @@ h1 {
           animation: line_in 0s linear 0.21s forwards, line_out 0s linear 0.79s forwards;
 }
 
-.matrix_line24 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
-          animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
-}
-
-.matrix_line25 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
-          animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
-}
-
-.matrix_line26 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.26s forwards, line_out 0s linear 0.74s forwards;
-          animation: line_in 0s linear 0.26s forwards, line_out 0s linear 0.74s forwards;
-}
-
-.matrix_line27 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
-          animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
-}
-
-.matrix_line28 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
-          animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
-}
-
-.matrix_line29 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.18s forwards, line_out 0s linear 0.82s forwards;
-          animation: line_in 0s linear 0.18s forwards, line_out 0s linear 0.82s forwards;
-}
-
-.matrix_line30 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
-          animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
-}
-
-.matrix_line31 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.14s forwards, line_out 0s linear 0.86s forwards;
-          animation: line_in 0s linear 0.14s forwards, line_out 0s linear 0.86s forwards;
-}
-
-.matrix_line32 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.22s forwards, line_out 0s linear 0.78s forwards;
-          animation: line_in 0s linear 0.22s forwards, line_out 0s linear 0.78s forwards;
-}
-
-.matrix_line33 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.23s forwards, line_out 0s linear 0.77s forwards;
-          animation: line_in 0s linear 0.23s forwards, line_out 0s linear 0.77s forwards;
-}
-
-.matrix_line34 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.25s forwards, line_out 0s linear 0.75s forwards;
-          animation: line_in 0s linear 0.25s forwards, line_out 0s linear 0.75s forwards;
-}
-
-.matrix_line35 {
+.matrix_line12 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
@@ -712,31 +528,7 @@ h1 {
           animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
 }
 
-.matrix_line36 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
-          animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
-}
-
-.matrix_line37 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.22s forwards, line_out 0s linear 0.78s forwards;
-          animation: line_in 0s linear 0.22s forwards, line_out 0s linear 0.78s forwards;
-}
-
-.matrix_line38 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.14s forwards, line_out 0s linear 0.86s forwards;
-          animation: line_in 0s linear 0.14s forwards, line_out 0s linear 0.86s forwards;
-}
-
-.matrix_line39 {
+.matrix_line13 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
@@ -744,15 +536,7 @@ h1 {
           animation: line_in 0s linear 0.13s forwards, line_out 0s linear 0.87s forwards;
 }
 
-.matrix_line40 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
-          animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
-}
-
-.matrix_line41 {
+.matrix_line14 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
@@ -760,71 +544,15 @@ h1 {
           animation: line_in 0s linear 0.15s forwards, line_out 0s linear 0.85s forwards;
 }
 
-.matrix_line42 {
+.matrix_line15 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
-          animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
+  -webkit-animation: line_in 0s linear 0.23s forwards, line_out 0s linear 0.77s forwards;
+          animation: line_in 0s linear 0.23s forwards, line_out 0s linear 0.77s forwards;
 }
 
-.matrix_line43 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.14s forwards, line_out 0s linear 0.86s forwards;
-          animation: line_in 0s linear 0.14s forwards, line_out 0s linear 0.86s forwards;
-}
-
-.matrix_line44 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
-          animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
-}
-
-.matrix_line45 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.25s forwards, line_out 0s linear 0.75s forwards;
-          animation: line_in 0s linear 0.25s forwards, line_out 0s linear 0.75s forwards;
-}
-
-.matrix_line46 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
-          animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
-}
-
-.matrix_line47 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.26s forwards, line_out 0s linear 0.74s forwards;
-          animation: line_in 0s linear 0.26s forwards, line_out 0s linear 0.74s forwards;
-}
-
-.matrix_line48 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.24s forwards, line_out 0s linear 0.76s forwards;
-          animation: line_in 0s linear 0.24s forwards, line_out 0s linear 0.76s forwards;
-}
-
-.matrix_line49 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.3s forwards, line_out 0s linear 0.7s forwards;
-          animation: line_in 0s linear 0.3s forwards, line_out 0s linear 0.7s forwards;
-}
-
-.matrix_line50 {
+.matrix_line16 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
@@ -832,55 +560,31 @@ h1 {
           animation: line_in 0s linear 0.09s forwards, line_out 0s linear 0.91s forwards;
 }
 
-.matrix_line51 {
+.matrix_line17 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
-          animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
+  -webkit-animation: line_in 0s linear 0.28s forwards, line_out 0s linear 0.72s forwards;
+          animation: line_in 0s linear 0.28s forwards, line_out 0s linear 0.72s forwards;
 }
 
-.matrix_line52 {
+.matrix_line18 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
-          animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
+  -webkit-animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
+          animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
 }
 
-.matrix_line53 {
+.matrix_line19 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.04s forwards, line_out 0s linear 0.96s forwards;
-          animation: line_in 0s linear 0.04s forwards, line_out 0s linear 0.96s forwards;
+  -webkit-animation: line_in 0s linear 0.27s forwards, line_out 0s linear 0.73s forwards;
+          animation: line_in 0s linear 0.27s forwards, line_out 0s linear 0.73s forwards;
 }
 
-.matrix_line54 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.22s forwards, line_out 0s linear 0.78s forwards;
-          animation: line_in 0s linear 0.22s forwards, line_out 0s linear 0.78s forwards;
-}
-
-.matrix_line55 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.25s forwards, line_out 0s linear 0.75s forwards;
-          animation: line_in 0s linear 0.25s forwards, line_out 0s linear 0.75s forwards;
-}
-
-.matrix_line56 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.11s forwards, line_out 0s linear 0.89s forwards;
-          animation: line_in 0s linear 0.11s forwards, line_out 0s linear 0.89s forwards;
-}
-
-.matrix_line57 {
+.matrix_line20 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
@@ -888,12 +592,308 @@ h1 {
           animation: line_in 0s linear 0.18s forwards, line_out 0s linear 0.82s forwards;
 }
 
-.matrix_line58 {
+.matrix_line21 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.04s forwards, line_out 0s linear 0.96s forwards;
+          animation: line_in 0s linear 0.04s forwards, line_out 0s linear 0.96s forwards;
+}
+
+.matrix_line22 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.06s forwards, line_out 0s linear 0.94s forwards;
+          animation: line_in 0s linear 0.06s forwards, line_out 0s linear 0.94s forwards;
+}
+
+.matrix_line23 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
+          animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
+}
+
+.matrix_line24 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.18s forwards, line_out 0s linear 0.82s forwards;
+          animation: line_in 0s linear 0.18s forwards, line_out 0s linear 0.82s forwards;
+}
+
+.matrix_line25 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.11s forwards, line_out 0s linear 0.89s forwards;
+          animation: line_in 0s linear 0.11s forwards, line_out 0s linear 0.89s forwards;
+}
+
+.matrix_line26 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
+          animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
+}
+
+.matrix_line27 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.14s forwards, line_out 0s linear 0.86s forwards;
+          animation: line_in 0s linear 0.14s forwards, line_out 0s linear 0.86s forwards;
+}
+
+.matrix_line28 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.13s forwards, line_out 0s linear 0.87s forwards;
+          animation: line_in 0s linear 0.13s forwards, line_out 0s linear 0.87s forwards;
+}
+
+.matrix_line29 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.15s forwards, line_out 0s linear 0.85s forwards;
+          animation: line_in 0s linear 0.15s forwards, line_out 0s linear 0.85s forwards;
+}
+
+.matrix_line30 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
+          animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
+}
+
+.matrix_line31 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.06s forwards, line_out 0s linear 0.94s forwards;
+          animation: line_in 0s linear 0.06s forwards, line_out 0s linear 0.94s forwards;
+}
+
+.matrix_line32 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.04s forwards, line_out 0s linear 0.96s forwards;
+          animation: line_in 0s linear 0.04s forwards, line_out 0s linear 0.96s forwards;
+}
+
+.matrix_line33 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
+          animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
+}
+
+.matrix_line34 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.11s forwards, line_out 0s linear 0.89s forwards;
+          animation: line_in 0s linear 0.11s forwards, line_out 0s linear 0.89s forwards;
+}
+
+.matrix_line35 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
   -webkit-animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
           animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
+}
+
+.matrix_line36 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.26s forwards, line_out 0s linear 0.74s forwards;
+          animation: line_in 0s linear 0.26s forwards, line_out 0s linear 0.74s forwards;
+}
+
+.matrix_line37 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.12s forwards, line_out 0s linear 0.88s forwards;
+          animation: line_in 0s linear 0.12s forwards, line_out 0s linear 0.88s forwards;
+}
+
+.matrix_line38 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.09s forwards, line_out 0s linear 0.91s forwards;
+          animation: line_in 0s linear 0.09s forwards, line_out 0s linear 0.91s forwards;
+}
+
+.matrix_line39 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
+          animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
+}
+
+.matrix_line40 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.05s forwards, line_out 0s linear 0.95s forwards;
+          animation: line_in 0s linear 0.05s forwards, line_out 0s linear 0.95s forwards;
+}
+
+.matrix_line41 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
+          animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
+}
+
+.matrix_line42 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.15s forwards, line_out 0s linear 0.85s forwards;
+          animation: line_in 0s linear 0.15s forwards, line_out 0s linear 0.85s forwards;
+}
+
+.matrix_line43 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.21s forwards, line_out 0s linear 0.79s forwards;
+          animation: line_in 0s linear 0.21s forwards, line_out 0s linear 0.79s forwards;
+}
+
+.matrix_line44 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.05s forwards, line_out 0s linear 0.95s forwards;
+          animation: line_in 0s linear 0.05s forwards, line_out 0s linear 0.95s forwards;
+}
+
+.matrix_line45 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.23s forwards, line_out 0s linear 0.77s forwards;
+          animation: line_in 0s linear 0.23s forwards, line_out 0s linear 0.77s forwards;
+}
+
+.matrix_line46 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.27s forwards, line_out 0s linear 0.73s forwards;
+          animation: line_in 0s linear 0.27s forwards, line_out 0s linear 0.73s forwards;
+}
+
+.matrix_line47 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.13s forwards, line_out 0s linear 0.87s forwards;
+          animation: line_in 0s linear 0.13s forwards, line_out 0s linear 0.87s forwards;
+}
+
+.matrix_line48 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.1s forwards, line_out 0s linear 0.9s forwards;
+          animation: line_in 0s linear 0.1s forwards, line_out 0s linear 0.9s forwards;
+}
+
+.matrix_line49 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.28s forwards, line_out 0s linear 0.72s forwards;
+          animation: line_in 0s linear 0.28s forwards, line_out 0s linear 0.72s forwards;
+}
+
+.matrix_line50 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.04s forwards, line_out 0s linear 0.96s forwards;
+          animation: line_in 0s linear 0.04s forwards, line_out 0s linear 0.96s forwards;
+}
+
+.matrix_line51 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.04s forwards, line_out 0s linear 0.96s forwards;
+          animation: line_in 0s linear 0.04s forwards, line_out 0s linear 0.96s forwards;
+}
+
+.matrix_line52 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
+          animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
+}
+
+.matrix_line53 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
+          animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
+}
+
+.matrix_line54 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.14s forwards, line_out 0s linear 0.86s forwards;
+          animation: line_in 0s linear 0.14s forwards, line_out 0s linear 0.86s forwards;
+}
+
+.matrix_line55 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
+          animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
+}
+
+.matrix_line56 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
+          animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
+}
+
+.matrix_line57 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
+          animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
+}
+
+.matrix_line58 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.13s forwards, line_out 0s linear 0.87s forwards;
+          animation: line_in 0s linear 0.13s forwards, line_out 0s linear 0.87s forwards;
 }
 
 .matrix_line59 {
@@ -908,27 +908,59 @@ h1 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.11s forwards, line_out 0s linear 0.89s forwards;
-          animation: line_in 0s linear 0.11s forwards, line_out 0s linear 0.89s forwards;
+  -webkit-animation: line_in 0s linear 0.09s forwards, line_out 0s linear 0.91s forwards;
+          animation: line_in 0s linear 0.09s forwards, line_out 0s linear 0.91s forwards;
 }
 
 .matrix_line61 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.07s forwards, line_out 0s linear 0.93s forwards;
-          animation: line_in 0s linear 0.07s forwards, line_out 0s linear 0.93s forwards;
+  -webkit-animation: line_in 0s linear 0.1s forwards, line_out 0s linear 0.9s forwards;
+          animation: line_in 0s linear 0.1s forwards, line_out 0s linear 0.9s forwards;
 }
 
 .matrix_line62 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
-          animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
+  -webkit-animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
+          animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
 }
 
 .matrix_line63 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.04s forwards, line_out 0s linear 0.96s forwards;
+          animation: line_in 0s linear 0.04s forwards, line_out 0s linear 0.96s forwards;
+}
+
+.matrix_line64 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.25s forwards, line_out 0s linear 0.75s forwards;
+          animation: line_in 0s linear 0.25s forwards, line_out 0s linear 0.75s forwards;
+}
+
+.matrix_line65 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.14s forwards, line_out 0s linear 0.86s forwards;
+          animation: line_in 0s linear 0.14s forwards, line_out 0s linear 0.86s forwards;
+}
+
+.matrix_line66 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.21s forwards, line_out 0s linear 0.79s forwards;
+          animation: line_in 0s linear 0.21s forwards, line_out 0s linear 0.79s forwards;
+}
+
+.matrix_line67 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
@@ -936,44 +968,12 @@ h1 {
           animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
 }
 
-.matrix_line64 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
-          animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
-}
-
-.matrix_line65 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
-          animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
-}
-
-.matrix_line66 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.13s forwards, line_out 0s linear 0.87s forwards;
-          animation: line_in 0s linear 0.13s forwards, line_out 0s linear 0.87s forwards;
-}
-
-.matrix_line67 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
-          animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
-}
-
 .matrix_line68 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.11s forwards, line_out 0s linear 0.89s forwards;
-          animation: line_in 0s linear 0.11s forwards, line_out 0s linear 0.89s forwards;
+  -webkit-animation: line_in 0s linear 0.22s forwards, line_out 0s linear 0.78s forwards;
+          animation: line_in 0s linear 0.22s forwards, line_out 0s linear 0.78s forwards;
 }
 
 .matrix_line69 {
@@ -988,91 +988,11 @@ h1 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.07s forwards, line_out 0s linear 0.93s forwards;
-          animation: line_in 0s linear 0.07s forwards, line_out 0s linear 0.93s forwards;
+  -webkit-animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
+          animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
 }
 
 .matrix_line71 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.12s forwards, line_out 0s linear 0.88s forwards;
-          animation: line_in 0s linear 0.12s forwards, line_out 0s linear 0.88s forwards;
-}
-
-.matrix_line72 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.09s forwards, line_out 0s linear 0.91s forwards;
-          animation: line_in 0s linear 0.09s forwards, line_out 0s linear 0.91s forwards;
-}
-
-.matrix_line73 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.22s forwards, line_out 0s linear 0.78s forwards;
-          animation: line_in 0s linear 0.22s forwards, line_out 0s linear 0.78s forwards;
-}
-
-.matrix_line74 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.1s forwards, line_out 0s linear 0.9s forwards;
-          animation: line_in 0s linear 0.1s forwards, line_out 0s linear 0.9s forwards;
-}
-
-.matrix_line75 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
-          animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
-}
-
-.matrix_line76 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.1s forwards, line_out 0s linear 0.9s forwards;
-          animation: line_in 0s linear 0.1s forwards, line_out 0s linear 0.9s forwards;
-}
-
-.matrix_line77 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
-          animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
-}
-
-.matrix_line78 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
-          animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
-}
-
-.matrix_line79 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.21s forwards, line_out 0s linear 0.79s forwards;
-          animation: line_in 0s linear 0.21s forwards, line_out 0s linear 0.79s forwards;
-}
-
-.matrix_line80 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
-          animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
-}
-
-.matrix_line81 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
@@ -1080,87 +1000,15 @@ h1 {
           animation: line_in 0s linear 0.14s forwards, line_out 0s linear 0.86s forwards;
 }
 
-.matrix_line82 {
+.matrix_line72 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
-          animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
+  -webkit-animation: line_in 0s linear 0.13s forwards, line_out 0s linear 0.87s forwards;
+          animation: line_in 0s linear 0.13s forwards, line_out 0s linear 0.87s forwards;
 }
 
-.matrix_line83 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.12s forwards, line_out 0s linear 0.88s forwards;
-          animation: line_in 0s linear 0.12s forwards, line_out 0s linear 0.88s forwards;
-}
-
-.matrix_line84 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
-          animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
-}
-
-.matrix_line85 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.12s forwards, line_out 0s linear 0.88s forwards;
-          animation: line_in 0s linear 0.12s forwards, line_out 0s linear 0.88s forwards;
-}
-
-.matrix_line86 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.15s forwards, line_out 0s linear 0.85s forwards;
-          animation: line_in 0s linear 0.15s forwards, line_out 0s linear 0.85s forwards;
-}
-
-.matrix_line87 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
-          animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
-}
-
-.matrix_line88 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.26s forwards, line_out 0s linear 0.74s forwards;
-          animation: line_in 0s linear 0.26s forwards, line_out 0s linear 0.74s forwards;
-}
-
-.matrix_line89 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.27s forwards, line_out 0s linear 0.73s forwards;
-          animation: line_in 0s linear 0.27s forwards, line_out 0s linear 0.73s forwards;
-}
-
-.matrix_line90 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.01s forwards, line_out 0s linear 0.99s forwards;
-          animation: line_in 0s linear 0.01s forwards, line_out 0s linear 0.99s forwards;
-}
-
-.matrix_line91 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.03s forwards, line_out 0s linear 0.97s forwards;
-          animation: line_in 0s linear 0.03s forwards, line_out 0s linear 0.97s forwards;
-}
-
-.matrix_line92 {
+.matrix_line73 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
@@ -1168,15 +1016,23 @@ h1 {
           animation: line_in 0s linear 0.11s forwards, line_out 0s linear 0.89s forwards;
 }
 
-.matrix_line93 {
+.matrix_line74 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.09s forwards, line_out 0s linear 0.91s forwards;
-          animation: line_in 0s linear 0.09s forwards, line_out 0s linear 0.91s forwards;
+  -webkit-animation: line_in 0s linear 0.18s forwards, line_out 0s linear 0.82s forwards;
+          animation: line_in 0s linear 0.18s forwards, line_out 0s linear 0.82s forwards;
 }
 
-.matrix_line94 {
+.matrix_line75 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.18s forwards, line_out 0s linear 0.82s forwards;
+          animation: line_in 0s linear 0.18s forwards, line_out 0s linear 0.82s forwards;
+}
+
+.matrix_line76 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
@@ -1184,47 +1040,15 @@ h1 {
           animation: line_in 0s linear 0.25s forwards, line_out 0s linear 0.75s forwards;
 }
 
-.matrix_line95 {
+.matrix_line77 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.12s forwards, line_out 0s linear 0.88s forwards;
-          animation: line_in 0s linear 0.12s forwards, line_out 0s linear 0.88s forwards;
+  -webkit-animation: line_in 0s linear 0.26s forwards, line_out 0s linear 0.74s forwards;
+          animation: line_in 0s linear 0.26s forwards, line_out 0s linear 0.74s forwards;
 }
 
-.matrix_line96 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
-          animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
-}
-
-.matrix_line97 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.23s forwards, line_out 0s linear 0.77s forwards;
-          animation: line_in 0s linear 0.23s forwards, line_out 0s linear 0.77s forwards;
-}
-
-.matrix_line98 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.11s forwards, line_out 0s linear 0.89s forwards;
-          animation: line_in 0s linear 0.11s forwards, line_out 0s linear 0.89s forwards;
-}
-
-.matrix_line99 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.14s forwards, line_out 0s linear 0.86s forwards;
-          animation: line_in 0s linear 0.14s forwards, line_out 0s linear 0.86s forwards;
-}
-
-.matrix_line100 {
+.matrix_line78 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
@@ -1232,15 +1056,151 @@ h1 {
           animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
 }
 
-.matrix_line101 {
+.matrix_line79 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
-          animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
+  -webkit-animation: line_in 0s linear 0.25s forwards, line_out 0s linear 0.75s forwards;
+          animation: line_in 0s linear 0.25s forwards, line_out 0s linear 0.75s forwards;
 }
 
-.matrix_line102 {
+.matrix_line80 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.02s forwards, line_out 0s linear 0.98s forwards;
+          animation: line_in 0s linear 0.02s forwards, line_out 0s linear 0.98s forwards;
+}
+
+.matrix_line81 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
+          animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
+}
+
+.matrix_line82 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.09s forwards, line_out 0s linear 0.91s forwards;
+          animation: line_in 0s linear 0.09s forwards, line_out 0s linear 0.91s forwards;
+}
+
+.matrix_line83 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
+          animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
+}
+
+.matrix_line84 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.22s forwards, line_out 0s linear 0.78s forwards;
+          animation: line_in 0s linear 0.22s forwards, line_out 0s linear 0.78s forwards;
+}
+
+.matrix_line85 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
+          animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
+}
+
+.matrix_line86 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.24s forwards, line_out 0s linear 0.76s forwards;
+          animation: line_in 0s linear 0.24s forwards, line_out 0s linear 0.76s forwards;
+}
+
+.matrix_line87 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.24s forwards, line_out 0s linear 0.76s forwards;
+          animation: line_in 0s linear 0.24s forwards, line_out 0s linear 0.76s forwards;
+}
+
+.matrix_line88 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.23s forwards, line_out 0s linear 0.77s forwards;
+          animation: line_in 0s linear 0.23s forwards, line_out 0s linear 0.77s forwards;
+}
+
+.matrix_line89 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.24s forwards, line_out 0s linear 0.76s forwards;
+          animation: line_in 0s linear 0.24s forwards, line_out 0s linear 0.76s forwards;
+}
+
+.matrix_line90 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
+          animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
+}
+
+.matrix_line91 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.18s forwards, line_out 0s linear 0.82s forwards;
+          animation: line_in 0s linear 0.18s forwards, line_out 0s linear 0.82s forwards;
+}
+
+.matrix_line92 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.09s forwards, line_out 0s linear 0.91s forwards;
+          animation: line_in 0s linear 0.09s forwards, line_out 0s linear 0.91s forwards;
+}
+
+.matrix_line93 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.15s forwards, line_out 0s linear 0.85s forwards;
+          animation: line_in 0s linear 0.15s forwards, line_out 0s linear 0.85s forwards;
+}
+
+.matrix_line94 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
+          animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
+}
+
+.matrix_line95 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.13s forwards, line_out 0s linear 0.87s forwards;
+          animation: line_in 0s linear 0.13s forwards, line_out 0s linear 0.87s forwards;
+}
+
+.matrix_line96 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
+          animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
+}
+
+.matrix_line97 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
@@ -1248,44 +1208,84 @@ h1 {
           animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
 }
 
+.matrix_line98 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.25s forwards, line_out 0s linear 0.75s forwards;
+          animation: line_in 0s linear 0.25s forwards, line_out 0s linear 0.75s forwards;
+}
+
+.matrix_line99 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.24s forwards, line_out 0s linear 0.76s forwards;
+          animation: line_in 0s linear 0.24s forwards, line_out 0s linear 0.76s forwards;
+}
+
+.matrix_line100 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
+          animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
+}
+
+.matrix_line101 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.18s forwards, line_out 0s linear 0.82s forwards;
+          animation: line_in 0s linear 0.18s forwards, line_out 0s linear 0.82s forwards;
+}
+
+.matrix_line102 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
+          animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
+}
+
 .matrix_line103 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.23s forwards, line_out 0s linear 0.77s forwards;
-          animation: line_in 0s linear 0.23s forwards, line_out 0s linear 0.77s forwards;
+  -webkit-animation: line_in 0s linear 0.05s forwards, line_out 0s linear 0.95s forwards;
+          animation: line_in 0s linear 0.05s forwards, line_out 0s linear 0.95s forwards;
 }
 
 .matrix_line104 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.12s forwards, line_out 0s linear 0.88s forwards;
-          animation: line_in 0s linear 0.12s forwards, line_out 0s linear 0.88s forwards;
+  -webkit-animation: line_in 0s linear 0.22s forwards, line_out 0s linear 0.78s forwards;
+          animation: line_in 0s linear 0.22s forwards, line_out 0s linear 0.78s forwards;
 }
 
 .matrix_line105 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.21s forwards, line_out 0s linear 0.79s forwards;
-          animation: line_in 0s linear 0.21s forwards, line_out 0s linear 0.79s forwards;
+  -webkit-animation: line_in 0s linear 0.22s forwards, line_out 0s linear 0.78s forwards;
+          animation: line_in 0s linear 0.22s forwards, line_out 0s linear 0.78s forwards;
 }
 
 .matrix_line106 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
-          animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
+  -webkit-animation: line_in 0s linear 0.07s forwards, line_out 0s linear 0.93s forwards;
+          animation: line_in 0s linear 0.07s forwards, line_out 0s linear 0.93s forwards;
 }
 
 .matrix_line107 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.09s forwards, line_out 0s linear 0.91s forwards;
-          animation: line_in 0s linear 0.09s forwards, line_out 0s linear 0.91s forwards;
+  -webkit-animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
+          animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
 }
 
 .matrix_line108 {
@@ -1300,51 +1300,43 @@ h1 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.28s forwards, line_out 0s linear 0.72s forwards;
-          animation: line_in 0s linear 0.28s forwards, line_out 0s linear 0.72s forwards;
+  -webkit-animation: line_in 0s linear 0.3s forwards, line_out 0s linear 0.7s forwards;
+          animation: line_in 0s linear 0.3s forwards, line_out 0s linear 0.7s forwards;
 }
 
 .matrix_line110 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.15s forwards, line_out 0s linear 0.85s forwards;
-          animation: line_in 0s linear 0.15s forwards, line_out 0s linear 0.85s forwards;
+  -webkit-animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
+          animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
 }
 
 .matrix_line111 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.11s forwards, line_out 0s linear 0.89s forwards;
-          animation: line_in 0s linear 0.11s forwards, line_out 0s linear 0.89s forwards;
+  -webkit-animation: line_in 0s linear 0.04s forwards, line_out 0s linear 0.96s forwards;
+          animation: line_in 0s linear 0.04s forwards, line_out 0s linear 0.96s forwards;
 }
 
 .matrix_line112 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.15s forwards, line_out 0s linear 0.85s forwards;
-          animation: line_in 0s linear 0.15s forwards, line_out 0s linear 0.85s forwards;
+  -webkit-animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
+          animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
 }
 
 .matrix_line113 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.07s forwards, line_out 0s linear 0.93s forwards;
-          animation: line_in 0s linear 0.07s forwards, line_out 0s linear 0.93s forwards;
+  -webkit-animation: line_in 0s linear 0.09s forwards, line_out 0s linear 0.91s forwards;
+          animation: line_in 0s linear 0.09s forwards, line_out 0s linear 0.91s forwards;
 }
 
 .matrix_line114 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.06s forwards, line_out 0s linear 0.94s forwards;
-          animation: line_in 0s linear 0.06s forwards, line_out 0s linear 0.94s forwards;
-}
-
-.matrix_line115 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
@@ -1352,36 +1344,44 @@ h1 {
           animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
 }
 
+.matrix_line115 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.15s forwards, line_out 0s linear 0.85s forwards;
+          animation: line_in 0s linear 0.15s forwards, line_out 0s linear 0.85s forwards;
+}
+
 .matrix_line116 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.21s forwards, line_out 0s linear 0.79s forwards;
-          animation: line_in 0s linear 0.21s forwards, line_out 0s linear 0.79s forwards;
+  -webkit-animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
+          animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
 }
 
 .matrix_line117 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.23s forwards, line_out 0s linear 0.77s forwards;
-          animation: line_in 0s linear 0.23s forwards, line_out 0s linear 0.77s forwards;
+  -webkit-animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
+          animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
 }
 
 .matrix_line118 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.23s forwards, line_out 0s linear 0.77s forwards;
-          animation: line_in 0s linear 0.23s forwards, line_out 0s linear 0.77s forwards;
+  -webkit-animation: line_in 0s linear 0.18s forwards, line_out 0s linear 0.82s forwards;
+          animation: line_in 0s linear 0.18s forwards, line_out 0s linear 0.82s forwards;
 }
 
 .matrix_line119 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.1s forwards, line_out 0s linear 0.9s forwards;
-          animation: line_in 0s linear 0.1s forwards, line_out 0s linear 0.9s forwards;
+  -webkit-animation: line_in 0s linear 0.3s forwards, line_out 0s linear 0.7s forwards;
+          animation: line_in 0s linear 0.3s forwards, line_out 0s linear 0.7s forwards;
 }
 
 .matrix_line120 {
@@ -1396,27 +1396,35 @@ h1 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
-          animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
+  -webkit-animation: line_in 0s linear 0.14s forwards, line_out 0s linear 0.86s forwards;
+          animation: line_in 0s linear 0.14s forwards, line_out 0s linear 0.86s forwards;
 }
 
 .matrix_line122 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
-          animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
+  -webkit-animation: line_in 0s linear 0.12s forwards, line_out 0s linear 0.88s forwards;
+          animation: line_in 0s linear 0.12s forwards, line_out 0s linear 0.88s forwards;
 }
 
 .matrix_line123 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.07s forwards, line_out 0s linear 0.93s forwards;
-          animation: line_in 0s linear 0.07s forwards, line_out 0s linear 0.93s forwards;
+  -webkit-animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
+          animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
 }
 
 .matrix_line124 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.12s forwards, line_out 0s linear 0.88s forwards;
+          animation: line_in 0s linear 0.12s forwards, line_out 0s linear 0.88s forwards;
+}
+
+.matrix_line125 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
@@ -1424,36 +1432,28 @@ h1 {
           animation: line_in 0s linear 0.1s forwards, line_out 0s linear 0.9s forwards;
 }
 
-.matrix_line125 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.22s forwards, line_out 0s linear 0.78s forwards;
-          animation: line_in 0s linear 0.22s forwards, line_out 0s linear 0.78s forwards;
-}
-
 .matrix_line126 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.13s forwards, line_out 0s linear 0.87s forwards;
-          animation: line_in 0s linear 0.13s forwards, line_out 0s linear 0.87s forwards;
+  -webkit-animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
+          animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
 }
 
 .matrix_line127 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
-          animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
+  -webkit-animation: line_in 0s linear 0.27s forwards, line_out 0s linear 0.73s forwards;
+          animation: line_in 0s linear 0.27s forwards, line_out 0s linear 0.73s forwards;
 }
 
 .matrix_line128 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.21s forwards, line_out 0s linear 0.79s forwards;
-          animation: line_in 0s linear 0.21s forwards, line_out 0s linear 0.79s forwards;
+  -webkit-animation: line_in 0s linear 0.22s forwards, line_out 0s linear 0.78s forwards;
+          animation: line_in 0s linear 0.22s forwards, line_out 0s linear 0.78s forwards;
 }
 
 .matrix_line129 {
@@ -1468,8 +1468,8 @@ h1 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.18s forwards, line_out 0s linear 0.82s forwards;
-          animation: line_in 0s linear 0.18s forwards, line_out 0s linear 0.82s forwards;
+  -webkit-animation: line_in 0s linear 0.02s forwards, line_out 0s linear 0.98s forwards;
+          animation: line_in 0s linear 0.02s forwards, line_out 0s linear 0.98s forwards;
 }
 
 .matrix_line131 {
@@ -1484,67 +1484,11 @@ h1 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.09s forwards, line_out 0s linear 0.91s forwards;
-          animation: line_in 0s linear 0.09s forwards, line_out 0s linear 0.91s forwards;
+  -webkit-animation: line_in 0s linear 0.04s forwards, line_out 0s linear 0.96s forwards;
+          animation: line_in 0s linear 0.04s forwards, line_out 0s linear 0.96s forwards;
 }
 
 .matrix_line133 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.23s forwards, line_out 0s linear 0.77s forwards;
-          animation: line_in 0s linear 0.23s forwards, line_out 0s linear 0.77s forwards;
-}
-
-.matrix_line134 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
-          animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
-}
-
-.matrix_line135 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
-          animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
-}
-
-.matrix_line136 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.15s forwards, line_out 0s linear 0.85s forwards;
-          animation: line_in 0s linear 0.15s forwards, line_out 0s linear 0.85s forwards;
-}
-
-.matrix_line137 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.27s forwards, line_out 0s linear 0.73s forwards;
-          animation: line_in 0s linear 0.27s forwards, line_out 0s linear 0.73s forwards;
-}
-
-.matrix_line138 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.21s forwards, line_out 0s linear 0.79s forwards;
-          animation: line_in 0s linear 0.21s forwards, line_out 0s linear 0.79s forwards;
-}
-
-.matrix_line139 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
-          animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
-}
-
-.matrix_line140 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
@@ -1552,15 +1496,39 @@ h1 {
           animation: line_in 0s linear 0.11s forwards, line_out 0s linear 0.89s forwards;
 }
 
-.matrix_line141 {
+.matrix_line134 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.15s forwards, line_out 0s linear 0.85s forwards;
-          animation: line_in 0s linear 0.15s forwards, line_out 0s linear 0.85s forwards;
+  -webkit-animation: line_in 0s linear 0.06s forwards, line_out 0s linear 0.94s forwards;
+          animation: line_in 0s linear 0.06s forwards, line_out 0s linear 0.94s forwards;
 }
 
-.matrix_line142 {
+.matrix_line135 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.26s forwards, line_out 0s linear 0.74s forwards;
+          animation: line_in 0s linear 0.26s forwards, line_out 0s linear 0.74s forwards;
+}
+
+.matrix_line136 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.18s forwards, line_out 0s linear 0.82s forwards;
+          animation: line_in 0s linear 0.18s forwards, line_out 0s linear 0.82s forwards;
+}
+
+.matrix_line137 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.22s forwards, line_out 0s linear 0.78s forwards;
+          animation: line_in 0s linear 0.22s forwards, line_out 0s linear 0.78s forwards;
+}
+
+.matrix_line138 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
@@ -1568,7 +1536,15 @@ h1 {
           animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
 }
 
-.matrix_line143 {
+.matrix_line139 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.24s forwards, line_out 0s linear 0.76s forwards;
+          animation: line_in 0s linear 0.24s forwards, line_out 0s linear 0.76s forwards;
+}
+
+.matrix_line140 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
@@ -1576,63 +1552,23 @@ h1 {
           animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
 }
 
-.matrix_line144 {
+.matrix_line141 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
-          animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
+  -webkit-animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
+          animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
 }
 
-.matrix_line145 {
+.matrix_line142 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.07s forwards, line_out 0s linear 0.93s forwards;
-          animation: line_in 0s linear 0.07s forwards, line_out 0s linear 0.93s forwards;
+  -webkit-animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
+          animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
 }
 
-.matrix_line146 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.13s forwards, line_out 0s linear 0.87s forwards;
-          animation: line_in 0s linear 0.13s forwards, line_out 0s linear 0.87s forwards;
-}
-
-.matrix_line147 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
-          animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
-}
-
-.matrix_line148 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.1s forwards, line_out 0s linear 0.9s forwards;
-          animation: line_in 0s linear 0.1s forwards, line_out 0s linear 0.9s forwards;
-}
-
-.matrix_line149 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.27s forwards, line_out 0s linear 0.73s forwards;
-          animation: line_in 0s linear 0.27s forwards, line_out 0s linear 0.73s forwards;
-}
-
-.matrix_line150 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.12s forwards, line_out 0s linear 0.88s forwards;
-          animation: line_in 0s linear 0.12s forwards, line_out 0s linear 0.88s forwards;
-}
-
-.matrix_line151 {
+.matrix_line143 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
@@ -1640,39 +1576,63 @@ h1 {
           animation: line_in 0s linear 0.05s forwards, line_out 0s linear 0.95s forwards;
 }
 
-.matrix_line152 {
+.matrix_line144 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
-          animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
+  -webkit-animation: line_in 0s linear 0.24s forwards, line_out 0s linear 0.76s forwards;
+          animation: line_in 0s linear 0.24s forwards, line_out 0s linear 0.76s forwards;
 }
 
-.matrix_line153 {
+.matrix_line145 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.23s forwards, line_out 0s linear 0.77s forwards;
-          animation: line_in 0s linear 0.23s forwards, line_out 0s linear 0.77s forwards;
+  -webkit-animation: line_in 0s linear 0.14s forwards, line_out 0s linear 0.86s forwards;
+          animation: line_in 0s linear 0.14s forwards, line_out 0s linear 0.86s forwards;
 }
 
-.matrix_line154 {
+.matrix_line146 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
-          animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
+  -webkit-animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
+          animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
 }
 
-.matrix_line155 {
+.matrix_line147 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.21s forwards, line_out 0s linear 0.79s forwards;
-          animation: line_in 0s linear 0.21s forwards, line_out 0s linear 0.79s forwards;
+  -webkit-animation: line_in 0s linear 0.13s forwards, line_out 0s linear 0.87s forwards;
+          animation: line_in 0s linear 0.13s forwards, line_out 0s linear 0.87s forwards;
 }
 
-.matrix_line156 {
+.matrix_line148 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.27s forwards, line_out 0s linear 0.73s forwards;
+          animation: line_in 0s linear 0.27s forwards, line_out 0s linear 0.73s forwards;
+}
+
+.matrix_line149 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.22s forwards, line_out 0s linear 0.78s forwards;
+          animation: line_in 0s linear 0.22s forwards, line_out 0s linear 0.78s forwards;
+}
+
+.matrix_line150 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.09s forwards, line_out 0s linear 0.91s forwards;
+          animation: line_in 0s linear 0.09s forwards, line_out 0s linear 0.91s forwards;
+}
+
+.matrix_line151 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
@@ -1680,15 +1640,31 @@ h1 {
           animation: line_in 0s linear 0.07s forwards, line_out 0s linear 0.93s forwards;
 }
 
-.matrix_line157 {
+.matrix_line152 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
-          animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
+  -webkit-animation: line_in 0s linear 0.09s forwards, line_out 0s linear 0.91s forwards;
+          animation: line_in 0s linear 0.09s forwards, line_out 0s linear 0.91s forwards;
 }
 
-.matrix_line158 {
+.matrix_line153 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.07s forwards, line_out 0s linear 0.93s forwards;
+          animation: line_in 0s linear 0.07s forwards, line_out 0s linear 0.93s forwards;
+}
+
+.matrix_line154 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.22s forwards, line_out 0s linear 0.78s forwards;
+          animation: line_in 0s linear 0.22s forwards, line_out 0s linear 0.78s forwards;
+}
+
+.matrix_line155 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
@@ -1696,36 +1672,60 @@ h1 {
           animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
 }
 
+.matrix_line156 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
+          animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
+}
+
+.matrix_line157 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.27s forwards, line_out 0s linear 0.73s forwards;
+          animation: line_in 0s linear 0.27s forwards, line_out 0s linear 0.73s forwards;
+}
+
+.matrix_line158 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.12s forwards, line_out 0s linear 0.88s forwards;
+          animation: line_in 0s linear 0.12s forwards, line_out 0s linear 0.88s forwards;
+}
+
 .matrix_line159 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.15s forwards, line_out 0s linear 0.85s forwards;
-          animation: line_in 0s linear 0.15s forwards, line_out 0s linear 0.85s forwards;
+  -webkit-animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
+          animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
 }
 
 .matrix_line160 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.07s forwards, line_out 0s linear 0.93s forwards;
-          animation: line_in 0s linear 0.07s forwards, line_out 0s linear 0.93s forwards;
+  -webkit-animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
+          animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
 }
 
 .matrix_line161 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
-          animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
+  -webkit-animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
+          animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
 }
 
 .matrix_line162 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.23s forwards, line_out 0s linear 0.77s forwards;
-          animation: line_in 0s linear 0.23s forwards, line_out 0s linear 0.77s forwards;
+  -webkit-animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
+          animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
 }
 
 .matrix_line163 {
@@ -1740,131 +1740,11 @@ h1 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
-          animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
+  -webkit-animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
+          animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
 }
 
 .matrix_line165 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.1s forwards, line_out 0s linear 0.9s forwards;
-          animation: line_in 0s linear 0.1s forwards, line_out 0s linear 0.9s forwards;
-}
-
-.matrix_line166 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.14s forwards, line_out 0s linear 0.86s forwards;
-          animation: line_in 0s linear 0.14s forwards, line_out 0s linear 0.86s forwards;
-}
-
-.matrix_line167 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.14s forwards, line_out 0s linear 0.86s forwards;
-          animation: line_in 0s linear 0.14s forwards, line_out 0s linear 0.86s forwards;
-}
-
-.matrix_line168 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.25s forwards, line_out 0s linear 0.75s forwards;
-          animation: line_in 0s linear 0.25s forwards, line_out 0s linear 0.75s forwards;
-}
-
-.matrix_line169 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.13s forwards, line_out 0s linear 0.87s forwards;
-          animation: line_in 0s linear 0.13s forwards, line_out 0s linear 0.87s forwards;
-}
-
-.matrix_line170 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
-          animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
-}
-
-.matrix_line171 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.06s forwards, line_out 0s linear 0.94s forwards;
-          animation: line_in 0s linear 0.06s forwards, line_out 0s linear 0.94s forwards;
-}
-
-.matrix_line172 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.1s forwards, line_out 0s linear 0.9s forwards;
-          animation: line_in 0s linear 0.1s forwards, line_out 0s linear 0.9s forwards;
-}
-
-.matrix_line173 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
-          animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
-}
-
-.matrix_line174 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
-          animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
-}
-
-.matrix_line175 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.14s forwards, line_out 0s linear 0.86s forwards;
-          animation: line_in 0s linear 0.14s forwards, line_out 0s linear 0.86s forwards;
-}
-
-.matrix_line176 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.23s forwards, line_out 0s linear 0.77s forwards;
-          animation: line_in 0s linear 0.23s forwards, line_out 0s linear 0.77s forwards;
-}
-
-.matrix_line177 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.12s forwards, line_out 0s linear 0.88s forwards;
-          animation: line_in 0s linear 0.12s forwards, line_out 0s linear 0.88s forwards;
-}
-
-.matrix_line178 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.11s forwards, line_out 0s linear 0.89s forwards;
-          animation: line_in 0s linear 0.11s forwards, line_out 0s linear 0.89s forwards;
-}
-
-.matrix_line179 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.21s forwards, line_out 0s linear 0.79s forwards;
-          animation: line_in 0s linear 0.21s forwards, line_out 0s linear 0.79s forwards;
-}
-
-.matrix_line180 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
@@ -1872,175 +1752,7 @@ h1 {
           animation: line_in 0s linear 0.18s forwards, line_out 0s linear 0.82s forwards;
 }
 
-.matrix_line181 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.03s forwards, line_out 0s linear 0.97s forwards;
-          animation: line_in 0s linear 0.03s forwards, line_out 0s linear 0.97s forwards;
-}
-
-.matrix_line182 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.07s forwards, line_out 0s linear 0.93s forwards;
-          animation: line_in 0s linear 0.07s forwards, line_out 0s linear 0.93s forwards;
-}
-
-.matrix_line183 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.15s forwards, line_out 0s linear 0.85s forwards;
-          animation: line_in 0s linear 0.15s forwards, line_out 0s linear 0.85s forwards;
-}
-
-.matrix_line184 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.22s forwards, line_out 0s linear 0.78s forwards;
-          animation: line_in 0s linear 0.22s forwards, line_out 0s linear 0.78s forwards;
-}
-
-.matrix_line185 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.22s forwards, line_out 0s linear 0.78s forwards;
-          animation: line_in 0s linear 0.22s forwards, line_out 0s linear 0.78s forwards;
-}
-
-.matrix_line186 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
-          animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
-}
-
-.matrix_line187 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.25s forwards, line_out 0s linear 0.75s forwards;
-          animation: line_in 0s linear 0.25s forwards, line_out 0s linear 0.75s forwards;
-}
-
-.matrix_line188 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
-          animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
-}
-
-.matrix_line189 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.23s forwards, line_out 0s linear 0.77s forwards;
-          animation: line_in 0s linear 0.23s forwards, line_out 0s linear 0.77s forwards;
-}
-
-.matrix_line190 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.1s forwards, line_out 0s linear 0.9s forwards;
-          animation: line_in 0s linear 0.1s forwards, line_out 0s linear 0.9s forwards;
-}
-
-.matrix_line191 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.04s forwards, line_out 0s linear 0.96s forwards;
-          animation: line_in 0s linear 0.04s forwards, line_out 0s linear 0.96s forwards;
-}
-
-.matrix_line192 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
-          animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
-}
-
-.matrix_line193 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.22s forwards, line_out 0s linear 0.78s forwards;
-          animation: line_in 0s linear 0.22s forwards, line_out 0s linear 0.78s forwards;
-}
-
-.matrix_line194 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.07s forwards, line_out 0s linear 0.93s forwards;
-          animation: line_in 0s linear 0.07s forwards, line_out 0s linear 0.93s forwards;
-}
-
-.matrix_line195 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.25s forwards, line_out 0s linear 0.75s forwards;
-          animation: line_in 0s linear 0.25s forwards, line_out 0s linear 0.75s forwards;
-}
-
-.matrix_line196 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.1s forwards, line_out 0s linear 0.9s forwards;
-          animation: line_in 0s linear 0.1s forwards, line_out 0s linear 0.9s forwards;
-}
-
-.matrix_line197 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.09s forwards, line_out 0s linear 0.91s forwards;
-          animation: line_in 0s linear 0.09s forwards, line_out 0s linear 0.91s forwards;
-}
-
-.matrix_line198 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
-          animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
-}
-
-.matrix_line199 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
-          animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
-}
-
-.matrix_line200 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
-          animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
-}
-
-.matrix_line201 {
-  height: 10%;
-  background-color: lightblue;
-  opacity: 0;
-  -webkit-animation: line_in 0s linear 0.1s forwards, line_out 0s linear 0.9s forwards;
-          animation: line_in 0s linear 0.1s forwards, line_out 0s linear 0.9s forwards;
-}
-
-.matrix_line202 {
+.matrix_line166 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
@@ -2048,15 +1760,31 @@ h1 {
           animation: line_in 0s linear 0.11s forwards, line_out 0s linear 0.89s forwards;
 }
 
-.matrix_line203 {
+.matrix_line167 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.07s forwards, line_out 0s linear 0.93s forwards;
-          animation: line_in 0s linear 0.07s forwards, line_out 0s linear 0.93s forwards;
+  -webkit-animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
+          animation: line_in 0s linear 0.19s forwards, line_out 0s linear 0.81s forwards;
 }
 
-.matrix_line204 {
+.matrix_line168 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.18s forwards, line_out 0s linear 0.82s forwards;
+          animation: line_in 0s linear 0.18s forwards, line_out 0s linear 0.82s forwards;
+}
+
+.matrix_line169 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.29s forwards, line_out 0s linear 0.71s forwards;
+          animation: line_in 0s linear 0.29s forwards, line_out 0s linear 0.71s forwards;
+}
+
+.matrix_line170 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
@@ -2064,23 +1792,23 @@ h1 {
           animation: line_in 0s linear 0.06s forwards, line_out 0s linear 0.94s forwards;
 }
 
-.matrix_line205 {
+.matrix_line171 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.09s forwards, line_out 0s linear 0.91s forwards;
-          animation: line_in 0s linear 0.09s forwards, line_out 0s linear 0.91s forwards;
+  -webkit-animation: line_in 0s linear 0.13s forwards, line_out 0s linear 0.87s forwards;
+          animation: line_in 0s linear 0.13s forwards, line_out 0s linear 0.87s forwards;
 }
 
-.matrix_line206 {
+.matrix_line172 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.12s forwards, line_out 0s linear 0.88s forwards;
-          animation: line_in 0s linear 0.12s forwards, line_out 0s linear 0.88s forwards;
+  -webkit-animation: line_in 0s linear 0.13s forwards, line_out 0s linear 0.87s forwards;
+          animation: line_in 0s linear 0.13s forwards, line_out 0s linear 0.87s forwards;
 }
 
-.matrix_line207 {
+.matrix_line173 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
@@ -2088,7 +1816,87 @@ h1 {
           animation: line_in 0s linear 0.14s forwards, line_out 0s linear 0.86s forwards;
 }
 
-.matrix_line208 {
+.matrix_line174 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.18s forwards, line_out 0s linear 0.82s forwards;
+          animation: line_in 0s linear 0.18s forwards, line_out 0s linear 0.82s forwards;
+}
+
+.matrix_line175 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.15s forwards, line_out 0s linear 0.85s forwards;
+          animation: line_in 0s linear 0.15s forwards, line_out 0s linear 0.85s forwards;
+}
+
+.matrix_line176 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
+          animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
+}
+
+.matrix_line177 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.22s forwards, line_out 0s linear 0.78s forwards;
+          animation: line_in 0s linear 0.22s forwards, line_out 0s linear 0.78s forwards;
+}
+
+.matrix_line178 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.22s forwards, line_out 0s linear 0.78s forwards;
+          animation: line_in 0s linear 0.22s forwards, line_out 0s linear 0.78s forwards;
+}
+
+.matrix_line179 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.15s forwards, line_out 0s linear 0.85s forwards;
+          animation: line_in 0s linear 0.15s forwards, line_out 0s linear 0.85s forwards;
+}
+
+.matrix_line180 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
+          animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
+}
+
+.matrix_line181 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.12s forwards, line_out 0s linear 0.88s forwards;
+          animation: line_in 0s linear 0.12s forwards, line_out 0s linear 0.88s forwards;
+}
+
+.matrix_line182 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.03s forwards, line_out 0s linear 0.97s forwards;
+          animation: line_in 0s linear 0.03s forwards, line_out 0s linear 0.97s forwards;
+}
+
+.matrix_line183 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.21s forwards, line_out 0s linear 0.79s forwards;
+          animation: line_in 0s linear 0.21s forwards, line_out 0s linear 0.79s forwards;
+}
+
+.matrix_line184 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
@@ -2096,12 +1904,204 @@ h1 {
           animation: line_in 0s linear 0.09s forwards, line_out 0s linear 0.91s forwards;
 }
 
+.matrix_line185 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
+          animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
+}
+
+.matrix_line186 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.25s forwards, line_out 0s linear 0.75s forwards;
+          animation: line_in 0s linear 0.25s forwards, line_out 0s linear 0.75s forwards;
+}
+
+.matrix_line187 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.13s forwards, line_out 0s linear 0.87s forwards;
+          animation: line_in 0s linear 0.13s forwards, line_out 0s linear 0.87s forwards;
+}
+
+.matrix_line188 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.18s forwards, line_out 0s linear 0.82s forwards;
+          animation: line_in 0s linear 0.18s forwards, line_out 0s linear 0.82s forwards;
+}
+
+.matrix_line189 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.21s forwards, line_out 0s linear 0.79s forwards;
+          animation: line_in 0s linear 0.21s forwards, line_out 0s linear 0.79s forwards;
+}
+
+.matrix_line190 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
+          animation: line_in 0s linear 0.17s forwards, line_out 0s linear 0.83s forwards;
+}
+
+.matrix_line191 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.21s forwards, line_out 0s linear 0.79s forwards;
+          animation: line_in 0s linear 0.21s forwards, line_out 0s linear 0.79s forwards;
+}
+
+.matrix_line192 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.14s forwards, line_out 0s linear 0.86s forwards;
+          animation: line_in 0s linear 0.14s forwards, line_out 0s linear 0.86s forwards;
+}
+
+.matrix_line193 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.11s forwards, line_out 0s linear 0.89s forwards;
+          animation: line_in 0s linear 0.11s forwards, line_out 0s linear 0.89s forwards;
+}
+
+.matrix_line194 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
+          animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
+}
+
+.matrix_line195 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.09s forwards, line_out 0s linear 0.91s forwards;
+          animation: line_in 0s linear 0.09s forwards, line_out 0s linear 0.91s forwards;
+}
+
+.matrix_line196 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
+          animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
+}
+
+.matrix_line197 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
+          animation: line_in 0s linear 0.08s forwards, line_out 0s linear 0.92s forwards;
+}
+
+.matrix_line198 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.26s forwards, line_out 0s linear 0.74s forwards;
+          animation: line_in 0s linear 0.26s forwards, line_out 0s linear 0.74s forwards;
+}
+
+.matrix_line199 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.25s forwards, line_out 0s linear 0.75s forwards;
+          animation: line_in 0s linear 0.25s forwards, line_out 0s linear 0.75s forwards;
+}
+
+.matrix_line200 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
+          animation: line_in 0s linear 0.16s forwards, line_out 0s linear 0.84s forwards;
+}
+
+.matrix_line201 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.02s forwards, line_out 0s linear 0.98s forwards;
+          animation: line_in 0s linear 0.02s forwards, line_out 0s linear 0.98s forwards;
+}
+
+.matrix_line202 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.15s forwards, line_out 0s linear 0.85s forwards;
+          animation: line_in 0s linear 0.15s forwards, line_out 0s linear 0.85s forwards;
+}
+
+.matrix_line203 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.13s forwards, line_out 0s linear 0.87s forwards;
+          animation: line_in 0s linear 0.13s forwards, line_out 0s linear 0.87s forwards;
+}
+
+.matrix_line204 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.14s forwards, line_out 0s linear 0.86s forwards;
+          animation: line_in 0s linear 0.14s forwards, line_out 0s linear 0.86s forwards;
+}
+
+.matrix_line205 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.12s forwards, line_out 0s linear 0.88s forwards;
+          animation: line_in 0s linear 0.12s forwards, line_out 0s linear 0.88s forwards;
+}
+
+.matrix_line206 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.21s forwards, line_out 0s linear 0.79s forwards;
+          animation: line_in 0s linear 0.21s forwards, line_out 0s linear 0.79s forwards;
+}
+
+.matrix_line207 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.26s forwards, line_out 0s linear 0.74s forwards;
+          animation: line_in 0s linear 0.26s forwards, line_out 0s linear 0.74s forwards;
+}
+
+.matrix_line208 {
+  height: 10%;
+  background-color: lightblue;
+  opacity: 0;
+  -webkit-animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
+          animation: line_in 0s linear 0.2s forwards, line_out 0s linear 0.8s forwards;
+}
+
 .matrix_line209 {
   height: 10%;
   background-color: lightblue;
   opacity: 0;
-  -webkit-animation: line_in 0s linear 0.27s forwards, line_out 0s linear 0.73s forwards;
-          animation: line_in 0s linear 0.27s forwards, line_out 0s linear 0.73s forwards;
+  -webkit-animation: line_in 0s linear 0.26s forwards, line_out 0s linear 0.74s forwards;
+          animation: line_in 0s linear 0.26s forwards, line_out 0s linear 0.74s forwards;
 }
 
 @-webkit-keyframes line_out {
@@ -2380,7 +2380,7 @@ h1 {
   margin-right: 30px;
   font-style: italic;
   font-size: 2.5rem;
-  border-radius: 10px;
+  color: #282846;
 }
 
 .header_menu {
