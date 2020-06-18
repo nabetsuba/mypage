@@ -69,7 +69,9 @@
 body {
     margin: 0;
 }
-
+h1 {
+    margin: 0;
+}
 a {
     text-decoration: none;
 }
@@ -80,36 +82,50 @@ a {
     position: fixed;
     width: 100%;
     height: 100%;
-    background-color: lightyellow;
 }
 
 #home {
     display: none;
-    height: 100%;
 }
 
 /*----------モジュール----------*/
 // opening
+.op_text_bg {
+    display: flex;
+    position: absolute;
+    left: calc(50% - 240px);
+    height: 100%;
+}
+.op_text_bg_up {
+    width: 120px;
+    height: 100%;
+    background-color: lightgoldenrodyellow;
+    transform: translateY(100%);
+}
+.op_text_bg_down {
+    width: 120px;
+    height: 100%;
+    background-color: lightgoldenrodyellow;
+    transform: translateY(-100%);
+}
 .op_text {
-    z-index: 1;
     display: flex;
     position: absolute;
     top: 300px;
-    left: calc(50% - 160px);
-    height: calc(100% - 600px);
+    left: calc(50% - 240px);
 }
-.op_text div {
+.op_text h1 {
     font-size: 60px;
     font-weight: 1000;
     color: black;
-    margin: 0 10px;
+    margin: 0 30px;
     opacity: 0;
     transform: translateY(-100%);
 }
 @for $i from 0 to 5 {
     $delay_time: $i * 0.5;
 
-    .op_text div:nth-child(#{$i + 1}) {
+    .op_text h1:nth-child(#{$i + 1}) {
         animation: text_down 0.5s ease ($delay_time) + s forwards;
     }
 }
@@ -129,12 +145,11 @@ a {
     z-index: 2;
     position: absolute;
     height: 100vh;
-    width: 100vw;
 }
 .shutter_item {
     position: fixed;
-    height: 50vh;
-    width: 50vw;
+    height: 50%;
+    width: 50%;
     transform-origin: left bottom;
 }
 .shutter_item:nth-child(2) {
@@ -218,81 +233,6 @@ a {
 }
 
 // -----home-----
-// 泡
-#illust_bubble {
-    z-index: -1;
-    position: fixed;
-    height: 100vh;
-    width: 100vw;
-    background-color: lightblue;
-}
-.bubble_item {
-    display: block;
-    position: relative;
-    height: 50px;
-    width: 50px;
-    border-radius: 100%;
-    box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.6) inset;
-}
-.bubble_item:after {
-    content: "";
-    display: block;
-    position: absolute;
-    right: 15%;
-    top: 15%;
-    width: 20%;
-    height: 20%;
-    border-radius: 100%;
-    background: rgba(255, 255, 255, 0.8);
-    filter: blur(2px);
-    transform: rotateZ(45deg) scaleY(0.8);
-}
-.bubble_item img {
-    position: absolute;
-    top: 10%;
-    left: 10%;
-    height: 80%;
-    width: 80%;
-    object-fit: cover;
-    border-radius: 100%;
-    opacity: 0.8;
-}
-@for $i from 0 through 20 {
-    $time: $i * 0.2;
-    $scale: $i * 0.3;
-
-    .bubble_shake#{$i} {
-        animation: bubble_shake ($time + 2) + s infinite;
-    }
-    .bubble_move#{$i} {
-        position: absolute;
-        bottom: -20%;
-        animation: bubble_move ($time + 5) + s linear ($time) + s infinite;
-    }
-    .bubble_pos#{$i} {
-        left: percentage($i * 4/100);
-    }
-    .bubble_scale#{$i} {
-        transform: scale($scale);
-    }
-}
-@keyframes bubble_shake {
-    0% {
-        transform: translateX(10px);
-    }
-    50% {
-        transform: translateX(-10px);
-    }
-    100% {
-        transform: translateX(10px);
-    }
-}
-@keyframes bubble_move {
-    100% {
-        bottom: 100%;
-    }
-}
-
 /* ヘッダー */
 #ly_header {
     z-index: 1;
@@ -302,7 +242,7 @@ a {
     padding: 0 5%;
     background-color: black;
     transform: translateY(-100%);
-    animation: home_down 0.3s 4s forwards;
+    animation: home_down 0.3s 1s forwards;
 }
 @keyframes home_down {
     0% {
@@ -369,7 +309,7 @@ a {
     height: 80px;
     width: 80px;
     border-radius: 5px;
-    background-color: gray;
+    background-color: #4aa9a4;
     transform: scale(0);
     transition: all 0.3s;
 }
@@ -469,16 +409,90 @@ a {
     color: yellow;
 }
 
+//
 #home_select {
+    height: 100vh;
+    background-color: lightblue;
+}
+// 泡
+#illust_bubble {
+    height: 100%;
+}
+.bubble_item {
+    display: block;
+    position: relative;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.6) inset;
+}
+.bubble_item:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 15%;
+    top: 15%;
+    width: 20%;
+    height: 20%;
+    border-radius: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    filter: blur(2px);
+    transform: rotateZ(45deg) scaleY(0.8);
+}
+.bubble_item img {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+    border-radius: 100%;
+    // opacity: 0.8;
+}
+@for $i from 0 through 20 {
+    $time: $i * 0.2;
+    $scale: $i * 0.3;
+
+    .bubble_shake#{$i} {
+        animation: bubble_shake ($time + 2) + s infinite;
+    }
+    .bubble_move#{$i} {
+        position: absolute;
+        bottom: -20%;
+        animation: bubble_move ($time + 5) + s linear ($time) + s infinite;
+    }
+    .bubble_pos#{$i} {
+        left: percentage($i * 4/100);
+    }
+    .bubble_scale#{$i} {
+        transform: scale($scale);
+    }
+}
+@keyframes bubble_shake {
+    0% {
+        transform: translateX(10px);
+    }
+    50% {
+        transform: translateX(-10px);
+    }
+    100% {
+        transform: translateX(10px);
+    }
+}
+@keyframes bubble_move {
+    100% {
+        bottom: 100%;
+    }
+}
+.home_contents {
     position: absolute;
     top: 0;
     left: 100px;
     height: 100%;
     width: calc(100% - 200px);
-    background-color: lightyellow;
-    opacity: 0.8;
+    background-color: rgba(255, 255, 255, 0.8);
     transform: scale(0);
-    animation: home_scale 0.3s 3.5s forwards;
+    animation: home_scale 0.3s 0.5s forwards;
 }
 @keyframes home_scale {
     100% {
@@ -493,4 +507,9 @@ a {
 }
 .select_text h1 {
     font-size: 50px;
+}
+
+#main {
+    height: 100vh;
+    background-color: lightblue;
 }

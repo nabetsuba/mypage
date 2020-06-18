@@ -11,11 +11,17 @@
 
 <body>
     <div id="ly_opening">
+        <div class="op_text_bg">
+            <div class="op_text_bg_up"></div>
+            <div class="op_text_bg_down"></div>
+            <div class="op_text_bg_up"></div>
+            <div class="op_text_bg_down"></div>
+        </div>
         <div class="op_text">
-            <div>イ</div>
-            <div>ラ</div>
-            <div>ス</div>
-            <div>ト</div>
+            <h1>イ</h1>
+            <h1>ラ</h1>
+            <h1>ス</h1>
+            <h1>ト</h1>
         </div>
     </div>
     <div id="shutter">
@@ -58,7 +64,6 @@
     </div>
 
     <div id="home">
-        <div id="illust_bubble"></div>
         <header id="ly_header">
             <div class="header_contents">
                 <div class="header_logo">
@@ -105,7 +110,15 @@
             </div>
         </header>
         <div id="home_select">
-            <div class="select_text"><h1>イラスト</h1></div>
+            <div id="illust_bubble"></div>
+            <div class="home_contents">
+                <div class="select_text">
+                    <h1>イラスト</h1>
+                </div>
+            </div>
+        </div>
+        <div id="main">
+
         </div>
     </div>
 
@@ -126,7 +139,7 @@
         var bubble = 20;
 
         for (var i = 0; i <= bubble; i++) {
-            var img_item = Math.ceil(Math.random() * 8)
+            var img_item = Math.ceil(Math.random() * 44)
             var moveVal = Math.ceil(Math.random() * 20);
             var posVal = Math.ceil(Math.random() * 20);
             var scaleVal = Math.ceil(Math.random() * 10 + 5);
