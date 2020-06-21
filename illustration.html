@@ -12,10 +12,10 @@
 <body>
     <div id="ly_opening">
         <div class="op_text_bg">
-            <div class="op_text_bg_up"></div>
-            <div class="op_text_bg_down"></div>
-            <div class="op_text_bg_up"></div>
-            <div class="op_text_bg_down"></div>
+            <div class="op_text_bg_up1"></div>
+            <div class="op_text_bg_down1"></div>
+            <div class="op_text_bg_up2"></div>
+            <div class="op_text_bg_down2"></div>
         </div>
         <div class="op_text">
             <h1>イ</h1>
@@ -67,7 +67,7 @@
         <header id="ly_header">
             <div class="header_contents">
                 <div class="header_logo">
-                    <a href="index.html"><img src="illust/ロゴ.png"></a>
+                    <a href="index.html"><img src="img/ロゴ.png"></a>
                 </div>
                 <nav class="header_nav">
                     <div class="header_navList">
@@ -118,7 +118,9 @@
             </div>
         </div>
         <div id="main">
-
+            <!-- <div class="fadeIn">
+                <h1>ああああ</h1>
+            </div> -->
         </div>
     </div>
 
@@ -139,7 +141,7 @@
         var bubble = 20;
 
         for (var i = 0; i <= bubble; i++) {
-            var img_item = Math.ceil(Math.random() * 44)
+            var img_item = Math.ceil(Math.random() * 45)
             var moveVal = Math.ceil(Math.random() * 20);
             var posVal = Math.ceil(Math.random() * 20);
             var scaleVal = Math.ceil(Math.random() * 10 + 5);
@@ -155,6 +157,18 @@
                 $('.menu_box').each(function (i) {
                     $(this).fadeToggle(0);
                 });
+            });
+        });
+
+        // -----スクロールアニメーション-----
+        $(window).scroll(function () {
+            $(".fadeIn").each(function () {
+                var hit = $(this).offset().top;
+                var scroll = $(window).scrollTop();
+                var wHeight = $(window).height();
+                if (scroll > hit - wHeight + wHeight / 100) {
+                    $(this).addClass("active");
+                }
             });
         });
     </script>

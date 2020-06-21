@@ -249,12 +249,10 @@ h1 {
     top: 0;
     height: calc(100% - 10px);
     width: 100%;
-    object-position: 0 0;
-    object-fit: cover;
     transform: scale(0);
-    animation: bg_slide 80s infinite;
+    animation: bg_slide 90s infinite;
 }
-@for $i from 0 to 8 {
+@for $i from 0 to 9 {
     $delay_time: $i * 10;
 
     .bg_slide img:nth-child(#{$i + 1}) {
@@ -274,10 +272,10 @@ h1 {
     0.625% {
         transform: scale(1);
     }
-    11.25% {
+    10% {
         transform: translateX(0);
     }
-    12.5% {
+    11% {
         transform: translateX(-100%);
     }
     100% {
@@ -485,9 +483,9 @@ h1 {
     color: white;
     background-color: rgb(40, 40, 70);
     opacity: 0;
-    animation: text_down 80s infinite;
+    animation: text_down 90s infinite;
 }
-@for $i from 0 to 8 {
+@for $i from 0 to 9 {
     $delay_time: $i * 10;
 
     .text_Item p:nth-child(#{$i + 1}) {
@@ -509,11 +507,11 @@ h1 {
     3.125% {
         transform: translateY(0);
     }
-    11.25% {
+    10% {
         transform: translateX(0);
         opacity: 1;
     }
-    12.5% {
+    11% {
         transform: translateX(-100%);
         opacity: 0;
     }

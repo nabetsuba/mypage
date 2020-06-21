@@ -96,18 +96,6 @@ a {
     left: calc(50% - 240px);
     height: 100%;
 }
-.op_text_bg_up {
-    width: 120px;
-    height: 100%;
-    background-color: lightgoldenrodyellow;
-    transform: translateY(100%);
-}
-.op_text_bg_down {
-    width: 120px;
-    height: 100%;
-    background-color: lightgoldenrodyellow;
-    transform: translateY(-100%);
-}
 .op_text {
     display: flex;
     position: absolute;
@@ -124,11 +112,27 @@ a {
 }
 @for $i from 0 to 5 {
     $delay_time: $i * 0.5;
+    $delay_time2: $i * 1;
 
     .op_text h1:nth-child(#{$i + 1}) {
         animation: text_down 0.5s ease ($delay_time) + s forwards;
     }
+    .op_text_bg_up#{$i + 1} {
+        width: 120px;
+        height: 100%;
+        background-color: lightgoldenrodyellow;
+        transform: translateY(100%);
+        animation: op_up 0.5s ease ($delay_time2) + s forwards;
+    }
+    .op_text_bg_down#{$i + 1} {
+        width: 120px;
+        height: 100%;
+        background-color: lightgoldenrodyellow;
+        transform: translateY(-100%);
+        animation: op_down 0.5s ease ($delay_time2 + 0.5) + s forwards;
+    }
 }
+
 @keyframes text_down {
     90% {
         transform: translateY(10%);
@@ -136,6 +140,16 @@ a {
     100% {
         transform: translateY(0%);
         opacity: 1;
+    }
+}
+@keyframes op_up {
+    100% {
+        transform: translateY(0);
+    }
+}
+@keyframes op_down {
+    100% {
+        transform: translateY(0);
     }
 }
 
@@ -512,4 +526,17 @@ a {
 #main {
     height: 100vh;
     background-color: lightblue;
+}
+.fadeIn {
+    top: 300px;
+    left: calc(50% - 100px);
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.8);
+    transform: scale(0);
+}
+.fadeIn h1 {
+    font-size: 50px;
+}
+.active {
+    animation: home_scale 0.3s 0.5s forwards;
 }
